@@ -7,17 +7,50 @@
   "team_id": 7,
   "manager": "Matthew",
   "teams": 12,
-  "draft": { "type": "live_snake", "slot": 4, "date": "2026-09-08T19:30:00-04:00", "pick_seconds": 90, "rounds": 15 },
-  "roster_slots": ["QB", "WR", "WR", "RB", "RB", "TE", "W/R/T", "K", "DEF", "BN", "BN", "BN", "BN", "BN", "BN", "IR", "IR"],
+  "draft": {
+    "type": "live_snake",
+    "slot": 4,
+    "date": "2026-09-08T19:30:00-04:00",
+    "pick_seconds": 90,
+    "rounds": 15
+  },
+  "roster_slots": [
+    "QB",
+    "WR",
+    "WR",
+    "RB",
+    "RB",
+    "TE",
+    "W/R/T",
+    "K",
+    "DEF",
+    "BN",
+    "BN",
+    "BN",
+    "BN",
+    "BN",
+    "BN",
+    "IR",
+    "IR"
+  ],
   "scoring": {
     "format": "half_ppr",
     "reception": 0.5,
-    "pass_yds_per_point": 25, "pass_td": 4, "interception": -1,
-    "rush_yds_per_point": 10, "rush_td": 6,
-    "rec_yds_per_point": 10, "rec_td": 6,
-    "fumble_lost": -2, "two_point": 2,
-    "fg_0_39": 3, "fg_40_49": 4, "fg_50_plus": 5, "pat": 1,
-    "fractional_points": true, "negative_points": true
+    "pass_yds_per_point": 25,
+    "pass_td": 4,
+    "interception": -1,
+    "rush_yds_per_point": 10,
+    "rush_td": 6,
+    "rec_yds_per_point": 10,
+    "rec_td": 6,
+    "fumble_lost": -2,
+    "two_point": 2,
+    "fg_0_39": 3,
+    "fg_40_49": 4,
+    "fg_50_plus": 5,
+    "pat": 1,
+    "fractional_points": true,
+    "negative_points": true
   },
   "rules": {
     "playoffs": "6 teams, weeks 15-17",
@@ -29,7 +62,14 @@
     "max_acquisitions_week": null
   },
   "house_constraints": {
-    "bye_rule": "No two players at the same position may share a bye week.",
-    "eagles_rule": "Roster must include at least one Philadelphia Eagles player."
+    "bye_rule": "No two players at the same position may share a bye week. Handcuffs exempt.",
+    "favorite_team": {
+      "team": "PHI",
+      "rule": "Roster must always include at least one player from the chosen favorite team.",
+      "max_acceptable_cost_pts": 25,
+      "satisfied_by": "Dallas Goedert (TE) \u2014 drafted rd 9 pick 100; also serves as TE2",
+      "cost_pts": 0,
+      "method": "See notes/draft-strategy.md rule 2."
+    }
   }
 }

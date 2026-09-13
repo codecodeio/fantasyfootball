@@ -26,7 +26,9 @@ sibling under `repos/` and is orchestrated by **aiguru** — see `../aiguru/brai
 ### House constraints Matt plays by
 - 🚫 **No two players at the same position may share a bye week.** (Handcuffs are exempt — a backup
   is not a rotational starter. Black/McCaffrey both bye 8 by deliberate choice.)
-- 🦅 **The roster must always contain at least one Philadelphia Eagle.** Currently Goedert.
+- 🦅 **Favorite-team rule: the roster must always hold ≥1 player from the chosen team** (2026: PHI,
+  satisfied by Goedert at zero cost because he doubles as TE2). Budget for it before the draft and
+  never pay the premium option — the method is `notes/draft-strategy.md` rule 2.
 
 ## House conventions (inherited from aiguru)
 
@@ -71,5 +73,6 @@ and their trade-offs.
 | `data/<season>/draft.json` | Every pick: proj, ADP, bye, Yahoo grade + post-draft standings |
 | `data/<season>/weekly/wkNN.json` | Weekly projected vs actual, per player |
 | `notes/<season>-draft-log.md` | Why each pick was made, and the hypotheses to score |
+| `notes/draft-strategy.md` | The repeatable draft method — constraints, ADP sequencing, favorite-team rule |
 | `notes/capture.md` | How to keep the weekly data flowing; automation options |
 | `scripts/analyze.py` | Projection accuracy, bias by position, lineup efficiency |
