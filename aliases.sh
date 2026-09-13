@@ -14,6 +14,7 @@ ff <command>:
   week <NN>         show a captured week
   remind            fire the Wednesday nudge now (test it)
   reminder-status   is the launchd job loaded?
+  install-reminder  (re)deploy the reminder + launchd job
   cd                cd into the project
   help              this list
 EOF
@@ -25,6 +26,7 @@ EOF
       [ -z "${1:-}" ] && { echo "usage: ff week <NN>" >&2; return 1; }
       python3 -m json.tool "$FANTASYFOOTBALL_DIR/data/2026/weekly/wk$(printf '%02d' "$1").json" ;;
     remind)  bash "$FANTASYFOOTBALL_DIR/scripts/remind.sh" && echo "✅ reminder fired" ;;
+    install-reminder) bash "$FANTASYFOOTBALL_DIR/scripts/install-reminder.sh" ;;
     reminder-status)
       if launchctl list | grep -q com.fantasyfootball.weeklyreminder; then
         echo "✅ loaded — Wednesdays 18:00"

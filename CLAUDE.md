@@ -63,10 +63,15 @@ Capture and lineup changes are both **agent-driven** through the Chrome DevTools
 
 ⚠️ `wk01.json` was captured mid-Sunday and is **partial** — re-capture to finalise it.
 
-A launchd job nudges Matt every **Wednesday 18:00**
-(`com.fantasyfootball.weeklyreminder`, runs `scripts/remind.sh`, logs to
-`~/Library/Logs/fantasyfootball/remind.log`). It reminds; it does not act.
-See `notes/capture.md` for the full rationale.
+A launchd job nudges Matt every **Wednesday 18:00** (`com.fantasyfootball.weeklyreminder`).
+It reminds; it does not act. See `notes/capture.md` for the full rationale.
+
+⚠️ **The job must not execute from this repo.** `~/Documents` is TCC-protected and a new
+launchd label has no grant for it — running from here fails with `Operation not permitted`
+(exit 126) and cannot prompt. `scripts/install-reminder.sh` deploys the script to
+`~/Library/Application Support/fantasyfootball/` and points the plist there. **Edit
+`scripts/remind.sh`, then run `ff install-reminder` to redeploy** — editing the repo copy
+alone changes nothing.
 
 ## Files
 
@@ -79,4 +84,5 @@ See `notes/capture.md` for the full rationale.
 | `notes/draft-strategy.md` | The repeatable draft method — constraints, ADP sequencing, favorite-team rule |
 | `notes/capture.md` | How to keep the weekly data flowing; automation options |
 | `scripts/analyze.py` | Projection accuracy, bias by position, lineup efficiency |
-| `scripts/remind.sh` | Wednesday 18:00 macOS nudge, fired by launchd |
+| `scripts/remind.sh` | Wednesday 18:00 macOS nudge (canonical copy; deployed outside the repo) |
+| `scripts/install-reminder.sh` | Deploys the nudge + (re)loads the launchd job |

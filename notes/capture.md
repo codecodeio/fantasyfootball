@@ -41,7 +41,15 @@ game-time Tuesday, so Wednesday evening is the first clean window to set the com
 | launchd job | `~/Library/LaunchAgents/com.fantasyfootball.weeklyreminder.plist` |
 | Schedule | `Weekday 3`, `Hour 18` |
 | Log | `~/Library/Logs/fantasyfootball/remind.log` |
-| Manage | `launchctl unload/load <plist>` · `launchctl list \| grep fantasyfootball` |
+| Deployed script | `~/Library/Application Support/fantasyfootball/remind.sh` |
+| Manage | `ff install-reminder` · `ff reminder-status` · `ff remind` |
+
+⚠️ **Gotcha — do not point the plist at this repo.** `~/Documents` is TCC-protected. A new launchd
+label has no grant for it and cannot show a prompt, so it fails silently with `Operation not
+permitted` (exit 126). This bit us on first install. Existing jobs like `com.robinhood.papertrader`
+work only because they were approved back in August. The fix is to run from
+`~/Library/Application Support/`, which `install-reminder.sh` handles. **After editing
+`scripts/remind.sh`, run `ff install-reminder` or the change does nothing.**
 
 The notification carries the NFL week number; the log records a six-point checklist (injuries,
 byes, waivers, flex, favorite-team rule, capture last week).
