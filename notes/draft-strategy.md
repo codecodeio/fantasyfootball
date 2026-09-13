@@ -46,11 +46,17 @@ Goedert covered Fannin's Week 11 bye *and* the Eagles rule in a single roster sp
 candidates were gone before they could be taken — hence rule 6.
 
 **Weekly corollary.** Starting a favorite-team player you'd enjoy watching is worth it when the
-projection cost is small *and* their floor is no worse. Week 1 2026: Goedert (7.93) over Lloyd
-(9.98) cost 2.05 projected points — but Goedert was started in 47% of leagues against Lloyd's 29%,
-with a defined role versus an explicit committee. Against a 24-point projected lead, trading 2
-points of median for a higher floor is roughly free in win-probability terms. **Enjoyment is a real
-term in the objective function; just make sure you've priced it.**
+projection cost is small *and* their floor is no worse. Week 1 2026 is the worked example.
+Goedert (7.93) in the flex over Lloyd (9.98) costs 2.05 projected points, but Goedert was started
+in 47% of leagues against Lloyd's 29%, with a defined role versus an explicit committee. Against a
+24-point projected lead, trading 2 points of median for a higher floor is roughly free in
+win-probability terms. **Enjoyment is a real term in the objective function; just make sure you've
+priced it.**
+
+> ⚠️ **Unreconciled — this is the argument, not a record of what was started.** `wk01.json` was
+> captured with **Lloyd** in the W/R/T slot and Goedert on the bench. Whether the swap was made
+> before the 4:25 kickoff is unknown until Week 1 is re-captured. Do not cite Week 1 as evidence
+> for this rule until the finalised capture settles it.
 
 ## In-draft rules
 

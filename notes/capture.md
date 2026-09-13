@@ -29,6 +29,26 @@ The Chrome DevTools MCP drives a real logged-in Chrome profile, so it can read t
 
 ⚠️ `wk01.json` was captured mid-Sunday and is **partial** — re-capture to finalise it.
 
+## The weekly file shape — two traps
+
+**1. `matchup.my_proj` is a live blend, not a pre-game projection.** Yahoo swaps a player's
+projection for their actual score the moment their game ends, so `my_proj` drifts during the day
+and **will not equal the sum of the `proj` column**. Week 1 shows it exactly:
+
+```
+sum(proj) over 9 starters      109.76
+  − McCaffrey  17.46 → 11.30    −6.16   (game final)
+  + Pineiro     7.04 → 11.00    +3.96   (game final)
+                              = 107.56  = matchup.my_proj
+```
+
+The per-player `proj` values *are* stable pre-game numbers — those are what `analyze.py` scores.
+Never compute projection accuracy from `my_proj`.
+
+**2. `actual: null` means "not played yet", not "scored zero".** A real zero is `0.00` — Doubs in
+Week 1. `analyze.py` keys on this distinction, so a capture that writes `0` for a pending player
+silently corrupts the accuracy numbers.
+
 ## The reminder
 
 Because capture can't be automated end-to-end, the *nudge* is automated instead.

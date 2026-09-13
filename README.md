@@ -9,9 +9,14 @@ Part of Matt's `codecodeio` portfolio, orchestrated by [aiguru](https://github.c
 
 ## Setup
 
+None. Standard library only — no install, no dependencies, no build step.
+
 ```bash
-python3 scripts/analyze.py 2026     # no dependencies — stdlib only
+python3 scripts/analyze.py 2026     # score projections vs actuals
 ```
+
+`aliases.sh` defines an optional `ff` wrapper (`ff analyze`, `ff week 3`, …). It is **not** sourced
+by default and nothing here requires it; source it from `~/.zshrc` only if you want the shorthand.
 
 ## What's here
 

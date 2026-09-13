@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# fantasyfootball — `ff` command. Enable: add  source <abs-path>/aliases.sh  to ~/.zshrc, then `refresh`.
+# fantasyfootball — `ff` command. Optional convenience wrapper; NOT sourced by default.
+# Everything it does is a one-line call to scripts/ or data/, so the repo works without it.
+# To enable: add  source <abs-path>/aliases.sh  to ~/.zshrc, then `refresh`.
 export FANTASYFOOTBALL_DIR="/Users/matt/Documents/Development/Git/repos/fantasyfootball"
 
 ff() {
@@ -11,7 +13,7 @@ ff <command>:
   analyze [season]  score projections vs actuals (default 2026)
   draft [season]    show the draft record
   log [season]      open the decision log
-  week <NN>         show a captured week
+  week <NN> [season]  show a captured week (default season 2026)
   remind            fire the Wednesday nudge now (test it)
   reminder-status   is the launchd job loaded?
   install-reminder  (re)deploy the reminder + launchd job
@@ -23,8 +25,8 @@ EOF
     draft)   python3 -m json.tool "$FANTASYFOOTBALL_DIR/data/${1:-2026}/draft.json" ;;
     log)     "${EDITOR:-open}" "$FANTASYFOOTBALL_DIR/notes/${1:-2026}-draft-log.md" ;;
     week)
-      [ -z "${1:-}" ] && { echo "usage: ff week <NN>" >&2; return 1; }
-      python3 -m json.tool "$FANTASYFOOTBALL_DIR/data/2026/weekly/wk$(printf '%02d' "$1").json" ;;
+      [ -z "${1:-}" ] && { echo "usage: ff week <NN> [season]" >&2; return 1; }
+      python3 -m json.tool "$FANTASYFOOTBALL_DIR/data/${2:-2026}/weekly/wk$(printf '%02d' "$1").json" ;;
     remind)  bash "$FANTASYFOOTBALL_DIR/scripts/remind.sh" && echo "✅ reminder fired" ;;
     install-reminder) bash "$FANTASYFOOTBALL_DIR/scripts/install-reminder.sh" ;;
     reminder-status)

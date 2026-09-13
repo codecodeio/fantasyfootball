@@ -17,11 +17,16 @@ MIN_SAMPLE = 4  # weeks below this get an explicit small-sample warning
 
 
 def load(season):
+    """Returns (draft, weeks), or (None, None) if this season has no record yet."""
     base = ROOT / "data" / str(season)
+    if not (base / "draft.json").exists():
+        return None, None
     draft = json.loads((base / "draft.json").read_text())
     weeks = []
-    for f in sorted((base / "weekly").glob("wk*.json")):
-        weeks.append(json.loads(f.read_text()))
+    weekly = base / "weekly"
+    if weekly.is_dir():
+        for f in sorted(weekly.glob("wk*.json")):
+            weeks.append(json.loads(f.read_text()))
     return draft, weeks
 
 
@@ -51,9 +56,17 @@ def projection_accuracy(weeks):
 
 
 def lineup_efficiency(weeks):
-    """Points left on the bench: could a bench player have beaten a starter?"""
-    out = []
+    """Points left on the bench: could a bench player have beaten a starter?
+
+    Complete weeks only. In a partial week most players are still pending, so
+    "best bench vs worst starter" over the handful that happen to be final says
+    nothing — printing "optimal" off that would be a lie, not a small sample.
+    """
+    out, skipped = [], []
     for w in weeks:
+        if not w.get("complete"):
+            skipped.append(w["week"])
+            continue
         done = scored(w)
         starters = [p for p in done if p["slot"] in STARTERS]
         bench = [p for p in done if p["slot"] == "BN"]
@@ -63,12 +76,17 @@ def lineup_efficiency(weeks):
         # crude: best bench score vs worst starter score (same-week, ignores position rules)
         gain = max(0.0, max(b["actual"] for b in bench) - min(s["actual"] for s in starters))
         out.append({"week": w["week"], "started": round(actual, 2), "left_on_bench": round(gain, 2)})
-    return out
+    return out, skipped
 
 
 def main():
     season = sys.argv[1] if len(sys.argv) > 1 else "2026"
     draft, weeks = load(season)
+    if draft is None:
+        seasons = sorted(d.name for d in (ROOT / "data").iterdir() if d.is_dir())
+        print(f"\n   ❌ No draft record for {season} — expected data/{season}/draft.json")
+        print(f"      Seasons on file: {', '.join(seasons) or 'none'}\n")
+        return 1
     complete = [w for w in weeks if w.get("complete")]
     partial = [w for w in weeks if not w.get("complete")]
 
@@ -83,6 +101,8 @@ def main():
         return
 
     print(f"\n📊 Projection accuracy  (n={acc['n']} player-weeks)")
+    if partial:
+        print("   Includes players already final in partial weeks; pending players are excluded.")
     print(f"   Mean absolute error : {acc['mae']:.2f} pts")
     sign = "over" if acc["bias"] < 0 else "under"
     print(f"   Bias                : {acc['bias']:+.2f} pts  (Yahoo projects {sign})")
@@ -98,15 +118,17 @@ def main():
             for name, slot, pr, a in acc[key]:
                 print(f"     {name:<24} {pr:6.2f} → {a:6.2f}  ({a - pr:+.2f})")
 
-    eff = lineup_efficiency(weeks)
-    if eff:
+    eff, eff_pending = lineup_efficiency(weeks)
+    if eff or eff_pending:
         print("\n🪑 Lineup efficiency")
         for e in eff:
             note = "✅ optimal" if e["left_on_bench"] == 0 else f"❌ {e['left_on_bench']:.2f} left on bench"
             print(f"     wk{e['week']:<3} started {e['started']:6.2f}   {note}")
+        for wk in eff_pending:
+            print(f"     wk{wk:<3} ⏳ not scored — week still partial, re-capture after Monday night")
 
     print("\n🧪 Hypotheses — see notes/{}-draft-log.md; score these at season end.\n".format(draft["season"]))
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
