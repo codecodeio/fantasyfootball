@@ -1,0 +1,41 @@
+{
+  "season": 2026,
+  "source": "Yahoo draft room, live capture 2026-09-08",
+  "note": "proj = Yahoo 2026 season projection at time of pick. adp = Yahoo ADP. grade = Yahoo post-draft grade.",
+  "picks": [
+    {"rd": 1,  "overall": 4,   "player": "Christian McCaffrey", "pos": "RB",  "team": "SF",  "bye": 8,  "proj": 277.45, "adp": 6.1,   "grade": "A+", "flag": null},
+    {"rd": 2,  "overall": 21,  "player": "George Pickens",      "pos": "WR",  "team": "DAL", "bye": 14, "proj": 218.32, "adp": 22.6,  "grade": "B+", "flag": null},
+    {"rd": 3,  "overall": 28,  "player": "Breece Hall",         "pos": "RB",  "team": "NYJ", "bye": 13, "proj": 218.90, "adp": 34.3,  "grade": "C+", "flag": "Q"},
+    {"rd": 4,  "overall": 45,  "player": "Tetairoa McMillan",   "pos": "WR",  "team": "CAR", "bye": 5,  "proj": 174.30, "adp": 41.8,  "grade": "B+", "flag": null},
+    {"rd": 5,  "overall": 52,  "player": "Lamar Jackson",       "pos": "QB",  "team": "BAL", "bye": 13, "proj": 313.16, "adp": 39.1,  "grade": "A+", "flag": null},
+    {"rd": 6,  "overall": 69,  "player": "Harold Fannin Jr.",   "pos": "TE",  "team": "CLE", "bye": 11, "proj": 144.95, "adp": 70.1,  "grade": "B-", "flag": null},
+    {"rd": 7,  "overall": 76,  "player": "MarShawn Lloyd",      "pos": "RB",  "team": "GB",  "bye": 11, "proj": 162.27, "adp": 85.1,  "grade": "C",  "flag": null},
+    {"rd": 8,  "overall": 93,  "player": "Alec Pierce",         "pos": "WR",  "team": "IND", "bye": 13, "proj": 151.31, "adp": 96.9,  "grade": "B",  "flag": null},
+    {"rd": 9,  "overall": 100, "player": "Dallas Goedert",      "pos": "TE",  "team": "PHI", "bye": 10, "proj": 121.56, "adp": 104.2, "grade": "B-", "flag": null},
+    {"rd": 10, "overall": 117, "player": "Aaron Jones Sr.",     "pos": "RB",  "team": "MIN", "bye": 6,  "proj": 152.62, "adp": 124.9, "grade": "B-", "flag": null},
+    {"rd": 11, "overall": 124, "player": "Romeo Doubs",         "pos": "WR",  "team": "NE",  "bye": 11, "proj": 130.91, "adp": 132.3, "grade": "C-", "flag": null},
+    {"rd": 12, "overall": 141, "player": "Tyler Shough",        "pos": "QB",  "team": "NO",  "bye": 8,  "proj": 279.08, "adp": 130.0, "grade": "A",  "flag": null},
+    {"rd": 13, "overall": 148, "player": "Kaelon Black",        "pos": "RB",  "team": "SF",  "bye": 8,  "proj": 54.32,  "adp": 129.8, "grade": "A-", "flag": null},
+    {"rd": 14, "overall": 165, "player": "Lions",               "pos": "DEF", "team": "DET", "bye": 6,  "proj": 112.01, "adp": 136.3, "grade": "A+", "flag": null},
+    {"rd": 15, "overall": 172, "player": "Eddy Pineiro",        "pos": "K",   "team": "SF",  "bye": 8,  "proj": 136.10, "adp": 142.7, "grade": "A+", "flag": null}
+  ],
+  "post_draft_projection": {
+    "rank": 3, "of": 12, "total": 2647.26,
+    "by_pos": {"QB": 592.24, "WR": 674.84, "RB": 865.56, "TE": 266.51, "K": 136.10, "DEF": 112.01},
+    "pos_rank": {"RB": 1, "QB": 2, "TE": 3, "DEF": 5, "K": 6, "WR": 10},
+    "league_totals": [
+      {"rank": 1,  "team": "Team 01",        "total": 2705.02},
+      {"rank": 2,  "team": "Team 02",           "total": 2671.74},
+      {"rank": 3,  "team": "Tuchus Puchus",            "total": 2647.26},
+      {"rank": 4,  "team": "Team 04",          "total": 2643.18},
+      {"rank": 5,  "team": "Team 05",               "total": 2618.05},
+      {"rank": 6,  "team": "Team 06", "total": 2595.30},
+      {"rank": 7,  "team": "Team 07",          "total": 2579.91},
+      {"rank": 8,  "team": "Team 08",        "total": 2562.37},
+      {"rank": 9,  "team": "Team 09",    "total": 2535.93},
+      {"rank": 10, "team": "Team 10",          "total": 2472.12},
+      {"rank": 11, "team": "Team 11",           "total": 2421.90},
+      {"rank": 12, "team": "Team 12",    "total": 2411.19}
+    ]
+  }
+}
