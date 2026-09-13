@@ -24,6 +24,12 @@ python3 scripts/analyze.py 2026     # no dependencies — stdlib only
 Weekly review is driven through a logged-in Chrome session (read *and* write — Yahoo's API is
 read-only), nudged by a launchd reminder every Wednesday at 18:00.
 
+## A note on privacy
+
+This is a family league. The other eleven managers are anonymised as `Team 01`–`Team 12`
+throughout the data and history — only rank and points totals are kept, which is all the
+analysis needs. Nothing is lost analytically.
+
 ## Status
 
 Season in progress. Week 1 captured (partial). Yahoo projected finish: **3rd of 12**.
