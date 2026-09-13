@@ -12,6 +12,8 @@ ff <command>:
   draft [season]    show the draft record
   log [season]      open the decision log
   week <NN>         show a captured week
+  remind            fire the Wednesday nudge now (test it)
+  reminder-status   is the launchd job loaded?
   cd                cd into the project
   help              this list
 EOF
@@ -22,6 +24,13 @@ EOF
     week)
       [ -z "${1:-}" ] && { echo "usage: ff week <NN>" >&2; return 1; }
       python3 -m json.tool "$FANTASYFOOTBALL_DIR/data/2026/weekly/wk$(printf '%02d' "$1").json" ;;
+    remind)  bash "$FANTASYFOOTBALL_DIR/scripts/remind.sh" && echo "✅ reminder fired" ;;
+    reminder-status)
+      if launchctl list | grep -q com.fantasyfootball.weeklyreminder; then
+        echo "✅ loaded — Wednesdays 18:00"
+      else
+        echo "❌ not loaded: launchctl load ~/Library/LaunchAgents/com.fantasyfootball.weeklyreminder.plist"
+      fi ;;
     cd)      cd "$FANTASYFOOTBALL_DIR" ;;
     *)       echo "ff: unknown command '$cmd' (try: ff help)" >&2; return 1 ;;
   esac

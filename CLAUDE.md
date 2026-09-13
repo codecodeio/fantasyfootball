@@ -52,7 +52,8 @@ No dependencies — standard library only. No build, no tests yet.
 
 ## Capturing a week
 
-Yahoo has no open read API without OAuth, so capture is **agent-driven**, not a cron job:
+**Decision: browser, not the API** — Yahoo's API is read-only and cannot set a lineup.
+Capture and lineup changes are both **agent-driven** through the Chrome DevTools MCP:
 
 1. In Claude Code, ask to capture the week. The agent opens
    `https://football.fantasysports.yahoo.com/f1/1396154/7` via the Chrome DevTools MCP
@@ -62,8 +63,10 @@ Yahoo has no open read API without OAuth, so capture is **agent-driven**, not a 
 
 ⚠️ `wk01.json` was captured mid-Sunday and is **partial** — re-capture to finalise it.
 
-If this lapses, the project is worthless. See `notes/capture.md` for the automation options
-and their trade-offs.
+A launchd job nudges Matt every **Wednesday 18:00**
+(`com.fantasyfootball.weeklyreminder`, runs `scripts/remind.sh`, logs to
+`~/Library/Logs/fantasyfootball/remind.log`). It reminds; it does not act.
+See `notes/capture.md` for the full rationale.
 
 ## Files
 
@@ -76,3 +79,4 @@ and their trade-offs.
 | `notes/draft-strategy.md` | The repeatable draft method — constraints, ADP sequencing, favorite-team rule |
 | `notes/capture.md` | How to keep the weekly data flowing; automation options |
 | `scripts/analyze.py` | Projection accuracy, bias by position, lineup efficiency |
+| `scripts/remind.sh` | Wednesday 18:00 macOS nudge, fired by launchd |

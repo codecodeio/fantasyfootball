@@ -19,6 +19,10 @@ python3 scripts/analyze.py 2026     # no dependencies — stdlib only
 - **`notes/2026-draft-log.md`** — the reasoning behind every pick, plus 5 hypotheses to score
 - **`data/2026/weekly/`** — projected vs actual, week by week
 - **`scripts/analyze.py`** — projection accuracy, bias by position, points left on the bench
+- **`notes/draft-strategy.md`** — the repeatable draft method, including the favorite-team rule
+
+Weekly review is driven through a logged-in Chrome session (read *and* write — Yahoo's API is
+read-only), nudged by a launchd reminder every Wednesday at 18:00.
 
 ## Status
 
