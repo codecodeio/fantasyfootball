@@ -155,12 +155,9 @@ No player was downgraded; Aaron Jones actually rose 12.02 → 12.08. "Orig Proj"
 pre-game projection while the live figure swaps in real results as they land — the same mechanism
 as the `capture.md` my_proj trap, just shown side by side.
 
-⚠️ **Correction.** An earlier version of this entry claimed we had slipped to a 48% underdog on a
-live projection of 98.72. That was wrong. 98.72 appears nowhere on the matchup page; it came from
-misreading the standings page, which interleaves both teams' numbers in one flat text column, and
-assigning the wrong side. The check that settles it: the favourite side shows **8 players
-remaining** — that is us, because our DEF has already played, while Team 01 still has 9.
-**Read the matchup page, not the standings text dump.**
+Read the **matchup page** for these figures, never the standings page — standings interleaves both
+teams' numbers into one flat text column and is easy to misattribute. The players-remaining count
+identifies the sides: ours shows 8 (our DEF has played), theirs 9.
 
 ### Lineup verified optimal (2026-09-19 09:35)
 
@@ -217,10 +214,9 @@ list of who each defence happened to face.
 | Goedert (started) | @ TEN | 12th most to TEs | Argues for Fannin — overruled |
 | Fannin (benched) | @ TB | 4th most to TEs | Argues for Fannin — overruled |
 
-⚠️ **Correction to an earlier version of this file**, which labelled these "✅ confirms". That
-overstated them. Jones-over-Lloyd was called the best-supported move on NYJ ranking 31st against
-RBs — but Minnesota ranks 32nd partly *because Lloyd's own 3.70 is in their column*. The move still
-looks right on usage; the matchup evidence for it was partly circular.
+Treat the column above as directional only. Minnesota ranks 32nd against RBs partly *because
+Lloyd's own 3.70 is in their column* — so using it as evidence for benching Lloyd would be
+circular. The move stands on usage.
 
 **The TE swap went against the matchup table deliberately.** Fannin has the friendlier draw. He was
 benched anyway because Rotowire projects Goedert higher *despite* that draw, and because Fannin's

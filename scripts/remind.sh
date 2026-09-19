@@ -29,7 +29,7 @@ else
 fi
 
 title="🏈 Fantasy — Week ${week} setup"
-msg="Review lineup, waivers and injuries. Waivers cleared yesterday."
+msg="Set DEF tonight — it locks Thursday. Then lineup, waivers, injuries."
 
 /usr/bin/osascript -e "display notification \"${msg}\" with title \"${title}\" sound name \"Submarine\"" \
   2>>"$LOG_DIR/remind.log" || true
@@ -37,12 +37,14 @@ msg="Review lineup, waivers and injuries. Waivers cleared yesterday."
 {
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] reminded — week ${week}"
   echo "    team: $TEAM_URL"
-  echo "    1. injuries / O and Q flags on every starter"
-  echo "    2. bye weeks — notes/2026-draft-log.md has the season map"
-  echo "    3. waiver adds (no acquisition limits in this league)"
-  echo "    4. flex: best projection, weighing floor when favoured"
-  echo "    5. favorite-team rule — PHI player rostered? (draft-strategy.md rule 2)"
-  echo "    6. capture last week -> data/2026/weekly/wkNN.json"
+  echo "    1. DEF + any Thursday-game starter — LOCKS THU NIGHT, set it now"
+  echo "       (wk 6: Lions on bye and no backup DEF — stream one)"
+  echo "    2. injuries / O and Q flags on every starter"
+  echo "    3. bye weeks — notes/2026-season-log.md has the planner"
+  echo "    4. waiver adds (no acquisition limits in this league)"
+  echo "    5. flex: best projection; break near-ties on usage, not last week's points"
+  echo "    6. favorite-team rule — PHI player rostered? (draft-strategy.md rule 2)"
+  echo "    7. capture last week -> data/2026/weekly/wkNN.json"
 } >> "$LOG_DIR/remind.log"
 
 exit 0

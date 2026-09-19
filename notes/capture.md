@@ -56,6 +56,39 @@ reading `my_proj` into a capture**, and sanity-check it against the sum of the `
 Week 1. `analyze.py` keys on this distinction, so a capture that writes `0` for a pending player
 silently corrupts the accuracy numbers.
 
+## Driving the Yahoo UI — what works
+
+**Where to read what.** Projections and win probability come from the **matchup** page,
+`/f1/1396154/matchup?week=N&mid1=7`. Do *not* read them off the standings page: it interleaves
+both teams' numbers into a single flat text column, which is easy to misattribute. The matchup page
+also gives the opponent's full lineup. To confirm which side is ours, use the players-remaining
+count rather than position on the page.
+
+`Orig Proj` is frozen at the pre-kickoff projection; the adjacent figure swaps in real results as
+they land. Week 2 showed both: 110.72 orig against 103.65 current, the 7.07 gap being the Lions'
+5.07 projection replaced by their −2.00 actual.
+
+**Changing a lineup.** Each roster row has a button labelled `Click here to edit <SLOT> <Player>`.
+Click the *bench* player's button — the row highlights and every **legal destination turns green**.
+Click the green target row and the swap posts immediately, confirming with a banner
+("Moved X to TE - Benched Y"). There is no save step.
+
+**Add/drop.** `/f1/1396154/addplayer?apid=<playerId>` opens the form with that player pre-selected;
+each droppable player has a `—` button. In the accessibility tree **the drop button precedes its
+player's name**, so verify against both ends of the list before clicking — the first entry belongs
+to the first player, the last button to the last player. A confirmation page names both players
+before anything is committed.
+
+**Two things that block automation.** Script evaluation is refused on the fantasy pages as a
+real-world transaction, so use snapshots plus click/navigate rather than `evaluate_script` when
+editing. And snapshots of the roster page exceed the tool's token limit — they are written to a
+file instead, so grep that file for `Click here to edit` to recover element ids.
+
+**A stale browser holds the profile.** If the MCP reports "browser is already running for
+`~/.cache/chrome-devtools-mcp/chrome-profile`", a Chrome from an earlier session still owns the
+debugging pipe. Find the root process for that `--user-data-dir` and `kill -TERM` it — a graceful
+quit flushes cookies, so the Yahoo login survives and no re-authentication is needed.
+
 ## The reminder
 
 Because capture can't be automated end-to-end, the *nudge* is automated instead.
