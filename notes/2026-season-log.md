@@ -16,28 +16,40 @@ later be mistaken for a good one.
 
 ## Season scoreboard
 
+Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs are weeks 15–17 (top 6).
+
 | Wk | Date | Opponent | Proj | Actual | Opp | Result |
 |---:|---|---|---:|---:|---:|---|
 | 1 | 2026-09-13 | Team 02 | 109.52 | 95.16 | 106.02 | **L** |
 | 2 | 2026-09-20 | Team 01 | 103.59 | — | — | pending |
-| 3 | 2026-09-27 | — | — | — | — | — |
-| 4 | 2026-10-04 | — | — | — | — | — |
-| 5 | 2026-10-11 | — | — | — | — | — |
-| 6 | 2026-10-18 | — | — | — | — | — |
-| 7 | 2026-10-25 | — | — | — | — | — |
-| 8 | 2026-11-01 | — | — | — | — | — |
-| 9 | 2026-11-08 | — | — | — | — | — |
-| 10 | 2026-11-15 | — | — | — | — | — |
-| 11 | 2026-11-22 | — | — | — | — | — |
-| 12 | 2026-11-29 | — | — | — | — | — |
-| 13 | 2026-12-06 | — | — | — | — | — |
-| 14 | 2026-12-13 | — | — | — | — | — |
-| 15 | 2026-12-20 | — | — | — | — | 🏆 playoffs R1 |
-| 16 | 2026-12-27 | — | — | — | — | 🏆 playoffs R2 |
-| 17 | 2027-01-03 | — | — | — | — | 🏆 final |
+| 3 | 2026-09-27 | Team 04 | — | — | — | — |
+| 4 | 2026-10-04 | Team 05 | — | — | — | — |
+| 5 | 2026-10-11 | Team 09 | — | — | — | — |
+| 6 | 2026-10-18 | Team 08 | — | — | — | — |
+| 7 | 2026-10-25 | Team 12 | — | — | — | — |
+| 8 | 2026-11-01 | Team 06 | — | — | — | — |
+| 9 | 2026-11-08 | Team 10 | — | — | — | — |
+| 10 | 2026-11-15 | Team 03 | — | — | — | — |
+| 11 | 2026-11-22 | Team 11 | — | — | — | — |
+| 12 | 2026-11-29 | Team 02 *(rematch, wk 1)* | — | — | — | — |
+| 13 | 2026-12-06 | Team 01 *(rematch, wk 2)* | — | — | — | — |
+| 14 | 2026-12-13 | Team 04 *(rematch, wk 3)* | — | — | — | — |
+| 15 | 2026-12-20 | TBD | — | — | — | 🏆 playoffs R1 |
+| 16 | 2026-12-27 | TBD | — | — | — | 🏆 playoffs R2 |
+| 17 | 2027-01-03 | TBD | — | — | — | 🏆 final |
 | 18 | 2027-01-10 | — | — | — | — | off (league ends wk 17) |
 
 **Record: 0–1.** Running lineup efficiency: 76.7% (1 complete week).
+
+⚠️ The `Proj` column is not one consistent measure, because Yahoo shows several. Week 1's 109.52
+is the plain sum of the nine starters' projections. Week 2's 103.59 is the *blended* figure — eight
+starters' projections plus the Lions' −2.00 actual — because their game was already final at
+capture. Yahoo separately displayed 110.66 (the pure projection sum, ignoring the DEF result).
+`analyze.py` never reads this column; it scores the per-player `proj` values.
+
+**Every opponent appears exactly once before week 12.** Team 03 is a real opponent here (week 10) —
+note that `draft.json` has *no* Team 03, because its labels are projection rank and rank 3 is ours.
+That is the clearest illustration of why the two label schemes must never be joined.
 
 ## Season ledger — roster transactions
 
@@ -120,6 +132,24 @@ so the call waits for the injury news instead of guessing.
 
 **What the drop cost:** bench is now 3 WRs deep for 2 WR + flex. The house bye rule still holds
 (WR byes 14/5/13).
+
+### Opponent snapshot — Team 01 (as of 2026-09-19 09:20)
+
+| | Team 01 | Us |
+|---|---:|---:|
+| Record | 1–0 (6th) | 0–1 (11th) |
+| Yahoo "orig proj" | 100.76 | 110.72 |
+| Yahoo live proj | 100.76 | 98.72 |
+| Win probability | **52% favourite** | 48% underdog |
+
+⚠️ **We have drifted from favourite to underdog since the lineup was set.** At capture the blended
+figure was 103.59 v 100.77; Yahoo's live projection now has us at 98.72. Their projection has not
+moved — ours has. Worth a re-check before the 1:00pm kickoffs; if the drop traces to a player
+downgrade rather than the DEF result, there may be another swap to make.
+
+Their lineup is WR-strong (Chase, Samuel) against exactly our weakest position group — the draft
+log's standing RB-for-WR trade recommendation is the structural answer to this matchup, and the
+week 12 rematch is the reason to act on it before the 2026-11-28 deadline.
 
 ### 🚫 The slot lost before the weekend
 
