@@ -37,4 +37,5 @@ analysis needs. Nothing is lost analytically.
 
 ## Status
 
-Season in progress. Week 1 captured (partial). Yahoo projected finish: **3rd of 12**.
+Season in progress. Week 1 final (**L** 95.16–106.02, 76.7% lineup efficiency); week 2 captured
+pre-game. Yahoo projected finish: **3rd of 12**.

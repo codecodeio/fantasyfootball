@@ -68,3 +68,53 @@ trade an RB for a WR.** Best partner is Team 04 — 1st in WR points, 11th in RB
 - **2026-W1 — MarShawn Lloyd** is lead back only because Josh Jacobs is on the commissioner's
   exempt list. OC said "committee for a little bit"; Lloyd had 7 career touches entering the year.
   Volatile flex.
+
+## Week 1 scored (final — 95.16 to 106.02, **L** by 10.86)
+
+| Slot | Player | Proj | Actual | Δ |
+|---|---|---:|---:|---:|
+| QB | Lamar Jackson | 19.34 | 24.96 | +5.62 |
+| RB | McCaffrey | 17.45 | 11.30 | −6.15 |
+| RB | Breece Hall | 14.24 | 18.80 | +4.56 |
+| WR | Pickens | 13.25 | 4.30 | −8.95 |
+| WR | McMillan | 12.46 | 8.00 | −4.46 |
+| TE | Fannin | 8.68 | 3.10 | −5.58 |
+| W/R/T | Lloyd | 9.96 | 3.70 | −6.26 |
+| K | Pineiro | 7.04 | 11.00 | +3.96 |
+| DEF | Lions | 7.10 | 10.00 | +2.90 |
+| *BN* | *Shough* | 18.36 | *25.20* | +6.84 |
+| *BN* | *Goedert* | 7.85 | *21.70* | **+13.85** |
+| *BN* | *Jones* | 7.78 | *10.00* | +2.22 |
+| *BN* | *Pierce* | 7.57 | *8.10* | +0.53 |
+| *BN* | *Black* | 3.48 | *7.50* | +4.02 |
+| *BN* | *Doubs* | 8.14 | *0.00* | −8.14 |
+
+**Optimal legal lineup: 124.10. Started: 95.16. Left on the bench: 28.94 — 76.7% efficiency.**
+
+The loss is attributable to one decision. Starting Goedert over Fannin was worth **+18.60**,
+against a margin of defeat of 10.86 — that swap alone wins the week. Jones over Lloyd (+6.30)
+was real but not sufficient on its own.
+
+**The correct lesson is narrower than the scoreboard.** Goedert's 21.70 was TD-inflated: two
+scores supplied 12 of it, and the usage-only line is ~9.7. What repeats is the *usage* gap
+(5 targets / 77 yds against 3 / 21) and the offence quality behind it, not the point total. Starting
+him in week 2 on the strength of "he scored 21.7" would be outcome bias; starting him because
+Fannin is a low-volume TE on a 10-point offence is the defensible version of the same call.
+
+⚠️ **One week. Nothing here is scored yet.** Pickens (6 targets) and McMillan (8 targets) drew
+exactly the volume they were drafted for and simply did not convert — that is not evidence
+against those picks, and neither should be benched on it.
+
+### Early reads on the hypotheses
+
+- **H3 (Yahoo calibration)** — first data point is poor: five of nine starters missed, and all
+  five by more than 4 points. Aggregate starter bias −1.60/player (95.16 actual v 109.52
+  projected). Far too small a sample to mean anything; watch whether the miss concentrates in
+  WR/TE.
+- **H5 (handcuff over bench body)** — early support. Black returned 7.50 on a 3.48 projection
+  and out-carried McCaffrey. R. White, the player passed on, would still be un-startable.
+- **H2 (wait on QB)** — Shough 25.20 out-scored Lamar 24.96 from the bench in week 1. Amusing,
+  not yet evidence; the pick-141 half of the hypothesis is off to a good start.
+- **Uncomfortable early signal for the rd-6 Fannin pick.** If Goedert (rd 9, and the pick that
+  satisfied the favourite-team rule at zero cost) is simply the better TE, the TE-cliff logic
+  that spent pick 69 on Fannin is the reasoning that takes the damage. Track, do not conclude.

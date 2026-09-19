@@ -27,23 +27,30 @@ The Chrome DevTools MCP drives a real logged-in Chrome profile, so it can read t
 - ❌ Requires a Claude Code session; cannot run headless or in the cloud.
 - ❌ Breaks if the Yahoo session expires (just log in again) or the page markup changes.
 
-⚠️ `wk01.json` was captured mid-Sunday and is **partial** — re-capture to finalise it.
+✅ `wk01.json` was finalised 2026-09-19 (all games final, `complete: true`). `wk02.json` is a
+pre-game capture and is still **partial** — re-capture after Monday night.
 
 ## The weekly file shape — two traps
 
 **1. `matchup.my_proj` is a live blend, not a pre-game projection.** Yahoo swaps a player's
 projection for their actual score the moment their game ends, so `my_proj` drifts during the day
-and **will not equal the sum of the `proj` column**. Week 1 shows it exactly:
+and **will not equal the sum of the `proj` column**. Week 2 shows it exactly — only the Thursday
+DEF game had finished:
 
 ```
-sum(proj) over 9 starters      109.76
-  − McCaffrey  17.46 → 11.30    −6.16   (game final)
-  + Pineiro     7.04 → 11.00    +3.96   (game final)
-                              = 107.56  = matchup.my_proj
+sum(proj) over 8 non-DEF starters   105.59
+  + Lions  5.07 → −2.00              −7.07   (Thursday game final)
+                                   = 103.59  = matchup.my_proj
 ```
 
 The per-player `proj` values *are* stable pre-game numbers — those are what `analyze.py` scores.
 Never compute projection accuracy from `my_proj`.
+
+⚠️ **And don't trust `my_proj` straight after a lineup edit.** Yahoo's AJAX recompute rebuilds the
+total from *projections only*, dropping the finished-game actuals it had already blended in. After
+the week-2 swaps the header read **110.66** — that is 105.59 + the Lions' 5.07 pre-game projection,
+silently discarding their −2.00 final. A hard reload corrected it to 103.59. **Always reload before
+reading `my_proj` into a capture**, and sanity-check it against the sum of the `proj` column.
 
 **2. `actual: null` means "not played yet", not "scored zero".** A real zero is `0.00` — Doubs in
 Week 1. `analyze.py` keys on this distinction, so a capture that writes `0` for a pending player

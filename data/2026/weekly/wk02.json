@@ -1,0 +1,40 @@
+{
+  "season": 2026, "week": 2,
+  "captured_at": "2026-09-19T08:50:00-04:00",
+  "complete": false,
+  "note": "Pre-game capture, Saturday. Only the Thursday DEF game is final. Re-capture after Monday night to finalise. Opponent label follows the Yahoo team id (Chase Me = 1); wk01's 'Team 09' came from the original capture under an unverified scheme — reconcile before season-end analysis.",
+  "matchup": {"opponent": "Team 01", "my_score": -2.00, "opp_score": 0.00, "my_proj": 103.59, "opp_proj": 100.77},
+  "players": [
+    {"slot": "QB",    "player": "Lamar Jackson",      "proj": 19.43, "actual": null,  "status": "pending", "game": "Sun 1:00 vs NO"},
+    {"slot": "RB",    "player": "Christian McCaffrey","proj": 19.70, "actual": null,  "status": "pending", "game": "Sun 4:25 vs MIA"},
+    {"slot": "RB",    "player": "Breece Hall",        "proj": 13.21, "actual": null,  "status": "pending", "game": "Sun 1:00 vs GB"},
+    {"slot": "WR",    "player": "George Pickens",     "proj": 13.90, "actual": null,  "status": "pending", "game": "Sun 4:25 vs WAS"},
+    {"slot": "WR",    "player": "Tetairoa McMillan",  "proj": 11.37, "actual": null,  "status": "pending", "game": "Sun 1:00 @ ATL"},
+    {"slot": "TE",    "player": "Dallas Goedert",     "proj": 8.35,  "actual": null,  "status": "pending", "game": "Sun 1:00 @ TEN"},
+    {"slot": "W/R/T", "player": "Aaron Jones Sr.",    "proj": 12.02, "actual": null,  "status": "pending", "game": "Sun 1:00 @ CHI"},
+    {"slot": "K",     "player": "Harrison Butker",    "proj": 7.61,  "actual": null,  "status": "pending", "game": "Sun 8:20 vs IND"},
+    {"slot": "DEF",   "player": "Lions",              "proj": 5.07,  "actual": -2.00, "status": "final",   "game": "@ BUF L 31-41", "stat": "41 pts allowed, 2 sack, 0 takeaways"},
+    {"slot": "BN",    "player": "Alec Pierce",        "proj": 9.78,  "actual": null,  "status": "pending", "game": "Sun 8:20 @ KC"},
+    {"slot": "BN",    "player": "Harold Fannin Jr.",  "proj": 8.09,  "actual": null,  "status": "pending", "game": "Sun 1:00 @ TB"},
+    {"slot": "BN",    "player": "MarShawn Lloyd",     "proj": 10.81, "actual": null,  "status": "pending", "game": "Sun 1:00 @ NYJ"},
+    {"slot": "BN",    "player": "Tyler Shough",       "proj": 16.75, "actual": null,  "status": "pending", "game": "Sun 1:00 @ BAL"},
+    {"slot": "BN",    "player": "Kaelon Black",       "proj": 6.00,  "actual": null,  "status": "pending", "game": "Sun 4:25 vs MIA", "flag": "Q"},
+    {"slot": "BN",    "player": "Eddy Pineiro",       "proj": 8.22,  "actual": null,  "status": "pending", "game": "Sun 4:25 vs MIA", "flag": "Q"}
+  ],
+  "transactions": [
+    {"type": "add_drop", "added": "Harrison Butker (KC, K)", "dropped": "Romeo Doubs (NE, WR)", "source": "free_agent",
+     "why": "Pineiro missed all 3 practices with an illness and SF said it would sign a practice-squad kicker as insurance. No backup K rostered, so his slot risked a 0 in a matchup projected inside 2 points. Butker was the top FA kicker (7.61) and kicks at 8:20pm, after the 4:25 SF game — so the Pineiro/Butker call can wait until inactives post ~2:55pm. Doubs was the weakest asset: 0.00 on 3 targets in wk1, 10% started, and faces PIT, who allow the fewest fantasy points to WRs."}
+  ],
+  "lineup_changes": [
+    {"in": "Dallas Goedert", "out": "Harold Fannin Jr.", "slot": "TE", "proj_delta": 0.26,
+     "why": "Projections are effectively tied, so usage decides: Goedert 5 tgt / 77 yds on a winning offense vs Fannin 3 tgt / 21 yds in a 10-34 loss. Market agrees — Fannin's start rate fell 82%->64%, Goedert's rose 48%->60%. NOT because Goedert scored 21.70 last week; that was TD-inflated and will not repeat. Counterpoint held on the record: TB allow the 4th most fantasy points to TEs, TEN only the 12th most, so Fannin has the better matchup and Rotowire still projects Goedert higher despite it."},
+    {"in": "Aaron Jones Sr.", "out": "MarShawn Lloyd", "slot": "W/R/T", "proj_delta": 1.21,
+     "why": "Lloyd ran 2.8 ypc with no receiving work in wk1 and draws NYJ, who allow the 2nd fewest fantasy points to RBs. Jones beat his wk1 projection, catches passes (half-PPR), and draws CHI, who allow the 7th most."},
+    {"in": "Harrison Butker", "out": "Eddy Pineiro", "slot": "K", "proj_delta": -0.61,
+     "why": "Safe default: Butker starts so a Pineiro inactive cannot leave a 0 in the slot. Reversible until 2:55pm Sunday — if Pineiro is active, swap back for +0.61. IND allow the 4th most fantasy points to kickers."}
+  ],
+  "signals": [
+    "DEF slot was lost before the weekend: Lions finished -2.00 on Thursday night and locked. The DEF decision has a Thursday deadline, not a Sunday one — the Wednesday 18:00 reminder is correctly placed to catch it, but it was not acted on.",
+    "Yahoo's my_proj briefly displayed 110.66 after the lineup edits. That is a client-side artifact: the AJAX recompute substituted the Lions' 5.07 pre-game projection for their -2.00 final. A reload corrects it to 103.59. Another instance of the capture.md trap — never trust my_proj without checking it against the sum of the proj column."
+  ]
+}
