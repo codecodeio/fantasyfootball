@@ -35,6 +35,12 @@ This is a family league. The other eleven managers are anonymised as `Team 01`�
 throughout the data and history — only rank and points totals are kept, which is all the
 analysis needs. Nothing is lost analytically.
 
+## The season log
+
+`notes/2026-season-log.md` is the week-by-week record — one entry for every week of the season,
+with the moves made, the reasoning behind them, the result, and the bye-week planner. Start there
+to see what happened and why.
+
 ## Status
 
 Season in progress. Week 1 final (**L** 95.16–106.02, 76.7% lineup efficiency); week 2 captured
