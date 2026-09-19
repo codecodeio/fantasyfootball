@@ -82,6 +82,7 @@ alone changes nothing.
 | `data/<season>/draft.json` | Every pick: proj, ADP, bye, Yahoo grade + post-draft standings |
 | `data/<season>/weekly/wkNN.json` | Weekly projected vs actual, per player |
 | `notes/<season>-draft-log.md` | Why each pick was made, and the hypotheses to score |
+| `notes/<season>-moves-log.md` | Every in-season add/drop/trade and lineup change, with reasoning |
 | `notes/draft-strategy.md` | The repeatable draft method — constraints, ADP sequencing, favorite-team rule |
 | `notes/capture.md` | How to keep the weekly data flowing; automation options |
 | `scripts/analyze.py` | Projection accuracy, bias by position, lineup efficiency |
