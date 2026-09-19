@@ -133,23 +133,55 @@ so the call waits for the injury news instead of guessing.
 **What the drop cost:** bench is now 3 WRs deep for 2 WR + flex. The house bye rule still holds
 (WR byes 14/5/13).
 
-### Opponent snapshot — Team 01 (as of 2026-09-19 09:20)
+### Opponent snapshot — Team 01 (as of 2026-09-19 09:35)
 
-| | Team 01 | Us |
+| | Us | Team 01 |
 |---|---:|---:|
-| Record | 1–0 (6th) | 0–1 (11th) |
-| Yahoo "orig proj" | 100.76 | 110.72 |
-| Yahoo live proj | 100.76 | 98.72 |
-| Win probability | **52% favourite** | 48% underdog |
+| Record | 0–1 (11th) | 1–0 (6th) |
+| Orig proj | 110.72 | 100.76 |
+| Current proj | **103.65** | 100.76 |
+| Win probability | **53% favourite** | 47% |
 
-⚠️ **We have drifted from favourite to underdog since the lineup was set.** At capture the blended
-figure was 103.59 v 100.77; Yahoo's live projection now has us at 98.72. Their projection has not
-moved — ours has. Worth a re-check before the 1:00pm kickoffs; if the drop traces to a player
-downgrade rather than the DEF result, there may be another swap to make.
+**Why 110.72 became 103.65 — it is entirely the Lions, and nothing else.** The eight non-DEF
+starters sum to 105.65, so:
 
-Their lineup is WR-strong (Chase, Samuel) against exactly our weakest position group — the draft
-log's standing RB-for-WR trade recommendation is the structural answer to this matchup, and the
-week 12 rematch is the reason to act on it before the 2026-11-28 deadline.
+```
+105.65 + Lions projection  5.07  = 110.72   ("Orig Proj", frozen pre-kickoff)
+105.65 + Lions actual     −2.00  = 103.65   (current)
+                                   −7.07
+```
+
+No player was downgraded; Aaron Jones actually rose 12.02 → 12.08. "Orig Proj" is frozen at the
+pre-game projection while the live figure swaps in real results as they land — the same mechanism
+as the `capture.md` my_proj trap, just shown side by side.
+
+⚠️ **Correction.** An earlier version of this entry claimed we had slipped to a 48% underdog on a
+live projection of 98.72. That was wrong. 98.72 appears nowhere on the matchup page; it came from
+misreading the standings page, which interleaves both teams' numbers in one flat text column, and
+assigning the wrong side. The check that settles it: the favourite side shows **8 players
+remaining** — that is us, because our DEF has already played, while Team 01 still has 9.
+**Read the matchup page, not the standings text dump.**
+
+### Lineup verified optimal (2026-09-19 09:35)
+
+Nothing on the bench beats a starter on projection:
+
+| Slot | Starting | Best alternative | |
+|---|---|---|---|
+| QB | Lamar 19.43 | Shough 16.75 | ✓ |
+| RB | McCaffrey 19.70 · Hall 13.21 | Lloyd 10.81 · Black 6.00 | ✓ |
+| WR | Pickens 13.90 · McMillan 11.37 | Pierce 9.78 | ✓ |
+| TE | Goedert 8.35 | Fannin 8.09 | ✓ deliberate — see below |
+| W/R/T | Jones 12.08 | Lloyd 10.81 | ✓ |
+| K | Butker 7.61 | Pineiro 8.22 (Q) | ✓ safe default |
+| DEF | Lions −2.00 | — | locked |
+
+The only outstanding lever is Pineiro's +0.61 if he is active at ~2:55pm. No news change as of
+09:35: still questionable with the illness, no practice-squad kicker signed yet.
+
+Their lineup is WR-strong (Chase, Samuel) against our weakest group — the draft log's standing
+RB-for-WR trade is the structural answer, and the week 12 rematch is the reason to act before the
+2026-11-28 deadline.
 
 ### 🚫 The slot lost before the weekend
 
