@@ -9,11 +9,16 @@ happen to work?
 sentences, and record the argument *against* a move where one exists so a lucky call can't
 later be mistaken for a good one.
 
+> **Opponent labels are the Yahoo team id** (Team 01 = team 1 … Team 12 = team 12; ours is id 7),
+> per the anonymisation policy in the README. ⚠️ `draft.json`'s `league_totals` uses a *different*
+> scheme — draft-time projection rank — so `Team NN` there is **not** the same team as `Team NN`
+> here. Never join the two on the label.
+
 ## Season scoreboard
 
 | Wk | Date | Opponent | Proj | Actual | Opp | Result |
 |---:|---|---|---:|---:|---:|---|
-| 1 | 2026-09-13 | Team 09 | 109.52 | 95.16 | 106.02 | **L** |
+| 1 | 2026-09-13 | Team 02 | 109.52 | 95.16 | 106.02 | **L** |
 | 2 | 2026-09-20 | Team 01 | 103.59 | — | — | pending |
 | 3 | 2026-09-27 | — | — | — | — | — |
 | 4 | 2026-10-04 | — | — | — | — | — |
@@ -63,7 +68,7 @@ is on bye that week.
 
 ---
 
-## Week 1 — **L** 95.16 to 106.02 (vs Team 09)
+## Week 1 — **L** 95.16 to 106.02 (vs Team 02)
 
 Post-draft roster, untouched. No adds, no drops, no lineup changes.
 

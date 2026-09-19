@@ -2,8 +2,8 @@
   "season": 2026, "week": 1,
   "captured_at": "2026-09-19T08:45:00-04:00",
   "complete": true,
-  "note": "Finalised 2026-09-19 from the Yahoo week-1 team page. Supersedes the partial mid-Sunday capture. All 15 games final.",
-  "matchup": {"opponent": "Team 09", "my_score": 95.16, "opp_score": 106.02, "my_proj": 109.52, "opp_proj": 102.67, "result": "L"},
+  "note": "Finalised 2026-09-19 from the Yahoo week-1 team page. Supersedes the partial mid-Sunday capture. All 15 games final. Opponent relabelled Team 09 -> Team 02: opponent labels are the Yahoo team id (recap mid2=2), not the draft-time projection rank used in draft.json league_totals.",
+  "matchup": {"opponent": "Team 02", "my_score": 95.16, "opp_score": 106.02, "my_proj": 109.52, "opp_proj": 102.67, "result": "L"},
   "players": [
     {"slot": "QB",    "player": "Lamar Jackson",      "proj": 19.34, "actual": 24.96, "status": "final", "game": "@ IND W 41-23", "stat": "324 pass yds, 1 pass TD, 0 INT, 7 car / 40 yds, 1 rush TD, 1 fum lost"},
     {"slot": "RB",    "player": "Christian McCaffrey","proj": 17.45, "actual": 11.30, "status": "final", "game": "@ LAR W 27-7",  "stat": "10 car / 68 yds, 8 tgt / 5 rec / 20 yds"},

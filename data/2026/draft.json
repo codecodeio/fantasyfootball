@@ -36,6 +36,7 @@
       {"rank": 10, "team": "Team 10",          "total": 2472.12},
       {"rank": 11, "team": "Team 11",           "total": 2421.90},
       {"rank": 12, "team": "Team 12",    "total": 2411.19}
-    ]
+    ],
+    "label_scheme": "league_totals labels are DRAFT-TIME PROJECTION RANK, not Yahoo team ids (Team NN = the team projected NN-th; there is no Team 03 because Tuchus Puchus holds rank 3). Weekly files label opponents by Yahoo team id instead. Do not join the two on the label."
   }
 }

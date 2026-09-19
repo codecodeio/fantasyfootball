@@ -2,7 +2,7 @@
   "season": 2026, "week": 2,
   "captured_at": "2026-09-19T08:50:00-04:00",
   "complete": false,
-  "note": "Pre-game capture, Saturday. Only the Thursday DEF game is final. Re-capture after Monday night to finalise. Opponent label follows the Yahoo team id (Chase Me = 1); wk01's 'Team 09' came from the original capture under an unverified scheme — reconcile before season-end analysis.",
+  "note": "Pre-game capture, Saturday. Only the Thursday DEF game is final. Re-capture after Monday night to finalise. Opponent labels are the Yahoo team id: Team 01 = team 1, our own team is id 7. Note draft.json league_totals uses a different scheme - draft-time projection rank - so Team NN there is not the same team as Team NN here.",
   "matchup": {"opponent": "Team 01", "my_score": -2.00, "opp_score": 0.00, "my_proj": 103.59, "opp_proj": 100.77},
   "players": [
     {"slot": "QB",    "player": "Lamar Jackson",      "proj": 19.43, "actual": null,  "status": "pending", "game": "Sun 1:00 vs NO"},

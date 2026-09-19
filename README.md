@@ -35,6 +35,11 @@ This is a family league. The other eleven managers are anonymised as `Team 01`�
 throughout the data and history — only rank and points totals are kept, which is all the
 analysis needs. Nothing is lost analytically.
 
+`Team NN` is the **Yahoo team id** (ours is id 7), so the label is stable all season and can be
+re-derived from any Yahoo URL. One exception: `draft.json`'s `league_totals` labels teams by
+**draft-time projection rank** instead — `Team NN` there is a different team from `Team NN` in the
+weekly files, and the two must never be joined on the label.
+
 ## The season log
 
 `notes/2026-season-log.md` is the week-by-week record — one entry for every week of the season,
