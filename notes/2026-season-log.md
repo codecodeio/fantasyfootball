@@ -21,8 +21,8 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | Wk | Date | Opponent | Proj | Actual | Opp | Result |
 |---:|---|---|---:|---:|---:|---|
 | 1 | 2026-09-13 | Team 02 | 109.52 | 95.16 | 106.02 | **L** |
-| 2 | 2026-09-20 | Team 01 | 103.59 | — | — | pending |
-| 3 | 2026-09-27 | Team 04 | — | — | — | — |
+| 2 | 2026-09-20 | Team 01 | 103.59 | 94.10 | 90.46 | **W** |
+| 3 | 2026-09-27 | Team 04 | 117.18 | — | — | pending |
 | 4 | 2026-10-04 | Team 05 | — | — | — | — |
 | 5 | 2026-10-11 | Team 09 | — | — | — | — |
 | 6 | 2026-10-18 | Team 08 | — | — | — | — |
@@ -39,7 +39,11 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 17 | 2027-01-03 | TBD | — | — | — | 🏆 final |
 | 18 | 2027-01-10 | — | — | — | — | off (league ends wk 17) |
 
-**Record: 0–1.** Running lineup efficiency: 76.7% (1 complete week).
+**Record: 1–1.** Running lineup efficiency: 81.7% (2 complete weeks: 189.26 started of 231.78 optimal).
+
+⚠️ `analyze.py`'s "left on bench" is cruder than these figures: best bench score minus worst starter
+score, ignoring positions (week 2 reports 24.38 = Shough − Lions DEF, which is not a legal swap). The
+slot-by-slot optimals in this log are the ones to trust until the script learns position rules.
 
 ⚠️ The `Proj` column is not one consistent measure, because Yahoo shows several. Week 1's 109.52
 is the plain sum of the nine starters' projections. Week 2's 103.59 is the *blended* figure — eight
@@ -66,15 +70,15 @@ Current roster byes, and whether the position is covered.
 
 | Wk | On bye | Covered? |
 |---:|---|---|
-| 5 | McMillan (WR), Butker (K) | ✅ Pineiro covers K; Pickens + Pierce at WR |
+| 5 | McMillan (WR), Butker (K) | ❌ **No WR2** — Pierce is on NFL IR. Pineiro covers K |
 | 6 | Jones (RB), **Lions (DEF)** | ⚠️ **No backup DEF — must stream week 6** |
 | 8 | McCaffrey (RB), Black (RB), Shough (QB), Pineiro (K) | ✅ Lamar at QB, Butker at K; RB thins to Hall/Jones/Lloyd |
-| 10 | Goedert (TE) | ✅ Fannin covers |
+| 10 | Goedert (TE) | ✅ Fannin covers (Goedert is out "a few weeks" with an MCL sprain anyway) |
 | 11 | Fannin (TE), Lloyd (RB) | ✅ Goedert covers |
 | 13 | Lamar (QB), Hall (RB), Pierce (WR) | ✅ Shough covers QB |
 | 14 | Pickens (WR) | ✅ McMillan + Pierce |
 
-**The one real hole is week 6 DEF.** Everything else is covered by the draft's bye-spread rule
+**Two real holes: week 5 WR2 and week 6 DEF.** Everything else is covered by the draft's bye-spread rule
 (H4). Dropping Doubs removed the only week-11 WR bye, which no longer matters now that no WR
 is on bye that week.
 
@@ -118,7 +122,36 @@ swap alone wins the week. Jones over Lloyd (+6.30) was real but not enough on it
 
 ---
 
-## Week 2 — projected 103.59 vs 100.77 (vs Team 01) · result pending
+## Week 2 — **W** 94.10 to 90.46 (vs Team 01)
+
+### Result (finalised 2026-09-24)
+
+| Slot | Player | Proj | Actual | Δ | Line |
+|---|---|---:|---:|---:|---|
+| QB | Lamar Jackson | 19.43 | 15.80 | −3.63 | 235 yds, 1 TD, 1 INT |
+| RB | Christian McCaffrey | 19.70 | 20.60 | +0.90 | 10-23-2 rush, 4-43 rec |
+| RB | Breece Hall | 13.21 | 11.70 | −1.51 | 16-29 rush, 5 tgt 5-63 |
+| WR | George Pickens | 13.90 | 7.00 | −6.90 | 8 tgt 6-40 |
+| WR | Tetairoa McMillan | 11.37 | 12.60 | +1.23 | 10 tgt 5-101 |
+| TE | Dallas Goedert | 8.35 | 0.90 | −7.45 | 3 tgt 1-4 — **MCL sprain in-game** |
+| W/R/T | Aaron Jones Sr. | 12.02 | 10.50 | −1.52 | 23-105 rush, 0 tgt |
+| K | Harrison Butker | 7.61 | 17.00 | +9.39 | 3 FG, 3 PAT |
+| DEF | Lions | 5.07 | −2.00 | −7.07 | 41 allowed |
+| | **Started** | | **94.10** | | |
+
+Bench: Shough 22.38 · Fannin 7.90 (6 tgt 5-54) · Lloyd 7.60 (6-20-1, fumble lost) · Pineiro 5.00 · Black 2.50 · Pierce 1.60 (heel — headed to IR).
+
+**Optimal 107.68 · started 94.10 · 13.58 left · 87.4% efficiency.** The two misses were Shough over
+Lamar (+6.58) and Fannin over Goedert (+7.00).
+
+**Scoring the calls.** The TE swap lost 7.00, but Goedert was hurt during the game, so this is an
+injury, not a misread of usage. Fannin's 6 targets do confirm he's involved. The Butker add paid off
+(+12.00 over Pineiro), though Pineiro turned out to be active, so the +0.61 swap-back would have cost
+12. Kicker variance swamps a 0.61 gap. Jones over Lloyd was +2.90 and backed by volume (23 carries).
+QB: Lamar over Shough was right on projection (+2.68) and lost 6.58. That's variance and not worth
+chasing.
+
+### Pre-game (2026-09-19)
 
 | # | Move | Δ proj | Why |
 |---|---|---:|---|
@@ -226,8 +259,35 @@ Goedert, examine this first.**
 
 ---
 
-## Week 3 — 2026-09-27
-*Not yet played. Byes: none.*
+## Week 3 — projected 117.18 vs 110.23 (vs Team 04) · 56% favourite · result pending
+*Byes: none. Reviewed Thursday 2026-09-24, before TNF (ATL @ GB). No starter plays Thursday.*
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **Fannin in, Goedert out** (TE) | +8.47 | Forced. Goedert has an MCL sprain, is out "a few weeks" (D, 0.00 proj), and PHI signed Zach Ertz. Fannin earned the slot on usage anyway (6 tgt in week 2). Goedert stays rostered because he's the only PHI player (favourite-team rule). |
+
+Before the swap the projection was 108.71 vs 110.23 (49% underdog). After: 117.18, 56% favourite.
+
+### Held deliberately
+
+| Slot | Kept | Over | Gap | Why |
+|---|---|---|---:|---|
+| W/R/T | Jones (Q) | Lloyd | 3.41 | Jones is the workhorse (23 carries with Mason on IR). His knee kept him out Wednesday, but he **returned to practice Thursday**. Lloyd: 3.3 ypc and a fumble. **Lloyd plays Thursday and locks tonight, so the call is made now.** If Jones is inactive Sunday, the only fallback is Black (4.90, same 4:05 window). EV at ~85% chance he plays is ≈10.5, still above Lloyd's 8.05. |
+| K | Butker | Pineiro | 0.11 | Coin flip. Left alone. |
+| DEF | Lions | Bills (best FA, 6.98) | 0.47 | No free agent projects higher. Known cost: they face NYJ, so a big Lions day partly comes out of Breece Hall's. |
+| QB | Lamar | Shough | 3.57 | Not close enough to override. |
+
+**The argument against the Jones call:** a Q back with a knee on a short week can be limited to a
+reduced share even when he's active. Lloyd's 8.05 is a guaranteed floor that Jones doesn't have. If
+Jones is active but plays under ~50% of snaps, count that against this call.
+
+### Roster problems this exposed
+- **Pierce is going on NFL IR** (aggravated heel, no timeline). Move him to our IR slot once Yahoo
+  shows the tag. That frees a bench spot.
+- **WR depth is zero.** Pickens + McMillan only, and **week 5 (McMillan bye) has no WR2**. Add a WR
+  before then, with a bye other than 5 or 14. The freed Pierce slot pays for it.
+- **Two kickers and a hurt Goedert** tie up three bench spots for little weekly value. After week 5
+  (Butker's bye) one kicker can go.
 
 ## Week 4 — 2026-10-04
 *Not yet played. Byes: none.*
