@@ -60,6 +60,7 @@ That is the clearest illustration of why the two label schemes must never be joi
 | Date | Wk | Type | In | Out | Cost |
 |---|---|---|---|---|---|
 | 2026-09-19 | 2 | Add / drop | Harrison Butker (KC, K) | Romeo Doubs (NE, WR) | Free agent — no waiver claim spent |
+| 2026-09-24 | 3 | IR | Alec Pierce (IND, WR) → IR | — | Free — Yahoo already IR-eligible; opens a bench spot |
 
 **Trades: none.** The draft log carries a standing recommendation to trade an RB for a WR (1st in
 projected RB points, 10th in WR). Deadline **2026-11-28**, league vote.
@@ -282,8 +283,10 @@ reduced share even when he's active. Lloyd's 8.05 is a guaranteed floor that Jon
 Jones is active but plays under ~50% of snaps, count that against this call.
 
 ### Roster problems this exposed
-- **Pierce is going on NFL IR** (aggravated heel, no timeline). Move him to our IR slot once Yahoo
-  shows the tag. That frees a bench spot.
+- **Pierce is going on NFL IR** (aggravated heel, no timeline). ✅ Moved to our IR slot 2026-09-24
+  (Yahoo already accepted him). That opens a bench spot, so a WR add needs no drop.
+- 🦅 **Favourite-team rule relaxed in season (2026-09-24).** It still shapes the draft, but a PHI
+  player may now be dropped whenever keeping one costs value. Goedert stays for now as TE2.
 - **WR depth is zero.** Pickens + McMillan only, and **week 5 (McMillan bye) has no WR2**. Add a WR
   before then, with a bye other than 5 or 14. The freed Pierce slot pays for it.
 - **Two kickers and a hurt Goedert** tie up three bench spots for little weekly value. After week 5

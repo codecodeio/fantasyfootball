@@ -29,6 +29,7 @@ sibling under `repos/` and is orchestrated by **aiguru** — see `../aiguru/brai
 - 🦅 **Favorite-team rule: the roster must always hold ≥1 player from the chosen team** (2026: PHI,
   satisfied by Goedert at zero cost because he doubles as TE2). Budget for it before the draft and
   never pay the premium option — the method is `notes/draft-strategy.md` rule 2.
+  **In season it is relaxed (2026-09-24):** a PHI player may be dropped whenever keeping one costs value.
 
 ## House conventions (inherited from aiguru)
 

@@ -69,7 +69,8 @@
       "max_acceptable_cost_pts": 25,
       "satisfied_by": "Dallas Goedert (TE) \u2014 drafted rd 9 pick 100; also serves as TE2",
       "cost_pts": 0,
-      "method": "See notes/draft-strategy.md rule 2."
+      "method": "See notes/draft-strategy.md rule 2.",
+      "in_season": "Relaxed 2026-09-24: a draft-day rule only. In season, a PHI player may be dropped whenever keeping one costs value."
     }
   }
 }

@@ -1,41 +1,185 @@
 {
-  "season": 2026, "week": 3,
+  "season": 2026,
+  "week": 3,
   "captured_at": "2026-09-24T00:00:00-04:00",
   "complete": false,
   "note": "Pre-game capture, Thursday before TNF (ATL @ GB). No starter plays Thursday; only Lloyd (bench) does. Re-capture after Monday night (PHI @ CHI) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
-  "matchup": {"opponent": "Team 04", "my_score": 0.00, "opp_score": 0.00, "my_proj": 117.18, "opp_proj": 110.23, "win_prob": 0.56},
+  "matchup": {
+    "opponent": "Team 04",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 117.18,
+    "opp_proj": 110.23,
+    "win_prob": 0.56
+  },
   "players": [
-    {"slot": "QB",    "player": "Lamar Jackson",      "proj": 22.80, "actual": null, "status": "pending", "game": "Sun 4:25 @ DAL"},
-    {"slot": "RB",    "player": "Christian McCaffrey","proj": 18.81, "actual": null, "status": "pending", "game": "Sun 4:05 vs ARI"},
-    {"slot": "RB",    "player": "Breece Hall",        "proj": 14.26, "actual": null, "status": "pending", "game": "Sun 1:00 @ DET"},
-    {"slot": "WR",    "player": "George Pickens",     "proj": 13.31, "actual": null, "status": "pending", "game": "Sun 4:25 vs BAL"},
-    {"slot": "WR",    "player": "Tetairoa McMillan",  "proj": 11.63, "actual": null, "status": "pending", "game": "Sun 1:00 @ CLE"},
-    {"slot": "TE",    "player": "Harold Fannin Jr.",  "proj": 8.47,  "actual": null, "status": "pending", "game": "Sun 1:00 vs CAR"},
-    {"slot": "W/R/T", "player": "Aaron Jones Sr.",    "proj": 11.46, "actual": null, "status": "pending", "game": "Sun 4:05 @ TB", "flag": "Q"},
-    {"slot": "K",     "player": "Harrison Butker",    "proj": 8.99,  "actual": null, "status": "pending", "game": "Sun 1:00 @ MIA"},
-    {"slot": "DEF",   "player": "Lions",              "proj": 7.45,  "actual": null, "status": "pending", "game": "Sun 1:00 vs NYJ"},
-    {"slot": "BN",    "player": "Dallas Goedert",     "proj": 0.00,  "actual": null, "status": "pending", "game": "Mon 8:15 @ CHI", "flag": "D"},
-    {"slot": "BN",    "player": "MarShawn Lloyd",     "proj": 8.05,  "actual": null, "status": "pending", "game": "Thu 8:15 vs ATL"},
-    {"slot": "BN",    "player": "Alec Pierce",        "proj": 0.00,  "actual": null, "status": "pending", "game": "Sun 1:00 vs HOU", "flag": "O"},
-    {"slot": "BN",    "player": "Tyler Shough",       "proj": 19.23, "actual": null, "status": "pending", "game": "Sun 4:25 vs LV"},
-    {"slot": "BN",    "player": "Kaelon Black",       "proj": 4.90,  "actual": null, "status": "pending", "game": "Sun 4:05 vs ARI"},
-    {"slot": "BN",    "player": "Eddy Pineiro",       "proj": 8.88,  "actual": null, "status": "pending", "game": "Sun 4:05 vs ARI"}
+    {
+      "slot": "QB",
+      "player": "Lamar Jackson",
+      "proj": 22.8,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:25 @ DAL"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 18.81,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:05 vs ARI"
+    },
+    {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "proj": 14.26,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 1:00 @ DET"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 13.31,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:25 vs BAL"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 11.63,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 1:00 @ CLE"
+    },
+    {
+      "slot": "TE",
+      "player": "Harold Fannin Jr.",
+      "proj": 8.47,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 1:00 vs CAR"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "Aaron Jones Sr.",
+      "proj": 11.46,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:05 @ TB",
+      "flag": "Q"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 8.99,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 1:00 @ MIA"
+    },
+    {
+      "slot": "DEF",
+      "player": "Lions",
+      "proj": 7.45,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 1:00 vs NYJ"
+    },
+    {
+      "slot": "BN",
+      "player": "Dallas Goedert",
+      "proj": 0.0,
+      "actual": null,
+      "status": "pending",
+      "game": "Mon 8:15 @ CHI",
+      "flag": "D"
+    },
+    {
+      "slot": "BN",
+      "player": "MarShawn Lloyd",
+      "proj": 8.05,
+      "actual": null,
+      "status": "pending",
+      "game": "Thu 8:15 vs ATL"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 1:00 vs HOU",
+      "flag": "O"
+    },
+    {
+      "slot": "BN",
+      "player": "Tyler Shough",
+      "proj": 19.23,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:25 vs LV"
+    },
+    {
+      "slot": "BN",
+      "player": "Kaelon Black",
+      "proj": 4.9,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:05 vs ARI"
+    },
+    {
+      "slot": "BN",
+      "player": "Eddy Pineiro",
+      "proj": 8.88,
+      "actual": null,
+      "status": "pending",
+      "game": "Sun 4:05 vs ARI"
+    }
   ],
-  "transactions": [],
+  "transactions": [
+    {
+      "type": "ir",
+      "player": "Alec Pierce (IND, WR)",
+      "to": "IR",
+      "source": "lineup",
+      "why": "Colts placing him on NFL IR (aggravated heel, no timeline). Yahoo already accepts him in an IR slot; the move frees a bench spot at no cost."
+    }
+  ],
   "lineup_changes": [
-    {"in": "Harold Fannin Jr.", "out": "Dallas Goedert", "slot": "TE", "proj_delta": 8.47,
-     "why": "Forced: Goedert sprained his MCL in week 2 and is out 'a few weeks' (D, 0.00 proj; PHI signed Zach Ertz). Fannin earned it on usage anyway: 6 tgt 5-54 in week 2. Goedert stays rostered as the lone PHI player (favorite-team rule)."}
+    {
+      "in": "Harold Fannin Jr.",
+      "out": "Dallas Goedert",
+      "slot": "TE",
+      "proj_delta": 8.47,
+      "why": "Forced: Goedert sprained his MCL in week 2 and is out 'a few weeks' (D, 0.00 proj; PHI signed Zach Ertz). Fannin earned it on usage anyway: 6 tgt 5-54 in week 2. Goedert stays rostered as TE2 for his return; the favorite-team rule was relaxed in season on 2026-09-24, so he is droppable if the spot is needed."
+    }
   ],
   "held": [
-    {"slot": "W/R/T", "kept": "Aaron Jones Sr.", "over": "MarShawn Lloyd", "proj_gap": 3.41,
-     "why": "Not near-tied. Jones is the workhorse: 23-105 in week 2 with Mason on IR; knee kept him out Wednesday but he returned to practice Thursday. Lloyd has 5.8 and 3.3 ypc and a fumble in two weeks. Lloyd plays Thursday and locks tonight, so this is decided now. If Jones is ruled inactive, the only late fallback is Black (4.90, same 4:05 window). EV at ~85% play chance: 0.85*11.46 + 0.15*4.90 = 10.5 vs Lloyd 8.05."},
-    {"slot": "K", "kept": "Harrison Butker", "over": "Eddy Pineiro", "proj_gap": 0.11,
-     "why": "Coin flip on projection. Kickers have no usage signal beyond offence quality; KC scored 33 last week and Butker kicked 3 FG, SF scored 35 with Pineiro kicking only PATs. Left alone."},
-    {"slot": "DEF", "kept": "Lions", "over": "Bills (best FA, 6.98)", "proj_gap": 0.47,
-     "why": "Lions project above every FA defence. Known cost: they face NYJ, so a good Lions day partly comes out of Breece Hall's. Small correlation, not worth a projection loss."}
+    {
+      "slot": "W/R/T",
+      "kept": "Aaron Jones Sr.",
+      "over": "MarShawn Lloyd",
+      "proj_gap": 3.41,
+      "why": "Not near-tied. Jones is the workhorse: 23-105 in week 2 with Mason on IR; knee kept him out Wednesday but he returned to practice Thursday. Lloyd has 5.8 and 3.3 ypc and a fumble in two weeks. Lloyd plays Thursday and locks tonight, so this is decided now. If Jones is ruled inactive, the only late fallback is Black (4.90, same 4:05 window). EV at ~85% play chance: 0.85*11.46 + 0.15*4.90 = 10.5 vs Lloyd 8.05."
+    },
+    {
+      "slot": "K",
+      "kept": "Harrison Butker",
+      "over": "Eddy Pineiro",
+      "proj_gap": 0.11,
+      "why": "Coin flip on projection. Kickers have no usage signal beyond offence quality; KC scored 33 last week and Butker kicked 3 FG, SF scored 35 with Pineiro kicking only PATs. Left alone."
+    },
+    {
+      "slot": "DEF",
+      "kept": "Lions",
+      "over": "Bills (best FA, 6.98)",
+      "proj_gap": 0.47,
+      "why": "Lions project above every FA defence. Known cost: they face NYJ, so a good Lions day partly comes out of Breece Hall's. Small correlation, not worth a projection loss."
+    }
   ],
   "signals": [
-    "Pierce is headed to NFL IR (aggravated heel, no timeline). Move him to our IR slot once Yahoo shows the IR tag, freeing a bench spot.",
+    "Pierce moved to IR 2026-09-24 (1 of 2 IR slots used); bench now has one open spot, so a WR add costs no drop.",
     "WR depth is now zero: only Pickens and McMillan. Week 5 (McMillan bye) has no WR2 - add a WR before then, bye not 5 or 14."
   ]
 }
