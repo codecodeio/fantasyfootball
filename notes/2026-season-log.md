@@ -22,8 +22,8 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 |---:|---|---|---:|---:|---:|---|
 | 1 | 2026-09-13 | Team 02 | 109.52 | 95.16 | 106.02 | **L** |
 | 2 | 2026-09-20 | Team 01 | 103.59 | 94.10 | 90.46 | **W** |
-| 3 | 2026-09-27 | Team 04 | 117.18 | — | — | pending |
-| 4 | 2026-10-04 | Team 05 | — | — | — | — |
+| 3 | 2026-09-27 | Team 04 | 117.18 | 106.74 | 109.08 | **L** |
+| 4 | 2026-10-04 | Team 05 | 109.67 | — | — | pending |
 | 5 | 2026-10-11 | Team 09 | — | — | — | — |
 | 6 | 2026-10-18 | Team 08 | — | — | — | — |
 | 7 | 2026-10-25 | Team 12 | — | — | — | — |
@@ -39,7 +39,7 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 17 | 2027-01-03 | TBD | — | — | — | 🏆 final |
 | 18 | 2027-01-10 | — | — | — | — | off (league ends wk 17) |
 
-**Record: 1–1.** Running lineup efficiency: 81.7% (2 complete weeks: 189.26 started of 231.78 optimal).
+**Record: 1–2.** Running lineup efficiency: 85.8% (3 complete weeks: 296.00 started of 344.88 optimal).
 
 ⚠️ `analyze.py`'s "left on bench" is cruder than these figures: best bench score minus worst starter
 score, ignoring positions (week 2 reports 24.38 = Shough − Lions DEF, which is not a legal swap). The
@@ -61,6 +61,7 @@ That is the clearest illustration of why the two label schemes must never be joi
 |---|---|---|---|---|---|
 | 2026-09-19 | 2 | Add / drop | Harrison Butker (KC, K) | Romeo Doubs (NE, WR) | Free agent — no waiver claim spent |
 | 2026-09-24 | 3 | IR | Alec Pierce (IND, WR) → IR | — | Free — Yahoo already IR-eligible; opens a bench spot |
+| *pending* | 4 | Waiver claim | Quentin Johnston (LAC, WR, bye 7) | — (empty spot) | Waiver priority. **Not placed yet — Matt to submit before Wed Sep 30** |
 
 **Trades: none.** The draft log carries a standing recommendation to trade an RB for a WR (1st in
 projected RB points, 10th in WR). Deadline **2026-11-28**, league vote.
@@ -71,8 +72,8 @@ Current roster byes, and whether the position is covered.
 
 | Wk | On bye | Covered? |
 |---:|---|---|
-| 5 | McMillan (WR), Butker (K) | ❌ **No WR2** — Pierce is on NFL IR. Pineiro covers K |
-| 6 | Jones (RB), **Lions (DEF)** | ⚠️ **No backup DEF — must stream week 6** |
+| 5 | McMillan (WR), Butker (K) | ❌ **No WR2** until the Johnston claim lands. Pineiro covers K |
+| 6 | Jones (RB), **Lions (DEF)** | ⚠️ **No backup DEF — must stream week 6.** Hall's thigh makes RB thin too |
 | 8 | McCaffrey (RB), Black (RB), Shough (QB), Pineiro (K) | ✅ Lamar at QB, Butker at K; RB thins to Hall/Jones/Lloyd |
 | 10 | Goedert (TE) | ✅ Fannin covers (Goedert is out "a few weeks" with an MCL sprain anyway) |
 | 11 | Fannin (TE), Lloyd (RB) | ✅ Goedert covers |
@@ -260,8 +261,63 @@ Goedert, examine this first.**
 
 ---
 
-## Week 3 — projected 117.18 vs 110.23 (vs Team 04) · 56% favourite · result pending
+## Week 3 — **L** 106.74 to 109.08 (vs Team 04)
+
+### Result (finalised 2026-09-28)
+
+| Slot | Player | Proj | Actual | Δ | Line |
+|---|---|---:|---:|---:|---|
+| QB | Lamar Jackson | 22.80 | 20.44 | −2.36 | 186 yds, 2 TD; 50 rush |
+| RB | Christian McCaffrey | 18.81 | 19.60 | +0.79 | 75 rush, 1 TD; 41 rec |
+| RB | Breece Hall | 14.26 | 7.00 | −7.26 | 32 rush; 3-23 — **thigh, left in 4th qtr** |
+| WR | George Pickens | 13.31 | 11.70 | −1.61 | 7-82 |
+| WR | Tetairoa McMillan | 11.63 | 2.70 | −8.93 | 2-17 |
+| TE | Harold Fannin Jr. | 8.47 | **20.60** | +12.13 | 7-51, 2 TD |
+| W/R/T | Aaron Jones Sr. | 11.46 | 11.70 | +0.24 | 58 rush; 5-34 |
+| K | Harrison Butker | 8.99 | 6.00 | −2.99 | 1 FG, 3 PAT |
+| DEF | Lions | 7.45 | 7.00 | −0.45 | 5 sacks, 1 FR, 24 allowed |
+| | **Started** | **117.18** | **106.74** | **−10.44** | |
+
+Bench: **Shough 24.80** (255 yds, 4 TD, 2 fum lost) · Pineiro 8.00 · Lloyd 2.80 · Black 1.70 · Goedert 0.00 (O) · Pierce IR.
+
+**Optimal 113.10 · started 106.74 · 6.36 left · 94.4% efficiency**, the best week so far. The two misses
+were Shough over Lamar (+4.36) and Pineiro over Butker (+2.00). **Shough alone would have won**
+(111.10 vs 109.08). Pineiro alone would not (108.74).
+
+### Why it felt like a disaster, and what it actually was
+
+Yahoo had us at **117.49 vs 95.26** by kickoff: Team 04 started Baker Mayfield after he was ruled
+**out** and played the whole week with a 0.00 at QB. We were ~22-point favourites and lost by 2.34.
+
+The lineup didn't cause that. Every decision was right on projection, and the ones that failed failed
+on variance:
+
+| Call | Scoring | Verdict |
+|---|---|---|
+| Fannin at TE | +20.60 vs Goedert's 0.00 | ✅ Forced, and it was the best score on the team |
+| Jones over Lloyd (Q knee) | 11.70 vs 2.80, **+8.90** | ✅ Right on usage. He played a full role, so the "limited snaps" argument against it didn't happen |
+| Lamar over Shough | −4.36 | ❌ outcome, ✅ process — a 3.57 projection gap is not near-tied. See the pattern note below |
+| Butker over Pineiro | −2.00 | Coin flip (0.11). Kickers are noise |
+| Lions over Bills | 7.00 | Fine. The Hall correlation cut both ways: Lions 7.00, Hall 7.00 |
+
+**What actually lost it: McMillan −8.93 and Hall −7.26**, two starters with intact roles who got 2 catches
+and a thigh injury. There was no lever for either of them.
+
+**The Shough pattern.** Shough has outscored Lamar three weeks running: +0.24, +6.58, +4.36, for
+**+11.18 total**. Both are starting-calibre, so this is one trend over three games. Yahoo's
+projection has not moved toward it (week 4: Lamar 21.86, Shough 20.07), which says either the market
+knows something about Shough's volatility (two fumbles in week 3) or it's slow. **Rule stays: start
+the higher projection unless within ~1 point.** Re-check after week 6. If it's still going, the
+projection is systematically underrating Shough, and that's a finding about projections worth
+recording, not a hunch.
+
+**Structural note:** WR is still the weak unit, now −4.94 per WR-start against projection over three weeks
+(n=6, small). That is the draft log's RB-for-WR trade argument again, with one more data point.
+
+### Pre-game (2026-09-24)
+
 *Byes: none. Reviewed Thursday 2026-09-24, before TNF (ATL @ GB). No starter plays Thursday.*
+*Pre-game projection 117.18 vs 110.23, 56% favourite.*
 
 | # | Move | Δ proj | Why |
 |---|---|---:|---|
@@ -292,8 +348,33 @@ Jones is active but plays under ~50% of snaps, count that against this call.
 - **Two kickers and a hurt Goedert** tie up three bench spots for little weekly value. After week 5
   (Butker's bye) one kicker can go.
 
-## Week 4 — 2026-10-04
-*Not yet played. Byes: none.*
+## Week 4 — projected 109.67 vs 108.37 (vs Team 05) · 51% favourite · pending
+*Byes: none. Reviewed Monday 2026-09-28, before waivers clear (Wed Sep 30). Team 05 is 2–0 and 1st.*
+
+### Lineup: no changes. Nothing on the bench beats a starter on projection
+
+| Slot | Starting | Best alternative | Gap | Call |
+|---|---|---|---:|---|
+| QB | Lamar 21.86 | Shough 20.07 | 1.79 | ✓ Hold. Not near-tied; Shough is MNF, so no late swap |
+| RB | McCaffrey 15.81 · Hall 13.57 (Q) | Lloyd 9.21 | — | ⚠️ Hall's thigh — see below |
+| WR | Pickens 11.57 · McMillan 12.16 | — | — | No depth |
+| TE | Fannin 9.49 | Goedert (O) | — | ✓ **Locks Thursday** (vs PIT) |
+| W/R/T | Jones 10.62 | Lloyd 9.21 | 1.41 | ✓ Usage: 5 targets and the lead role vs Lloyd's 2.80 |
+| K | Butker 8.71 | Pineiro 8.27 | 0.44 | ✓ Coin flip, left alone |
+| DEF | Lions 5.88 (@ CAR, Sun night) | — | — | ✓ No Thursday lock this week |
+
+### To do this week
+
+| When | What |
+|---|---|
+| **Now → Wed Sep 30** | 🚫 **Submit the waiver claim for Quentin Johnston (LAC, WR, bye 7)**. No drop is needed. The agent was blocked from placing it. He's the top FA WR (7.57 proj, ~6 targets/game) and fills week 5's WR2 hole. His hands are the risk: 8 catches on 17 targets, plus a bad drop in week 3. Fallback: Jakobi Meyers (JAX, 7.37, bye 7). **Not Keenan Allen**, whose bye 13 clashes with Pierce |
+| **Wed** | Jets update on **Hall (thigh)**. If he's out or doubtful, start Lloyd in his RB slot (9.21) and keep Jones at flex. Hall plays 1:00 Sunday, so the call must be made before then |
+| **Thu** | Fannin locks at 8:15 pm. Nothing to change |
+| **Sun** | Lions and McMillan are in the **same game** (DET @ CAR). A good Lions day partly comes out of McMillan's, but there's no alternative at either slot |
+
+**The argument against holding Lamar:** three straight weeks of Shough outscoring him, and a gap of just 1.79.
+Rule 4 says break a near-tie on usage, and QB usage is a wash (both are clear starters). The projection
+still leads, so it holds. If Shough wins again, the week-6 re-check gets a fourth data point.
 
 ## Week 5 — 2026-10-11
 *Not yet played. Byes: McMillan (WR), Butker (K) — Pineiro covers K.*

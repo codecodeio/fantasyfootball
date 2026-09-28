@@ -2,139 +2,158 @@
   "season": 2026,
   "week": 3,
   "captured_at": "2026-09-24T00:00:00-04:00",
-  "complete": false,
-  "note": "Pre-game capture, Thursday before TNF (ATL @ GB). No starter plays Thursday; only Lloyd (bench) does. Re-capture after Monday night (PHI @ CHI) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "complete": true,
+  "note": "Pre-game capture 2026-09-24; finalised 2026-09-28 from the Yahoo week-3 matchup page (both sides 0 players remaining; our only MNF player, Goedert, was O). proj values are the ones captured pre-game, not Yahoo's later-revised figures. Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 04",
-    "my_score": 0.0,
-    "opp_score": 0.0,
+    "my_score": 106.74,
+    "opp_score": 109.08,
     "my_proj": 117.18,
     "opp_proj": 110.23,
-    "win_prob": 0.56
+    "win_prob": 0.56,
+    "orig_proj_yahoo": 117.49,
+    "opp_orig_proj_yahoo": 95.26,
+    "result": "L",
+    "opp_note": "Team 04 started Baker Mayfield (O, 0.00) at QB and still won; their orig proj fell 110.23 -> 95.26 once he was ruled out."
   },
   "players": [
     {
       "slot": "QB",
       "player": "Lamar Jackson",
       "proj": 22.8,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:25 @ DAL"
+      "actual": 20.44,
+      "status": "final",
+      "game": "Final W 34-31 @ DAL",
+      "stat": "186 pass yds, 2 TD; 50 rush yds"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
       "proj": 18.81,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:05 vs ARI"
+      "actual": 19.6,
+      "status": "final",
+      "game": "Final W 36-30 vs ARI",
+      "stat": "75 rush yds, 1 rush TD; 41 rec yds"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
       "proj": 14.26,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 1:00 @ DET"
+      "actual": 7.0,
+      "status": "final",
+      "game": "Final L 24-31 @ DET",
+      "stat": "32 rush yds; 3 rec 23 yds - thigh injury, left in 4th qtr"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
       "proj": 13.31,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:25 vs BAL"
+      "actual": 11.7,
+      "status": "final",
+      "game": "Final L 31-34 vs BAL",
+      "stat": "7 rec 82 yds"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
       "proj": 11.63,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 1:00 @ CLE"
+      "actual": 2.7,
+      "status": "final",
+      "game": "Final L 18-21 @ CLE",
+      "stat": "2 rec 17 yds"
     },
     {
       "slot": "TE",
       "player": "Harold Fannin Jr.",
       "proj": 8.47,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 1:00 vs CAR"
+      "actual": 20.6,
+      "status": "final",
+      "game": "Final W 21-18 vs CAR",
+      "stat": "7 rec 51 yds, 2 TD"
     },
     {
       "slot": "W/R/T",
       "player": "Aaron Jones Sr.",
       "proj": 11.46,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:05 @ TB",
-      "flag": "Q"
+      "actual": 11.7,
+      "status": "final",
+      "game": "Final W 23-16 @ TB",
+      "flag": "Q",
+      "stat": "58 rush yds; 5 rec 34 yds"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
       "proj": 8.99,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 1:00 @ MIA"
+      "actual": 6.0,
+      "status": "final",
+      "game": "Final W 24-10 @ MIA",
+      "stat": "1 FG 30-39, 3 PAT"
     },
     {
       "slot": "DEF",
       "player": "Lions",
       "proj": 7.45,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 1:00 vs NYJ"
+      "actual": 7.0,
+      "status": "final",
+      "game": "Final W 31-24 vs NYJ",
+      "stat": "5 sacks, 1 fum rec, 24 allowed"
     },
     {
       "slot": "BN",
       "player": "Dallas Goedert",
       "proj": 0.0,
-      "actual": null,
-      "status": "pending",
+      "actual": 0.0,
+      "status": "final",
       "game": "Mon 8:15 @ CHI",
-      "flag": "D"
+      "flag": "O",
+      "stat": "Out (MCL)"
     },
     {
       "slot": "BN",
       "player": "MarShawn Lloyd",
       "proj": 8.05,
-      "actual": null,
-      "status": "pending",
-      "game": "Thu 8:15 vs ATL"
+      "actual": 2.8,
+      "status": "final",
+      "game": "Final L 14-35 vs ATL",
+      "stat": "11 rush yds; 2 rec 7 yds"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 1:00 vs HOU",
-      "flag": "O"
+      "actual": 0.0,
+      "status": "final",
+      "game": "Final W 19-17 vs HOU",
+      "flag": "O",
+      "stat": "IR"
     },
     {
       "slot": "BN",
       "player": "Tyler Shough",
       "proj": 19.23,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:25 vs LV"
+      "actual": 24.8,
+      "status": "final",
+      "game": "Final L 27-35 vs LV",
+      "stat": "255 pass yds, 4 TD, 2 fum lost"
     },
     {
       "slot": "BN",
       "player": "Kaelon Black",
       "proj": 4.9,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:05 vs ARI"
+      "actual": 1.7,
+      "status": "final",
+      "game": "Final W 36-30 vs ARI",
+      "stat": "17 rush yds"
     },
     {
       "slot": "BN",
       "player": "Eddy Pineiro",
       "proj": 8.88,
-      "actual": null,
-      "status": "pending",
-      "game": "Sun 4:05 vs ARI"
+      "actual": 8.0,
+      "status": "final",
+      "game": "Final W 36-30 vs ARI",
+      "stat": "1 FG 50+, 3 PAT"
     }
   ],
   "transactions": [
@@ -181,5 +200,29 @@
   "signals": [
     "Pierce moved to IR 2026-09-24 (1 of 2 IR slots used); bench now has one open spot, so a WR add costs no drop.",
     "WR depth is now zero: only Pickens and McMillan. Week 5 (McMillan bye) has no WR2 - add a WR before then, bye not 5 or 14."
-  ]
+  ],
+  "review": {
+    "optimal": 113.1,
+    "started": 106.74,
+    "left_on_bench": 6.36,
+    "efficiency": 0.944,
+    "misses": [
+      {
+        "slot": "QB",
+        "should_start": "Tyler Shough",
+        "over": "Lamar Jackson",
+        "cost": 4.36,
+        "proj_gap": -3.57
+      },
+      {
+        "slot": "K",
+        "should_start": "Eddy Pineiro",
+        "over": "Harrison Butker",
+        "cost": 2.0,
+        "proj_gap": -0.11
+      }
+    ],
+    "margin_of_defeat": 2.34,
+    "verdict": "Lost by 2.34. Only the QB swap alone would have flipped it; both misses went against the projection or a coin flip."
+  }
 }

@@ -1,0 +1,171 @@
+{
+  "season": 2026,
+  "week": 4,
+  "captured_at": "2026-09-28T00:00:00-04:00",
+  "complete": false,
+  "note": "Early-week capture, Monday 2026-09-28, before waivers process (Wed Sep 30). Projections will move once Hall's thigh update lands Wednesday. Re-capture after MNF (ATL @ NO) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 05",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 109.67,
+    "opp_proj": 108.37,
+    "win_prob": 0.51
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Lamar Jackson",
+      "proj": 21.86,
+      "status": "pending",
+      "game": "Sun 1:00 vs TEN"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 15.81,
+      "status": "pending",
+      "game": "Sun 4:25 vs DEN"
+    },
+    {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "proj": 13.57,
+      "status": "pending",
+      "game": "Sun 1:00 @ CHI",
+      "flag": "Q"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 11.57,
+      "status": "pending",
+      "game": "Sun 1:00 @ HOU"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 12.16,
+      "status": "pending",
+      "game": "Sun 8:20 vs DET"
+    },
+    {
+      "slot": "TE",
+      "player": "Harold Fannin Jr.",
+      "proj": 9.49,
+      "status": "pending",
+      "game": "Thu 8:15 vs PIT"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "Aaron Jones Sr.",
+      "proj": 10.62,
+      "status": "pending",
+      "game": "Sun 4:05 vs MIA"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 8.71,
+      "status": "pending",
+      "game": "Sun 4:25 @ LV"
+    },
+    {
+      "slot": "DEF",
+      "player": "Lions",
+      "proj": 5.88,
+      "status": "pending",
+      "game": "Sun 8:20 @ CAR"
+    },
+    {
+      "slot": "BN",
+      "player": "Dallas Goedert",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 vs LAR",
+      "flag": "O"
+    },
+    {
+      "slot": "BN",
+      "player": "MarShawn Lloyd",
+      "proj": 9.21,
+      "status": "pending",
+      "game": "Sun 1:00 @ TB"
+    },
+    {
+      "slot": "BN",
+      "player": "Tyler Shough",
+      "proj": 20.07,
+      "status": "pending",
+      "game": "Mon 8:15 vs ATL"
+    },
+    {
+      "slot": "BN",
+      "player": "Kaelon Black",
+      "proj": 4.75,
+      "status": "pending",
+      "game": "Sun 4:25 vs DEN"
+    },
+    {
+      "slot": "BN",
+      "player": "Eddy Pineiro",
+      "proj": 8.27,
+      "status": "pending",
+      "game": "Sun 4:25 vs DEN"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.07,
+      "status": "pending",
+      "game": "Sun 9:30am @ WAS",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [],
+  "pending": [
+    {
+      "type": "waiver_claim",
+      "player": "Quentin Johnston (LAC, WR, bye 7)",
+      "drop": null,
+      "status": "not placed - needs Matt",
+      "why": "Fills the empty bench spot and the week-5 WR2 hole (McMillan bye). Top FA WR on week-4 projection (7.57, 5.8 proj targets); 17 targets in 3 games but only 8 catches. Waivers clear Wed Sep 30. Fallback: Jakobi Meyers (JAX, 7.37, bye 7)."
+    }
+  ],
+  "lineup_changes": [],
+  "held": [
+    {
+      "slot": "QB",
+      "kept": "Lamar Jackson",
+      "over": "Tyler Shough",
+      "proj_gap": 1.79,
+      "why": "Lamar leads on projection and has the rushing floor. Shough has outscored him three weeks running (+0.24, +6.58, +4.36), which is worth watching but is three games. Shough plays MNF, so there's no late-swap option: Lamar locks at 1:00 Sunday."
+    },
+    {
+      "slot": "W/R/T",
+      "kept": "Aaron Jones Sr.",
+      "over": "MarShawn Lloyd",
+      "proj_gap": 1.41,
+      "why": "Usage: Jones 5 targets plus a lead-back share in week 3 (11.70); Lloyd 2.80 in a 14-35 blowout and has been under 4 ypc all season."
+    },
+    {
+      "slot": "K",
+      "kept": "Harrison Butker",
+      "over": "Eddy Pineiro",
+      "proj_gap": 0.44,
+      "why": "Coin flip. Butker @ LV is the better offence in the better spot."
+    },
+    {
+      "slot": "DEF",
+      "kept": "Lions",
+      "over": "Chargers (5.57, rostered by opp)",
+      "proj_gap": null,
+      "why": "Lions @ CAR on Sunday night, so no Thursday lock this week. Known correlation: a good Lions day comes partly out of McMillan's."
+    }
+  ],
+  "signals": [
+    "Hall (Q, thigh) - Jets update Wednesday. If he is out, Lloyd (9.21) takes the RB2 slot; Jones stays at flex.",
+    "Fannin plays Thursday (vs PIT) - his slot locks Thursday night; no TE alternative anyway (Goedert O).",
+    "Week 5: McMillan + Butker bye -> needs the WR add. Week 6: Lions + Jones bye -> stream a DEF by Thursday Oct 15."
+  ]
+}
