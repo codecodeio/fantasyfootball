@@ -23,7 +23,7 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 1 | 2026-09-13 | Team 02 | 109.52 | 95.16 | 106.02 | **L** |
 | 2 | 2026-09-20 | Team 01 | 103.59 | 94.10 | 90.46 | **W** |
 | 3 | 2026-09-27 | Team 04 | 117.18 | 106.74 | 109.08 | **L** |
-| 4 | 2026-10-04 | Team 05 | 109.67 | — | — | pending |
+| 4 | 2026-10-04 | Team 05 | 107.87 | — | — | pending |
 | 5 | 2026-10-11 | Team 09 | — | — | — | — |
 | 6 | 2026-10-18 | Team 08 | — | — | — | — |
 | 7 | 2026-10-25 | Team 12 | — | — | — | — |
@@ -61,7 +61,7 @@ That is the clearest illustration of why the two label schemes must never be joi
 |---|---|---|---|---|---|
 | 2026-09-19 | 2 | Add / drop | Harrison Butker (KC, K) | Romeo Doubs (NE, WR) | Free agent — no waiver claim spent |
 | 2026-09-24 | 3 | IR | Alec Pierce (IND, WR) → IR | — | Free — Yahoo already IR-eligible; opens a bench spot |
-| *pending* | 4 | Waiver claim | Quentin Johnston (LAC, WR, bye 7) | — (empty spot) | Waiver priority. **Not placed yet — Matt to submit before Wed Sep 30** |
+| 2026-10-01 | 4 | Add (FA) | Jakobi Meyers (JAX, WR, bye 7) | — (empty spot) | Free: no waiver priority used (still 3rd). Johnston, the planned claim, was never submitted and went to another team |
 
 **Trades: none.** The draft log carries a standing recommendation to trade an RB for a WR (1st in
 projected RB points, 10th in WR). Deadline **2026-11-28**, league vote.
@@ -72,7 +72,7 @@ Current roster byes, and whether the position is covered.
 
 | Wk | On bye | Covered? |
 |---:|---|---|
-| 5 | McMillan (WR), Butker (K) | ❌ **No WR2** until the Johnston claim lands. Pineiro covers K |
+| 5 | McMillan (WR), Butker (K) | ✅ Meyers covers WR2. Pineiro covers K |
 | 6 | Jones (RB), **Lions (DEF)** | ⚠️ **No backup DEF — must stream week 6.** Hall's thigh makes RB thin too |
 | 8 | McCaffrey (RB), Black (RB), Shough (QB), Pineiro (K) | ✅ Lamar at QB, Butker at K; RB thins to Hall/Jones/Lloyd |
 | 10 | Goedert (TE) | ✅ Fannin covers (Goedert is out "a few weeks" with an MCL sprain anyway) |
@@ -348,33 +348,45 @@ Jones is active but plays under ~50% of snaps, count that against this call.
 - **Two kickers and a hurt Goedert** tie up three bench spots for little weekly value. After week 5
   (Butker's bye) one kicker can go.
 
-## Week 4 — projected 109.67 vs 108.37 (vs Team 05) · 51% favourite · pending
-*Byes: none. Reviewed Monday 2026-09-28, before waivers clear (Wed Sep 30). Team 05 is 2–0 and 1st.*
+## Week 4 — projected 107.87 vs 107.23 (vs Team 05) · 50/50 · pending
+*Byes: none. First reviewed Monday 2026-09-28; lineup set Thursday 2026-10-01 before TNF (PIT @ CLE). Team 05 is 2–1 and 1st.*
 
-### Lineup: no changes. Nothing on the bench beats a starter on projection
+Since Monday, Hall has been downgraded to **D** (thigh, week-to-week) and Lamar to **Q** (back), and
+the matchup slid from 51% to a 49% underdog (104.32 vs 107.23). The planned Johnston claim was never
+submitted (the agent was blocked; see the week 3 review), and another team claimed him.
 
-| Slot | Starting | Best alternative | Gap | Call |
-|---|---|---|---:|---|
-| QB | Lamar 21.86 | Shough 20.07 | 1.79 | ✓ Hold. Not near-tied; Shough is MNF, so no late swap |
-| RB | McCaffrey 15.81 · Hall 13.57 (Q) | Lloyd 9.21 | — | ⚠️ Hall's thigh — see below |
-| WR | Pickens 11.57 · McMillan 12.16 | — | — | No depth |
-| TE | Fannin 9.49 | Goedert (O) | — | ✓ **Locks Thursday** (vs PIT) |
-| W/R/T | Jones 10.62 | Lloyd 9.21 | 1.41 | ✓ Usage: 5 targets and the lead role vs Lloyd's 2.80 |
-| K | Butker 8.71 | Pineiro 8.27 | 0.44 | ✓ Coin flip, left alone |
-| DEF | Lions 5.88 (@ CAR, Sun night) | — | — | ✓ No Thursday lock this week |
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **+ Jakobi Meyers** (FA, no drop) | — | Cleared waivers, so this cost no priority, and projects higher than Johnston did (8.00 vs 7.57). Led JAX with 8 targets (7-64-1) in week 3. Bye 7, which clashes with no other WR. Fixes week 5 |
+| 2 | **Lloyd in, Hall out** (RB) | +2.75 | Hall didn't practice and is expected to be ruled out. No FA RB beat Lloyd (best: Chris Rodriguez Jr. 5.83) |
+| 3 | **Meyers to flex, Jones to RB, Lloyd benched** | +0.80 | Near-tied, so usage decides it (rule 4). Lloyd is now **RB3** in Green Bay, with snaps falling 30 → 16 → 15 (22.7%). Meyers is his team's top target |
 
-### To do this week
+Result: 107.87 vs 107.23, which Yahoo calls 50/50. That's +3.55 on the Thursday-morning lineup.
+
+| Slot | Starting | Proj | Note |
+|---|---|---:|---|
+| QB | Lamar (Q) | 20.90 | Shough 19.51 on bench, plays **MNF** — a free fallback |
+| RB | McCaffrey · Jones | 17.57 · 12.81 | |
+| WR | Pickens · McMillan | 12.44 · 12.33 | |
+| TE | Fannin | 9.40 | 🔒 **Locks tonight** (TNF vs PIT) |
+| W/R/T | Meyers (Q) | 8.00 | Thumb from camp, limited every week, has played every game |
+| K | Butker | 8.60 | Pineiro 8.41, coin flip |
+| DEF | Lions | 5.82 | Sun night @ CAR. Same game as McMillan |
+
+### The plan for the rest of the week
 
 | When | What |
 |---|---|
-| **Now → Wed Sep 30** | 🚫 **Submit the waiver claim for Quentin Johnston (LAC, WR, bye 7)**. No drop is needed. The agent was blocked from placing it. He's the top FA WR (7.57 proj, ~6 targets/game) and fills week 5's WR2 hole. His hands are the risk: 8 catches on 17 targets, plus a bad drop in week 3. Fallback: Jakobi Meyers (JAX, 7.37, bye 7). **Not Keenan Allen**, whose bye 13 clashes with Pierce |
-| **Wed** | Jets update on **Hall (thigh)**. If he's out or doubtful, start Lloyd in his RB slot (9.21) and keep Jones at flex. Hall plays 1:00 Sunday, so the call must be made before then |
-| **Thu** | Fannin locks at 8:15 pm. Nothing to change |
-| **Sun** | Lions and McMillan are in the **same game** (DET @ CAR). A good Lions day partly comes out of McMillan's, but there's no alternative at either slot |
+| **Thu 8:15 pm** | Fannin locks. Nothing to do |
+| **Sun ~11:30 am ET** (inactives) | **Lamar** inactive → Shough to QB. **Meyers** inactive → Lloyd to flex (Hall if, against the odds, he's active). Both are 1:00 kickoffs, so this is the last window |
+| **Mon night** | Re-capture after ATL @ NO and set `complete: true` |
+| **Before Thu Oct 8** (week 5) | McMillan + Butker are on bye: Meyers to WR, Pineiro to K. Check Hall's status for RB2 |
+| **Before Thu Oct 15** (week 6) | Lions + Jones on bye: **stream a DEF**. The roster is full now, so drop **Pineiro** (Butker is back) |
 
-**The argument against holding Lamar:** three straight weeks of Shough outscoring him, and a gap of just 1.79.
-Rule 4 says break a near-tie on usage, and QB usage is a wash (both are clear starters). The projection
-still leads, so it holds. If Shough wins again, the week-6 re-check gets a fourth data point.
+**The argument against move 3:** Meyers carries a Q, and the 0.80 gain is inside projection noise.
+The case for it rests on Lloyd's role shrinking three weeks running, which is repeatable usage
+rather than one bad game. If Lloyd outscores Meyers, check whether Green Bay's backfield
+shifted before calling it a mistake.
 
 ## Week 5 — 2026-10-11
 *Not yet played. Byes: McMillan (WR), Butker (K) — Pineiro covers K.*
