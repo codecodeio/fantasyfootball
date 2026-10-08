@@ -1,0 +1,189 @@
+{
+  "season": 2026,
+  "week": 5,
+  "captured_at": "2026-10-08T00:00:00-04:00",
+  "complete": false,
+  "note": "Lineup capture Thursday 2026-10-08 before TNF (TB @ DAL - Pickens plays). Byes: McMillan, Butker. Sutton waiver claim pending (processes Oct 10). Re-capture after MNF to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 09",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 97.75,
+    "opp_proj": 111.22,
+    "win_prob": null,
+    "proj_note": "Matchup page read 90.16 (31%) before the Pineiro swap; 97.75 is the sum of the starters after it. Win prob not re-read."
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Tyler Shough",
+      "proj": 18.0,
+      "status": "pending",
+      "game": "Sun 1:00 vs MIN"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 16.13,
+      "status": "pending",
+      "game": "Sun 4:25 @ SEA"
+    },
+    {
+      "slot": "RB",
+      "player": "Aaron Jones Sr.",
+      "proj": 12.99,
+      "status": "pending",
+      "game": "Sun 1:00 @ NO"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 12.56,
+      "status": "pending",
+      "game": "Thu 8:15 vs TB"
+    },
+    {
+      "slot": "WR",
+      "player": "Jakobi Meyers",
+      "proj": 7.46,
+      "status": "pending",
+      "game": "Sun 9:30am vs PHI"
+    },
+    {
+      "slot": "TE",
+      "player": "Harold Fannin Jr.",
+      "proj": 8.94,
+      "status": "pending",
+      "game": "Sun 1:00 @ NYJ"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "MarShawn Lloyd",
+      "proj": 7.91,
+      "status": "pending",
+      "game": "Sun 1:00 vs CHI"
+    },
+    {
+      "slot": "K",
+      "player": "Eddy Pineiro",
+      "proj": 7.59,
+      "status": "pending",
+      "game": "Sun 4:25 @ SEA"
+    },
+    {
+      "slot": "DEF",
+      "player": "Lions",
+      "proj": 6.17,
+      "status": "pending",
+      "game": "Sun 4:25 @ ARI"
+    },
+    {
+      "slot": "BN",
+      "player": "Tetairoa McMillan",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye"
+    },
+    {
+      "slot": "BN",
+      "player": "Lamar Jackson",
+      "proj": 8.34,
+      "status": "pending",
+      "game": "Sun 8:20 @ ATL",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Breece Hall",
+      "proj": 0.81,
+      "status": "pending",
+      "game": "Sun 1:00 vs CLE",
+      "flag": "D"
+    },
+    {
+      "slot": "BN",
+      "player": "Dallas Goedert",
+      "proj": 3.33,
+      "status": "pending",
+      "game": "Sun 9:30am @ JAX",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Kaelon Black",
+      "proj": 3.3,
+      "status": "pending",
+      "game": "Sun 4:25 @ SEA",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Harrison Butker",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 @ PIT",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [
+    {
+      "type": "waiver_claim",
+      "player": "Courtland Sutton (DEN, WR, bye 10)",
+      "drop": "Kaelon Black (SF, RB)",
+      "date": "2026-10-08",
+      "status": "pending - processes 2026-10-10",
+      "why": "Top FA flex for week 5 (8.60, vs Lloyd's 7.91) and a real WR3 for the rest of the season. WR is the team's structural weakness, and Meyers (7) and Pickens (14) byes are still ahead. Bye 10 clashes with no WR. Black is a handcuff who has scored 7.50, 2.50, 1.70, 1.30 and is himself Q. Costs waiver priority (3rd)."
+    }
+  ],
+  "lineup_changes": [
+    {
+      "in": "Tyler Shough",
+      "out": "Lamar Jackson",
+      "slot": "QB",
+      "proj_delta": 9.66,
+      "why": "Lamar hurt his left ankle in week 4, was seen in a boot, and is reported unlikely for Sunday night (Rapoport). Shough plays at 1:00, so this has to be decided before Lamar's status is official. If Lamar is cleared by Saturday, revisit."
+    },
+    {
+      "in": "Jakobi Meyers",
+      "out": "Tetairoa McMillan",
+      "slot": "WR",
+      "proj_delta": 7.46,
+      "why": "McMillan bye."
+    },
+    {
+      "in": "MarShawn Lloyd",
+      "out": "(Meyers moved to WR)",
+      "slot": "W/R/T",
+      "proj_delta": 7.91,
+      "why": "Best rostered flex option. Lloyd caught 5 balls in week 4."
+    },
+    {
+      "in": "Eddy Pineiro",
+      "out": "Harrison Butker",
+      "slot": "K",
+      "proj_delta": 7.59,
+      "why": "Butker bye."
+    }
+  ],
+  "held": [
+    {
+      "slot": "TE",
+      "kept": "Harold Fannin Jr.",
+      "over": "Dallas Goedert (Q)",
+      "proj_gap": 5.61,
+      "why": "Goedert only just returned to practice from the MCL sprain (limited Wednesday); 3.33 proj reflects the doubt. Fannin has 3 straight usable weeks."
+    }
+  ],
+  "signals": [
+    "Saturday: if the Sutton claim succeeds, start him at flex over Lloyd before 1:00 Sunday (8.60 vs 7.91; a team's WR1 over an RB3). Sutton plays 4:05; Lloyd 1:00, so the call must be made pre-1:00.",
+    "Sunday 9:30am: Meyers plays in London (vs PHI) - he locks first.",
+    "Week 6: Lions + Jones bye. Stream a DEF by Thu Oct 15 and drop Pineiro for it (Butker back). Lamar may miss week 6 too - Shough again."
+  ]
+}

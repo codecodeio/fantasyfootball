@@ -2,133 +2,166 @@
   "season": 2026,
   "week": 4,
   "captured_at": "2026-10-01T00:00:00-04:00",
-  "complete": false,
-  "note": "Re-captured Thursday 2026-10-01 before TNF (PIT @ CLE; Fannin locks tonight), after the Meyers add and two lineup swaps. proj values are Thursday's. Re-capture after MNF (ATL @ NO) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "complete": true,
+  "note": "Lineup captured Thursday 2026-10-01 before TNF; finalised 2026-10-08 from the Yahoo week-4 matchup page (all games final). proj values are Thursday's. Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 05",
-    "my_score": 0.0,
-    "opp_score": 0.0,
+    "my_score": 117.88,
+    "opp_score": 89.82,
     "my_proj": 107.87,
     "opp_proj": 107.23,
-    "win_prob": 0.5
+    "win_prob": 0.5,
+    "result": "W"
   },
   "players": [
     {
       "slot": "QB",
       "player": "Lamar Jackson",
       "proj": 20.9,
-      "status": "pending",
-      "game": "Sun 1:00 vs TEN",
-      "flag": "Q"
+      "status": "final",
+      "game": "Final W 24-18 vs TEN",
+      "flag": "Q",
+      "actual": 18.88,
+      "stat": "222 pass yds, 2 TD; 20 rush - left ankle injury, out after halftime"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
       "proj": 17.57,
-      "status": "pending",
-      "game": "Sun 4:25 vs DEN"
+      "status": "final",
+      "game": "Final W 24-14 vs DEN",
+      "actual": 14.5,
+      "stat": "52 rush yds, 1 TD; 18 rec yds"
     },
     {
       "slot": "RB",
       "player": "Aaron Jones Sr.",
       "proj": 12.81,
-      "status": "pending",
-      "game": "Sun 4:05 vs MIA"
+      "status": "final",
+      "game": "Final W 15-10 vs MIA",
+      "actual": 14.8,
+      "stat": "94 rush yds; 4 rec 34 yds"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
       "proj": 12.44,
-      "status": "pending",
-      "game": "Sun 1:00 @ HOU"
+      "status": "final",
+      "game": "Final W 34-30 @ HOU",
+      "actual": 8.5,
+      "stat": "2 rec 75 yds"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
       "proj": 12.33,
-      "status": "pending",
-      "game": "Sun 8:20 vs DET"
+      "status": "final",
+      "game": "Final W 32-26 vs DET",
+      "actual": 38.2,
+      "stat": "14 rec 192 yds, 2 TD"
     },
     {
       "slot": "TE",
       "player": "Harold Fannin Jr.",
       "proj": 9.4,
-      "status": "pending",
-      "game": "Thu 8:15 vs PIT"
+      "status": "final",
+      "game": "Final W 27-24 vs PIT",
+      "actual": 10.2,
+      "stat": "3 rec 27 yds, 1 TD"
     },
     {
       "slot": "W/R/T",
       "player": "Jakobi Meyers",
       "proj": 8.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ CIN",
-      "flag": "Q"
+      "status": "final",
+      "game": "Final W 22-17 @ CIN",
+      "flag": "Q",
+      "actual": 4.8,
+      "stat": "3 rec 33 yds"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
       "proj": 8.6,
-      "status": "pending",
-      "game": "Sun 4:25 @ LV"
+      "status": "final",
+      "game": "Final W 30-27 @ LV",
+      "actual": 6.0,
+      "stat": "1 FG 20-29, 3 PAT"
     },
     {
       "slot": "DEF",
       "player": "Lions",
       "proj": 5.82,
-      "status": "pending",
-      "game": "Sun 8:20 @ CAR"
+      "status": "final",
+      "game": "Final L 26-32 @ CAR",
+      "actual": 2.0,
+      "stat": "3 sacks, 32 allowed"
     },
     {
       "slot": "BN",
       "player": "Breece Hall",
       "proj": 4.45,
-      "status": "pending",
-      "game": "Sun 1:00 @ CHI",
-      "flag": "D"
+      "status": "final",
+      "game": "Final L 12-23 @ CHI",
+      "flag": "D",
+      "actual": 0.0,
+      "stat": "Did not play (thigh/quad)"
     },
     {
       "slot": "BN",
       "player": "MarShawn Lloyd",
       "proj": 7.2,
-      "status": "pending",
-      "game": "Sun 1:00 @ TB"
+      "status": "final",
+      "game": "Final W 17-14 @ TB",
+      "actual": 7.4,
+      "stat": "13 rush yds; 5 rec 36 yds"
     },
     {
       "slot": "BN",
       "player": "Tyler Shough",
       "proj": 19.51,
-      "status": "pending",
-      "game": "Mon 8:15 vs ATL"
+      "status": "final",
+      "game": "Final L 24-45 vs ATL",
+      "actual": 15.94,
+      "stat": "286 pass yds, 1 TD; 5 rush"
     },
     {
       "slot": "BN",
       "player": "Dallas Goedert",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 vs LAR",
-      "flag": "D"
+      "status": "final",
+      "game": "Final L 20-24 vs LAR",
+      "flag": "D",
+      "actual": 0.0,
+      "stat": "Did not play (MCL)"
     },
     {
       "slot": "BN",
       "player": "Kaelon Black",
       "proj": 4.47,
-      "status": "pending",
-      "game": "Sun 4:25 vs DEN"
+      "status": "final",
+      "game": "Final W 24-14 vs DEN",
+      "actual": 1.3,
+      "stat": "13 rush yds"
     },
     {
       "slot": "BN",
       "player": "Eddy Pineiro",
       "proj": 8.41,
-      "status": "pending",
-      "game": "Sun 4:25 vs DEN"
+      "status": "final",
+      "game": "Final W 24-14 vs DEN",
+      "actual": 6.0,
+      "stat": "1 FG 20-29, 3 PAT"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 9:30am @ WAS",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final W 30-13 @ WAS",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [
@@ -184,5 +217,21 @@
     "Sunday 11:30 ET inactives: Lamar (Q, back) -> Shough if out. Meyers (Q, thumb he has played through all season) -> Lloyd or Hall if out (all 1:00 games).",
     "Roster is now full (15 + Pierce on IR). The week-6 DEF stream needs a drop: Pineiro after week 5 (Butker is back) is the clean one; Lloyd (RB3, shrinking snaps) is next.",
     "Week 5: McMillan + Butker bye -> Meyers is WR2, Pineiro kicks. Week 6: Lions + Jones bye -> stream a DEF by Thursday Oct 15."
-  ]
+  ],
+  "review": {
+    "optimal": 120.48,
+    "started": 117.88,
+    "left_on_bench": 2.6,
+    "efficiency": 0.978,
+    "misses": [
+      {
+        "slot": "W/R/T",
+        "should_start": "MarShawn Lloyd",
+        "over": "Jakobi Meyers",
+        "cost": 2.6,
+        "proj_gap": -0.8
+      }
+    ],
+    "verdict": "Won by 28.06. The Meyers-over-Lloyd usage call lost 2.60: Lloyd caught 5 passes as a receiving back, so his snap share understated his role. Hall->Lloyd at RB and holding Lamar over Shough were both right."
+  }
 }
