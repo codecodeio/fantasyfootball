@@ -24,7 +24,7 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 2 | 2026-09-20 | Team 01 | 103.59 | 94.10 | 90.46 | **W** |
 | 3 | 2026-09-27 | Team 04 | 117.18 | 106.74 | 109.08 | **L** |
 | 4 | 2026-10-04 | Team 05 | 107.87 | 117.88 | 89.82 | **W** |
-| 5 | 2026-10-11 | Team 09 | 97.75 | — | — | pending |
+| 5 | 2026-10-11 | Team 09 | 97.69 | — | — | pending |
 | 6 | 2026-10-18 | Team 08 | — | — | — | — |
 | 7 | 2026-10-25 | Team 12 | — | — | — | — |
 | 8 | 2026-11-01 | Team 06 | — | — | — | — |
@@ -62,7 +62,7 @@ That is the clearest illustration of why the two label schemes must never be joi
 | 2026-09-19 | 2 | Add / drop | Harrison Butker (KC, K) | Romeo Doubs (NE, WR) | Free agent — no waiver claim spent |
 | 2026-09-24 | 3 | IR | Alec Pierce (IND, WR) → IR | — | Free — Yahoo already IR-eligible; opens a bench spot |
 | 2026-10-01 | 4 | Add (FA) | Jakobi Meyers (JAX, WR, bye 7) | — (empty spot) | Free: no waiver priority used (still 3rd). Johnston, the planned claim, was never submitted and went to another team |
-| *2026-10-10* | 5 | Waiver claim | Courtland Sutton (DEN, WR, bye 10) | Kaelon Black (SF, RB) | Waiver priority (3rd). **Pending** — placed 2026-10-08, processes Sat Oct 10 |
+| 2026-10-10 | 5 | Waiver claim | Courtland Sutton (DEN, WR, bye 10) | Kaelon Black (SF, RB) | Waiver priority 3rd → 12th |
 
 **Trades: none.** The draft log carries a standing recommendation to trade an RB for a WR (1st in
 projected RB points, 10th in WR). Deadline **2026-11-28**, league vote.
@@ -440,7 +440,20 @@ slot (Goff, Lamb, LaPorta).
 **Held:** Fannin over Goedert. Goedert only returned to practice on Wednesday (limited), so his 3.33
 reflects the doubt.
 
-### The plan for the rest of the week
+### Saturday update (2026-10-10)
+
+The live projection is now **108.76 vs 97.97, a 62% favourite.** Pickens scored **23.50** on Thursday
+(9-130-1), while their CeeDee Lamb managed 1.90. Lamar was officially ruled **Out**, which confirms the
+Shough call.
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 6 | ✅ Sutton claim succeeded (− Black) | — | Waiver priority fell 3rd → 12th |
+| 7 | **Sutton in, Meyers out** (WR) | +1.23 | The gap is over a point, so projection decides it. Usage is level (Sutton 7 and 6 targets, Meyers 8 and 4). Sutton's efficiency is poor (1-4 on 6 targets in week 4), but the projection already prices that |
+| — | **Lloyd kept at flex**, *not* Sutton | — | **Reverses Thursday's plan.** Lloyd's projection rose to 8.94, above Sutton's 8.59, and his usage backs it: he led Green Bay's backfield with 55% of snaps and caught 5 of 5 targets once Brooks (ankle) went out |
+| — | **Fannin kept over Goedert** (TE) | 0.27 | Near-tied, so usage decides. Fannin runs a route on ~78% of dropbacks. Goedert is in his first game back from the MCL and may share snaps. *Against:* with DeVonta Smith out, Goedert could see more volume |
+
+### The original plan (Thursday)
 
 | When | What |
 |---|---|
