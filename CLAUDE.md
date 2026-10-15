@@ -102,7 +102,7 @@ Each of these cost points or produced a wrong answer once. Follow them before to
 7. **`Team NN` means different teams in different files.** Weekly files and the season log use the
    **Yahoo team id** (ours is 7). `draft.json`'s `league_totals` uses **draft-time projection rank**
    — it has no Team 03 because rank 3 is ours. Never join the two on the label.
-8. **Bye-week DEF streams must happen by Thursday.** Week 6 (Lions bye) was covered by streaming the Chiefs; with one DEF rostered, every future Lions bye needs the same.
+8. **Bye-week DEF streams must happen by Thursday.** Week 6 (Lions bye) was covered by streaming the Chiefs; if the roster goes back to one DEF, every future bye needs the same.
 
 ## Files
 
