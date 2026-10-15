@@ -2,38 +2,45 @@
   "season": 2026,
   "week": 5,
   "captured_at": "2026-10-10T00:00:00-04:00",
-  "complete": false,
-  "note": "Lineup capture Thursday 2026-10-08, revised Saturday 2026-10-10 after the Sutton claim landed. proj values are Saturday's. Pickens (TNF) is final. Re-capture after MNF to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "complete": true,
+  "note": "Lineup captured Thursday 2026-10-08, revised Saturday 2026-10-10; finalised 2026-10-15 from the Yahoo week-5 matchup page. proj values are Saturday's. Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 09",
-    "my_score": 23.5,
-    "opp_score": 1.9,
+    "my_score": 98.24,
+    "opp_score": 120.24,
     "my_proj": 108.76,
     "opp_proj": 97.97,
     "win_prob": 0.62,
-    "proj_note": "Live blend on Saturday: Pickens 23.50 final, Lamb 1.90 final. Orig proj 97.69 vs 112.47."
+    "proj_note": "Live blend on Saturday: Pickens 23.50 final, Lamb 1.90 final. Orig proj 97.69 vs 112.47.",
+    "result": "L"
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
       "proj": 17.51,
-      "status": "pending",
-      "game": "Sun 1:00 vs MIN"
+      "status": "final",
+      "game": "Final L 13-23 vs MIN",
+      "actual": 1.84,
+      "stat": "96 pass yds, 0 TD, 2 INT"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
       "proj": 15.86,
-      "status": "pending",
-      "game": "Sun 4:25 @ SEA"
+      "status": "final",
+      "game": "Final W 32-29 @ SEA",
+      "actual": 15.8,
+      "stat": "68 rush yds, 1 TD; 3 rec"
     },
     {
       "slot": "RB",
       "player": "Aaron Jones Sr.",
       "proj": 12.98,
-      "status": "pending",
-      "game": "Sun 1:00 @ NO"
+      "status": "final",
+      "game": "Final W 23-13 @ NO",
+      "actual": 17.2,
+      "stat": "113 rush yds, 1 TD, 1 fum lost"
     },
     {
       "slot": "WR",
@@ -48,88 +55,112 @@
       "slot": "WR",
       "player": "Courtland Sutton",
       "proj": 8.59,
-      "status": "pending",
-      "game": "Sun 4:05 @ LAC"
+      "status": "final",
+      "game": "Final W 23-17 @ LAC",
+      "actual": 8.8,
+      "stat": "3 tgt 2-18, 1 TD; 50 snaps (81%)"
     },
     {
       "slot": "TE",
       "player": "Harold Fannin Jr.",
       "proj": 8.83,
-      "status": "pending",
-      "game": "Sun 1:00 @ NYJ"
+      "status": "final",
+      "game": "Final L 12-17 @ NYJ",
+      "actual": 0.9,
+      "stat": "4 tgt 1-4; 63/68 snaps, rain, 8 sacks taken"
     },
     {
       "slot": "W/R/T",
       "player": "MarShawn Lloyd",
       "proj": 8.94,
-      "status": "pending",
-      "game": "Sun 1:00 vs CHI"
+      "status": "final",
+      "game": "Final W 31-7 vs CHI",
+      "actual": 16.2,
+      "stat": "31 rush yds, 2 TD; 6 rec yds"
     },
     {
       "slot": "K",
       "player": "Eddy Pineiro",
       "proj": 7.59,
-      "status": "pending",
-      "game": "Sun 4:25 @ SEA"
+      "status": "final",
+      "game": "Final W 32-29 @ SEA",
+      "actual": 7.0,
+      "stat": "1 FG 40-49, 3 PAT"
     },
     {
       "slot": "DEF",
       "player": "Lions",
       "proj": 6.19,
-      "status": "pending",
-      "game": "Sun 4:25 @ ARI"
+      "status": "final",
+      "game": "Final W 45-21 @ ARI",
+      "actual": 7.0,
+      "stat": "5 sacks, 1 INT"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
       "proj": 7.36,
-      "status": "pending",
-      "game": "Sun 9:30am vs PHI"
+      "status": "final",
+      "game": "Final W 19-17 vs PHI",
+      "actual": 4.7,
+      "stat": "2 rec 37 yds"
     },
     {
       "slot": "BN",
       "player": "Tetairoa McMillan",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Bye"
+      "status": "bye",
+      "game": "Bye",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Lamar Jackson",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 8:20 @ ATL",
-      "flag": "O"
+      "status": "final",
+      "game": "Final W 30-23 @ ATL",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out (ankle)"
     },
     {
       "slot": "BN",
       "player": "Breece Hall",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 vs CLE",
-      "flag": "O"
+      "status": "final",
+      "game": "Final W 17-12 vs CLE",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out (quad)"
     },
     {
       "slot": "BN",
       "player": "Dallas Goedert",
       "proj": 8.56,
-      "status": "pending",
-      "game": "Sun 9:30am @ JAX"
+      "status": "final",
+      "game": "Final L 17-19 @ JAX",
+      "actual": 6.8,
+      "stat": "9 tgt 6-38; 43 snaps, team-high targets"
     },
     {
       "slot": "BN",
       "player": "Harrison Butker",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Bye"
+      "status": "bye",
+      "game": "Bye",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ PIT",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final L 22-34 @ PIT",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [
@@ -193,5 +224,22 @@
     "Sun 9:30am: Goedert and Meyers (both bench) play in London.",
     "Week 6: Lions + Jones bye. After Pineiro's game Sunday, drop him for a streamed DEF; it must be done by Thu Oct 15. Waiver priority is now 12th, so prefer a straight FA.",
     "Lamar's ankle - check his week-6 status Wednesday."
-  ]
+  ],
+  "review": {
+    "optimal": 104.14,
+    "started": 98.24,
+    "left_on_bench": 5.9,
+    "efficiency": 0.943,
+    "margin_of_defeat": 22.0,
+    "misses": [
+      {
+        "slot": "TE",
+        "should_start": "Dallas Goedert",
+        "over": "Harold Fannin Jr.",
+        "cost": 5.9,
+        "proj_gap": -0.27
+      }
+    ],
+    "verdict": "Lost by 22.00; no available swap would have flipped it. Shough's 1.84 (2 INT) with Lamar out was the hole. Sutton over Meyers +4.10 and Lloyd at flex (16.20) were right. Fannin over Goedert cost 5.90: Fannin kept a 93% snap share but drew 4 targets in rain behind 8 sacks; Goedert drew 9."
+  }
 }

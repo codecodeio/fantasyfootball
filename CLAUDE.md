@@ -62,7 +62,7 @@ Capture and lineup changes are both **agent-driven** through the Chrome DevTools
 2. It writes `data/2026/weekly/wkNN.json` in the same shape as `wk01.json`.
 3. Set `"complete": true` only once every game has finished (after Monday night).
 
-✅ `wk01.json`–`wk04.json` are final (`complete: true`). `wk05.json` is a Thursday lineup capture
+✅ `wk01.json`–`wk05.json` are final (`complete: true`). `wk06.json` is a Thursday lineup capture
 and is still **partial** — re-capture after Monday night.
 
 A launchd job nudges Matt every **Wednesday 18:00** (`com.fantasyfootball.weeklyreminder`).
@@ -102,7 +102,7 @@ Each of these cost points or produced a wrong answer once. Follow them before to
 7. **`Team NN` means different teams in different files.** Weekly files and the season log use the
    **Yahoo team id** (ours is 7). `draft.json`'s `league_totals` uses **draft-time projection rank**
    — it has no Team 03 because rank 3 is ours. Never join the two on the label.
-8. **Week 6 has no DEF.** The Lions are on bye and there is no backup — stream one, by Thursday.
+8. **Bye-week DEF streams must happen by Thursday.** Week 6 (Lions bye) was covered by streaming the Chiefs; with one DEF rostered, every future Lions bye needs the same.
 
 ## Files
 

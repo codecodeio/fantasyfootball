@@ -24,8 +24,8 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 2 | 2026-09-20 | Team 01 | 103.59 | 94.10 | 90.46 | **W** |
 | 3 | 2026-09-27 | Team 04 | 117.18 | 106.74 | 109.08 | **L** |
 | 4 | 2026-10-04 | Team 05 | 107.87 | 117.88 | 89.82 | **W** |
-| 5 | 2026-10-11 | Team 09 | 97.69 | — | — | pending |
-| 6 | 2026-10-18 | Team 08 | — | — | — | — |
+| 5 | 2026-10-11 | Team 09 | 97.69 | 98.24 | 120.24 | **L** |
+| 6 | 2026-10-18 | Team 08 | 102.99 | — | — | pending |
 | 7 | 2026-10-25 | Team 12 | — | — | — | — |
 | 8 | 2026-11-01 | Team 06 | — | — | — | — |
 | 9 | 2026-11-08 | Team 10 | — | — | — | — |
@@ -39,7 +39,7 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 17 | 2027-01-03 | TBD | — | — | — | 🏆 final |
 | 18 | 2027-01-10 | — | — | — | — | off (league ends wk 17) |
 
-**Record: 2–2.** Running lineup efficiency: 88.9% (4 complete weeks: 413.88 started of 465.36 optimal).
+**Record: 2–3.** Running lineup efficiency: 89.9% (5 complete weeks: 512.12 started of 569.50 optimal).
 
 ⚠️ `analyze.py`'s "left on bench" is cruder than these figures: best bench score minus worst starter
 score, ignoring positions (week 2 reports 24.38 = Shough − Lions DEF, which is not a legal swap). The
@@ -63,6 +63,7 @@ That is the clearest illustration of why the two label schemes must never be joi
 | 2026-09-24 | 3 | IR | Alec Pierce (IND, WR) → IR | — | Free — Yahoo already IR-eligible; opens a bench spot |
 | 2026-10-01 | 4 | Add (FA) | Jakobi Meyers (JAX, WR, bye 7) | — (empty spot) | Free: no waiver priority used (still 3rd). Johnston, the planned claim, was never submitted and went to another team |
 | 2026-10-10 | 5 | Waiver claim | Courtland Sutton (DEN, WR, bye 10) | Kaelon Black (SF, RB) | Waiver priority 3rd → 12th |
+| 2026-10-15 | 6 | Add / drop (FA) | Chiefs (KC, DEF) | Eddy Pineiro (SF, K) | Free agent, no priority used. Streams the Lions' bye |
 
 **Trades: none.** The draft log carries a standing recommendation to trade an RB for a WR (1st in
 projected RB points, 10th in WR). Deadline **2026-11-28**, league vote.
@@ -74,8 +75,8 @@ Current roster byes, and whether the position is covered.
 | Wk | On bye | Covered? |
 |---:|---|---|
 | 5 | McMillan (WR), Butker (K) | ✅ Meyers covers WR2. Pineiro covers K |
-| 6 | Jones (RB), **Lions (DEF)** | ⚠️ **Stream a DEF; drop Pineiro for it.** RB2 is Lloyd unless Hall returns |
-| 8 | McCaffrey (RB), Black (RB), Shough (QB), Pineiro (K) | ✅ Lamar at QB, Butker at K; RB thins to Hall/Jones/Lloyd |
+| 6 | Jones (RB), **Lions (DEF)** | ✅ Chiefs streamed (Pineiro dropped). Lloyd at RB2 |
+| 8 | McCaffrey (RB), Shough (QB) | ⚠️ QB depends on Lamar's ankle; RB is Jones/Lloyd (+ Hall if back). Black and Pineiro are gone |
 | 10 | Goedert (TE) | ✅ Fannin covers (Goedert is out "a few weeks" with an MCL sprain anyway) |
 | 11 | Fannin (TE), Lloyd (RB) | ✅ Goedert covers |
 | 13 | Lamar (QB), Hall (RB), Pierce (WR) | ✅ Shough covers QB |
@@ -419,7 +420,40 @@ The case for it rests on Lloyd's role shrinking three weeks running, which is re
 rather than one bad game. If Lloyd outscores Meyers, check whether Green Bay's backfield
 shifted before calling it a mistake.
 
-## Week 5 — projected 97.75 vs 111.22 (vs Team 09) · underdog · pending
+## Week 5 — **L** 98.24 to 120.24 (vs Team 09)
+
+### Result (finalised 2026-10-15)
+
+| Slot | Player | Proj | Actual | Line |
+|---|---|---:|---:|---|
+| QB | Tyler Shough | 17.51 | **1.84** | 96 yds, 0 TD, 2 INT |
+| RB | Christian McCaffrey | 15.86 | 15.80 | 68 rush, 1 TD |
+| RB | Aaron Jones Sr. | 12.98 | 17.20 | 113 rush, 1 TD, fumble lost |
+| WR | George Pickens | 12.43 | 23.50 | 9-130-1 |
+| WR | Courtland Sutton | 8.59 | 8.80 | 3 tgt 2-18-1 |
+| TE | Harold Fannin Jr. | 8.83 | **0.90** | 4 tgt 1-4, in rain behind 8 sacks |
+| W/R/T | MarShawn Lloyd | 8.94 | 16.20 | 2 rush TD |
+| K | Eddy Pineiro | 7.59 | 7.00 | |
+| DEF | Lions | 6.19 | 7.00 | 5 sacks, 1 INT |
+| | **Started** | | **98.24** | |
+
+Bench: Goedert 6.80 (9 tgt 6-38) · Meyers 4.70 · Lamar, Hall out · McMillan, Butker bye.
+
+**Optimal 104.14 · started 98.24 · 5.90 left · 94.3% efficiency.** Lost by 22.00; no swap on the
+roster would have flipped it.
+
+**Scoring the calls.**
+- ✅ **Sutton over Meyers** at WR, +4.10.
+- ✅ **Lloyd at flex.** He scored 16.20, and the Saturday reversal of the plan to flex Sutton was right.
+- ✅ **Shough for Lamar.** Lamar was ruled out, so this was forced. Shough's 1.84 is what lost the week.
+- ❌ **Fannin over Goedert, −5.90.** The tiebreak said Fannin on route share. Goedert's target share turned
+  out to be the better signal, because Philadelphia was missing Smith and Barkley.
+- **Shough-pattern update:** the trend from week 3 (Shough beating Lamar three weeks running) is now
+  muddied. Shough's two starts since are 15.94 and 1.84. Three good weeks were a small sample, and this
+  is why the log flagged it as one.
+
+## Week 5 — the pre-game plan (2026-10-08)
+
 *Byes: McMillan (WR), Butker (K). Lineup set Thursday 2026-10-08 before TNF (TB @ DAL, where Pickens plays).*
 
 As found, the lineup read **72.59 vs 111.22 (17%)**: both bye-week players were in starting slots, and
@@ -467,10 +501,42 @@ Shough call.
 18-point one. Since Shough's game is three hours earlier, the decision can't wait for Lamar's status. A
 boot and an "unlikely" report make it clear-cut on expected value.
 
-## Week 6 — 2026-10-18
-*Not yet played. Byes: Jones (RB), **Lions (DEF)**.*
-⚠️ **No backup DEF rostered — stream one by Thursday Oct 15, dropping Pineiro (Butker is back).**
-Lamar may miss this week too, in which case Shough starts. RB2 is Lloyd unless Hall is back.
+## Week 6 — projected 102.99 vs 96.19 (vs Team 08) · 57% favourite · pending
+*Byes: Jones (RB), Lions (DEF). Lineup set Thursday 2026-10-15 before TNF (SEA @ DEN, where Sutton plays and is benched).*
+
+The lineup as found was **83.99 vs 96.19 (37%)**: Jones and the Lions sat in starting slots on their byes,
+and McMillan (back from his bye) was still on the bench.
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **+ Chiefs DEF / − Pineiro** (FA) | +7.74 | Top FA DEF vs LAC, ~1 point clear of the Panthers. Free to start, so no waiver priority was used (we're 12th). Dropped Pineiro rather than Butker: Pineiro still has a week-8 bye, Butker's is used, and 0.58 between kickers is noise |
+| 2 | **Lloyd to RB** for Jones | +10.95 | Jones bye |
+| 3 | **McMillan in, Sutton out** (WR) | +4.49 | McMillan back from bye at 11.59 |
+| 4 | **Meyers to flex** over Sutton | +0.40 | Near-tied, so usage decides: Sutton's targets are down to 5.0/game (3 in week 5) despite an 81% snap share. Sutton plays Thursday, so it had to be decided now |
+| 5 | **Goedert in, Fannin out** (TE) | −0.15 | Near-tied, so usage decides: Goedert had 9 targets (team-high) on a depleted Philadelphia, while Fannin had 4. The reason is the target count, not last week's 6.80 vs 0.90 |
+
+Result: **102.99 vs 96.19, 57% favourite.**
+
+### QB: Shough by default; Lamar if he's active
+
+Lamar (Q, ankle) missed Wednesday's and Thursday's practice. Schefter says he has a "realistic chance";
+NBC says the chance is very small. The projections are tied (Lamar 17.70, Shough 17.64), but Lamar's
+figure already includes the chance that he sits, so **if he's active, his real expectation is higher.**
+Both games kick off at 1:00, so the fallback only works one way: **Shough starts now** because he can't
+be inactive, and **Lamar goes in at ~11:30 Sunday if he's listed active.**
+
+### The plan for the rest of the week
+
+| When | What |
+|---|---|
+| **Thu 8:15 pm** | Sutton plays (bench). Nothing locks for us |
+| **Sun 9:30 am** | Meyers (flex) plays in London and locks first |
+| **Sun ~11:30 am** | **Inactives: if Lamar is active, swap him in for Shough** |
+| **Mon night** | McCaffrey plays (vs WAS). Re-capture afterwards |
+
+**The argument against the TE call:** Fannin keeps a 93% snap share, and his week 5 dud came in rain
+behind 8 sacks, which won't repeat. If he outscores Goedert, the lesson is that route share beats a
+one-week target spike on a team missing its starters.
 
 ## Week 7 — 2026-10-25
 *Not yet played. Byes: none.*

@@ -1,0 +1,201 @@
+{
+  "season": 2026,
+  "week": 6,
+  "captured_at": "2026-10-15T00:00:00-04:00",
+  "complete": false,
+  "note": "Lineup capture Thursday 2026-10-15 before TNF (SEA @ DEN; Sutton plays, benched). Byes: Jones, Lions. Re-capture after MNF (WAS @ SF) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 08",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 102.99,
+    "opp_proj": 96.19,
+    "win_prob": 0.57
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Tyler Shough",
+      "proj": 17.64,
+      "status": "pending",
+      "game": "Sun 1:00 @ NYG"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 18.2,
+      "status": "pending",
+      "game": "Mon 8:15 vs WAS"
+    },
+    {
+      "slot": "RB",
+      "player": "MarShawn Lloyd",
+      "proj": 10.95,
+      "status": "pending",
+      "game": "Sun 8:20 vs DAL"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 12.22,
+      "status": "pending",
+      "game": "Sun 8:20 @ GB"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 11.59,
+      "status": "pending",
+      "game": "Sun 1:00 @ PHI"
+    },
+    {
+      "slot": "TE",
+      "player": "Dallas Goedert",
+      "proj": 8.82,
+      "status": "pending",
+      "game": "Sun 1:00 vs CAR"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "Jakobi Meyers",
+      "proj": 7.5,
+      "status": "pending",
+      "game": "Sun 9:30am vs HOU"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 8.33,
+      "status": "pending",
+      "game": "Sun 4:25 vs LAC"
+    },
+    {
+      "slot": "DEF",
+      "player": "Chiefs",
+      "proj": 7.74,
+      "status": "pending",
+      "game": "Sun 4:25 vs LAC"
+    },
+    {
+      "slot": "BN",
+      "player": "Courtland Sutton",
+      "proj": 7.1,
+      "status": "pending",
+      "game": "Thu 8:15 vs SEA"
+    },
+    {
+      "slot": "BN",
+      "player": "Harold Fannin Jr.",
+      "proj": 8.97,
+      "status": "pending",
+      "game": "Sun 1:00 vs BAL"
+    },
+    {
+      "slot": "BN",
+      "player": "Lamar Jackson",
+      "proj": 17.7,
+      "status": "pending",
+      "game": "Sun 1:00 @ CLE",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Breece Hall",
+      "proj": 2.54,
+      "status": "pending",
+      "game": "Sun 1:00 @ NE",
+      "flag": "D"
+    },
+    {
+      "slot": "BN",
+      "player": "Aaron Jones Sr.",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye"
+    },
+    {
+      "slot": "BN",
+      "player": "Lions",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 vs TEN",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [
+    {
+      "type": "add_drop",
+      "player": "Chiefs (KC, DEF)",
+      "drop": "Eddy Pineiro (SF, K)",
+      "date": "2026-10-15",
+      "source": "free agent",
+      "why": "Lions bye. Chiefs were the top FA DEF (7.74 vs LAC), ~1 point clear of the Panthers (6.78), and free to start immediately with waiver priority at 12th. Pineiro over Butker as the drop: Pineiro still has a week-8 bye and Butker's is used; the 0.58 kicker gap this week is noise."
+    }
+  ],
+  "lineup_changes": [
+    {
+      "in": "Chiefs",
+      "out": "Lions",
+      "slot": "DEF",
+      "proj_delta": 7.74,
+      "why": "Lions bye."
+    },
+    {
+      "in": "Harrison Butker",
+      "out": "(Pineiro dropped)",
+      "slot": "K",
+      "proj_delta": -0.58,
+      "why": "Pineiro dropped for the DEF."
+    },
+    {
+      "in": "MarShawn Lloyd",
+      "out": "Aaron Jones Sr.",
+      "slot": "RB",
+      "proj_delta": 10.95,
+      "why": "Jones bye."
+    },
+    {
+      "in": "Tetairoa McMillan",
+      "out": "Courtland Sutton",
+      "slot": "WR",
+      "proj_delta": 4.49,
+      "why": "McMillan back from bye at 11.59."
+    },
+    {
+      "in": "Jakobi Meyers",
+      "out": "(Lloyd moved to RB)",
+      "slot": "W/R/T",
+      "proj_delta": 0.4,
+      "why": "Near-tied with Sutton (7.50 vs 7.10), so usage decides. Sutton plays 81% of snaps but his targets have fallen to 5.0 a game, with 3 in week 5. Sutton plays Thursday, so the call had to be made now."
+    },
+    {
+      "in": "Dallas Goedert",
+      "out": "Harold Fannin Jr.",
+      "slot": "TE",
+      "proj_delta": -0.15,
+      "why": "Near-tied, so usage decides: Goedert 9 targets (team-high) in his return, with Philadelphia thin at WR/RB. Fannin keeps a 93% snap share but drew 4 targets and his QB took 8 sacks. Last week's points (6.80 vs 0.90) are not the reason - the target counts are."
+    }
+  ],
+  "held": [
+    {
+      "slot": "QB",
+      "kept": "Tyler Shough",
+      "over": "Lamar Jackson (Q, ankle)",
+      "proj_gap": -0.06,
+      "why": "Safe default. Lamar missed Wed and Thu practice; Schefter says a 'realistic chance', NBC says very small. Both kick off at 1:00 Sunday, so the fallback works only one way: start Shough now (he cannot be inactive), and switch to Lamar at ~11:30 Sunday if Lamar is active. Lamar's 17.70 includes the chance he sits, so if active his real expectation is higher."
+    }
+  ],
+  "signals": [
+    "Sunday ~11:30 ET: if Lamar is ACTIVE, swap him in for Shough. If inactive, nothing to do.",
+    "Sun 9:30am: Meyers (flex) plays in London and locks first.",
+    "Week 7: Meyers bye -> Sutton back in. Week 8: McCaffrey + Shough bye; Lamar's ankle decides QB.",
+    "Hall: D again (week 3 of the quad injury). Second IR slot is open if Yahoo ever lists him O/IR."
+  ]
+}
