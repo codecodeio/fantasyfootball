@@ -103,6 +103,8 @@ Each of these cost points or produced a wrong answer once. Follow them before to
    **Yahoo team id** (ours is 7). `draft.json`'s `league_totals` uses **draft-time projection rank**
    — it has no Team 03 because rank 3 is ours. Never join the two on the label.
 8. **Bye-week DEF streams must happen by Thursday.** Week 6 (Lions bye) was covered by streaming the Chiefs; if the roster goes back to one DEF, every future bye needs the same.
+9. **Check the flex against every eligible bench player, TEs included.** In week 6 the Thursday review
+   compared only WRs for W/R/T and missed that the benched TE (Fannin, 8.43) beat the flex (Meyers, 7.49).
 
 ## Files
 
