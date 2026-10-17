@@ -25,7 +25,7 @@ Regular season is **weeks 1–14**; weeks 12–14 rematch weeks 1–3. Playoffs 
 | 3 | 2026-09-27 | Team 04 | 117.18 | 106.74 | 109.08 | **L** |
 | 4 | 2026-10-04 | Team 05 | 107.87 | 117.88 | 89.82 | **W** |
 | 5 | 2026-10-11 | Team 09 | 97.69 | 98.24 | 120.24 | **L** |
-| 6 | 2026-10-18 | Team 08 | 102.99 | — | — | pending |
+| 6 | 2026-10-18 | Team 08 | 104.31 | — | — | pending |
 | 7 | 2026-10-25 | Team 12 | — | — | — | — |
 | 8 | 2026-11-01 | Team 06 | — | — | — | — |
 | 9 | 2026-11-08 | Team 10 | — | — | — | — |
@@ -517,7 +517,21 @@ and McMillan (back from his bye) was still on the bench.
 
 Result: **102.99 vs 96.19, 57% favourite.**
 
-### QB: Shough by default; Lamar if he's active
+### Saturday update (2026-10-17)
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 6 | **Fannin to flex, Meyers benched** | +0.94 | TE is flex-eligible, and Thursday's review missed that. Near-tied, so usage decides, and it agrees with the projection: Fannin has 27 targets in 5 games (5.4/game), a 93% snap share and red-zone work (3 TDs). Meyers has 18 targets (3.6/game), only 3 last week |
+
+**Lamar was ruled Out** on Friday's final report, so the Sunday 11:30 contingency below no longer applies;
+Shough starts. With both TEs starting, the risk is correlation, not volume: they play different teams.
+Result: **104.31 vs 100.47, a 54% favourite.** The opponent upgraded since Thursday (from 96.19), so our
+lead narrowed even though we improved.
+
+**Lesson for the review checklist:** check the flex against *every* eligible bench player, TEs included,
+not just WRs and RBs.
+
+### QB: Shough by default; Lamar if he's active (Thursday plan, now moot)
 
 Lamar (Q, ankle) missed Wednesday's and Thursday's practice. Schefter says he has a "realistic chance";
 NBC says the chance is very small. The projections are tied (Lamar 17.70, Shough 17.64), but Lamar's
