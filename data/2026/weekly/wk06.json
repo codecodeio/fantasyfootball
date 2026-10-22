@@ -2,131 +2,165 @@
   "season": 2026,
   "week": 6,
   "captured_at": "2026-10-17T00:00:00-04:00",
-  "complete": false,
-  "note": "Lineup capture Thursday 2026-10-15, revised Saturday 2026-10-17 (Fannin to flex) before TNF (SEA @ DEN; Sutton plays, benched). Byes: Jones, Lions. Re-capture after MNF (WAS @ SF) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "complete": true,
+  "note": "Lineup capture Thursday 2026-10-15, revised Saturday 2026-10-17 (Fannin to flex) before TNF (SEA @ DEN; Sutton plays, benched). Byes: Jones, Lions. Finalised 2026-10-22 from the Yahoo week-6 matchup page. proj values are Saturday's. Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 08",
-    "my_score": 0.0,
-    "opp_score": 0.0,
+    "my_score": 114.56,
+    "opp_score": 86.9,
     "my_proj": 104.31,
     "opp_proj": 100.47,
-    "win_prob": 0.54
+    "win_prob": 0.54,
+    "result": "W",
+    "proj_note": "Orig proj 104.23 vs 92.24."
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
       "proj": 17.78,
-      "status": "pending",
-      "game": "Sun 1:00 @ NYG"
+      "status": "final",
+      "game": "Final W 34-27 @ NYG",
+      "actual": 26.96,
+      "stat": "144 pass yds, 3 TD; 32 rush yds, 1 TD"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
       "proj": 18.16,
-      "status": "pending",
-      "game": "Mon 8:15 vs WAS"
+      "status": "final",
+      "game": "Final W 23-17 vs WAS",
+      "actual": 26.2,
+      "stat": "64 rush yds, 2 TD; 9 rec, 53 yds; fumble lost"
     },
     {
       "slot": "RB",
       "player": "MarShawn Lloyd",
       "proj": 11.2,
-      "status": "pending",
-      "game": "Sun 8:20 vs DAL"
+      "status": "final",
+      "game": "Final W 23-13 vs DAL",
+      "actual": 1.0,
+      "stat": "8 rush, 10 yds"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
       "proj": 12.1,
-      "status": "pending",
-      "game": "Sun 8:20 @ GB"
+      "status": "final",
+      "game": "Final L 13-23 @ GB",
+      "actual": 10.3,
+      "stat": "6 rec, 73 yds"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
       "proj": 11.58,
-      "status": "pending",
-      "game": "Sun 1:00 @ PHI"
+      "status": "final",
+      "game": "Final W 25-14 @ PHI",
+      "actual": 11.6,
+      "stat": "6 rec, 86 yds"
     },
     {
       "slot": "TE",
       "player": "Dallas Goedert",
       "proj": 9.0,
-      "status": "pending",
-      "game": "Sun 1:00 vs CAR"
+      "status": "final",
+      "game": "Final L 14-25 vs CAR",
+      "actual": 9.1,
+      "stat": "6 rec, 61 yds"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
       "proj": 7.49,
-      "status": "pending",
-      "game": "Sun 9:30am vs HOU"
+      "status": "final",
+      "game": "Final L 31-34 vs HOU",
+      "actual": 10.8,
+      "stat": "5 rec, 83 yds"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
       "proj": 8.32,
-      "status": "pending",
-      "game": "Sun 4:25 vs LAC"
+      "status": "final",
+      "game": "Final W 22-6 vs LAC",
+      "actual": 13.0,
+      "stat": "3 FG (50+, 40-49, 30-39)"
     },
     {
       "slot": "DEF",
       "player": "Chiefs",
       "proj": 7.74,
-      "status": "pending",
-      "game": "Sun 4:25 vs LAC"
+      "status": "final",
+      "game": "Final W 22-6 vs LAC",
+      "actual": 15.0,
+      "stat": "6 pts allowed, 4 sacks, 1 INT"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
       "proj": 7.1,
-      "status": "pending",
-      "game": "Thu 8:15 vs SEA"
+      "status": "final",
+      "game": "Final W 17-14 vs SEA",
+      "actual": 2.9,
+      "stat": "2 rec, 19 yds"
     },
     {
       "slot": "W/R/T",
       "player": "Harold Fannin Jr.",
       "proj": 8.43,
-      "status": "pending",
-      "game": "Sun 1:00 vs BAL"
+      "status": "final",
+      "game": "Final W 13-10 vs BAL",
+      "actual": 1.4,
+      "stat": "1 rec, 9 yds"
     },
     {
       "slot": "BN",
       "player": "Lamar Jackson",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ CLE",
-      "flag": "O"
+      "status": "final",
+      "game": "Final L 10-13 @ CLE",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "BN",
       "player": "Breece Hall",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ NE",
-      "flag": "O"
+      "status": "final",
+      "game": "Final L 19-26 @ NE",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "BN",
       "player": "Aaron Jones Sr.",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Bye"
+      "status": "final",
+      "game": "Bye",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Lions",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Bye"
+      "status": "final",
+      "game": "Bye",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 vs TEN",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final L 20-26 vs TEN",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [
@@ -204,5 +238,22 @@
     "No Sunday action needed: Lamar is Out, Meyers (London, 9:30) is benched.",
     "Week 7: Meyers bye -> Sutton back in. Week 8: McCaffrey + Shough bye; Lamar's ankle decides QB.",
     "Hall: D again (week 3 of the quad injury). Second IR slot is open if Yahoo ever lists him O/IR."
-  ]
+  ],
+  "review": {
+    "optimal": 123.96,
+    "started": 114.56,
+    "left_on_bench": 9.4,
+    "efficiency": 0.924,
+    "margin_of_victory": 27.66,
+    "misses": [
+      {
+        "slot": "W/R/T",
+        "should_start": "Jakobi Meyers",
+        "over": "Harold Fannin Jr.",
+        "cost": 9.4,
+        "proj_gap": -0.94
+      }
+    ],
+    "verdict": "Won by 27.66. Shough (26.96) covered Lamar's absence; McCaffrey 26.20, Chiefs stream 15.00, Butker 13.00. The Saturday flex switch to Fannin (1.40, 1 target) cost 9.40 against Meyers (10.80); the projection and target share both favoured Fannin, so this is variance on a 0.94 gap, not a process error. Second straight Fannin dud (0.90, 1.40)."
+  }
 }

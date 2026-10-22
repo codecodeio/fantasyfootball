@@ -501,7 +501,32 @@ Shough call.
 18-point one. Since Shough's game is three hours earlier, the decision can't wait for Lamar's status. A
 boot and an "unlikely" report make it clear-cut on expected value.
 
-## Week 6 — projected 102.99 vs 96.19 (vs Team 08) · 57% favourite · pending
+## Week 6 — **W** 114.56 to 86.90 (vs Team 08)
+
+### Result (finalised 2026-10-22)
+
+| Slot | Player | Proj | Actual | Line |
+|---|---|---:|---:|---|
+| QB | Tyler Shough | 17.78 | **26.96** | 144 pass, 3 TD; 32 rush, 1 TD |
+| RB | Christian McCaffrey | 18.16 | 26.20 | 64 rush, 2 TD; 9-53; fumble lost |
+| RB | MarShawn Lloyd | 11.20 | **1.00** | 8 rush, 10 yds |
+| WR | George Pickens | 12.10 | 10.30 | 6-73 |
+| WR | Tetairoa McMillan | 11.58 | 11.60 | 6-86 |
+| TE | Dallas Goedert | 9.00 | 9.10 | 6-61 |
+| W/R/T | Harold Fannin Jr. | 8.43 | **1.40** | 1-9 |
+| K | Harrison Butker | 8.32 | 13.00 | 3 FG |
+| DEF | Chiefs | 7.74 | 15.00 | 6 allowed, 4 sacks, 1 INT |
+| BN | Jakobi Meyers | 7.49 | 10.80 | 5-83 |
+| BN | Courtland Sutton | 7.10 | 2.90 | 2-19 |
+
+**Optimal 123.96 · started 114.56 · 9.40 left on the bench · 92.4% efficiency.**
+
+The one miss was the Saturday flex switch: Fannin (1.40) over Meyers (10.80) cost 9.40. The projection
+(+0.94) and the target share both said Fannin, so this was a sound call that lost, not a process error.
+But it is Fannin's second straight dud (0.90, then 1.40), so his week 7 usage is worth watching.
+The Chiefs stream (15.00) and Goedert over Fannin at TE (9.10 vs 1.40) were right.
+
+### Pre-game (2026-10-15 to 10-17) · projected 102.99 vs 96.19 · 57% favourite
 *Byes: Jones (RB), Lions (DEF). Lineup set Thursday 2026-10-15 before TNF (SEA @ DEN, where Sutton plays and is benched).*
 
 The lineup as found was **83.99 vs 96.19 (37%)**: Jones and the Lions sat in starting slots on their byes,
@@ -552,8 +577,34 @@ be inactive, and **Lamar goes in at ~11:30 Sunday if he's listed active.**
 behind 8 sacks, which won't repeat. If he outscores Goedert, the lesson is that route share beats a
 one-week target spike on a team missing its starters.
 
-## Week 7 — 2026-10-25
-*Not yet played. Byes: none.*
+## Week 7 — projected 99.79 vs 84.95 (vs Team 12) · 65% favourite · pending
+*Byes: Meyers (WR). Lineup reviewed Thursday 2026-10-22. None of our players are in TNF.*
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **Jones in, Lloyd benched** (RB) | +6.71 | Jones back from bye at 10.71. Lloyd projects 4.00 because Josh Jacobs is expected back for Green Bay, and Lloyd had 8 carries for 10 yards in week 6 |
+| 2 | **Lions in, Chiefs benched** (DEF) | +0.16 | Near-tied (5.78 vs 5.62). The Lions are the higher projection and the season-long DEF. Set before Thursday per rule 1 |
+
+Held, with the reasons:
+
+- **QB: Shough (17.20) over Lamar (Q, 20.43), for now.** Lamar was limited Wednesday, his first work since
+  the ankle sprain. Shough plays in **London at 9:30**, before Lamar's 1:00 kickoff, so the safe fallback
+  isn't available: once Shough's game starts he's locked, and a Lamar who is ruled out at 11:30 scores 0.
+  **Decide after Friday's final injury report:** if Lamar has no game designation, start him; if he's still
+  Q, stay with Shough.
+- **Flex: Fannin (7.88) over Hall (Q, 12.40), for now.** Hall has missed three games with the quad injury
+  and was only back on the practice field Thursday. Both play at 1:00, so this fallback does work:
+  **at Sunday ~11:30 inactives, if Hall is active, swap him in for Fannin.**
+- Sutton (7.83) vs Fannin (7.88) for the flex is a tie; Fannin keeps it on snap share (93%).
+
+### The plan for the rest of the week
+
+| When | What |
+|---|---|
+| **Fri pm** | Final injury report: decide Lamar vs Shough |
+| **Sun 9:30 am** | Shough (if starting) plays in London and locks |
+| **Sun ~11:30 am** | **Inactives: if Hall is active, Hall in for Fannin** |
+| **Mon night** | Pickens and Goedert (DAL @ PHI). Re-capture afterwards |
 
 ## Week 8 — 2026-11-01
 *Not yet played. Byes: McCaffrey (RB), Black (RB), Shough (QB), Pineiro (K).*
