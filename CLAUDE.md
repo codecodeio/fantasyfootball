@@ -62,7 +62,7 @@ Capture and lineup changes are both **agent-driven** through the Chrome DevTools
 2. It writes `data/2026/weekly/wkNN.json` in the same shape as `wk01.json`.
 3. Set `"complete": true` only once every game has finished (after Monday night).
 
-✅ `wk01.json`–`wk05.json` are final (`complete: true`). `wk06.json` is a Thursday lineup capture
+✅ `wk01.json`–`wk06.json` are final (`complete: true`). `wk07.json` is a Thursday lineup capture
 and is still **partial** — re-capture after Monday night.
 
 A launchd job nudges Matt every **Wednesday 18:00** (`com.fantasyfootball.weeklyreminder`).
