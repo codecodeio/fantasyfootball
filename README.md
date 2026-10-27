@@ -5,7 +5,7 @@ Season record and decision post-mortem for Matt's Yahoo fantasy team **Tuchus Pu
 
 Tracks what was drafted, why, and whether it worked — so next year's draft runs on evidence.
 
-Part of Matt's `codecodeio` portfolio, orchestrated by [aiguru](https://github.com/codecodeio/aiguru).
+Part of Matt's `codecodeio` portfolio.
 
 ## Setup
 

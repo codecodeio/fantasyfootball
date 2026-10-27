@@ -13,7 +13,7 @@ reasoning against reality so next year's draft is run on evidence instead of ins
 `notes/<season>-draft-log.md` marked confirmed or rejected.
 
 This is a standalone git repo (`fantasyfootball`, GitHub: `codecodeio/fantasyfootball`). It lives as a
-sibling under `repos/` and is orchestrated by **aiguru** — see `../aiguru/brain/projects.md`.
+sibling under `repos/`; cross-project preferences live in `~/.claude/CLAUDE.md`.
 
 ## League facts (do not re-derive — read `data/2026/league.json`)
 
@@ -31,7 +31,7 @@ sibling under `repos/` and is orchestrated by **aiguru** — see `../aiguru/brai
   never pay the premium option — the method is `notes/draft-strategy.md` rule 2.
   **In season it is relaxed (2026-09-24):** a PHI player may be dropped whenever keeping one costs value.
 
-## House conventions (inherited from aiguru)
+## House conventions (from `~/.claude/CLAUDE.md`)
 
 - **Python does math, Claude does the API** — deterministic scripts compute; the agent
   handles anything needing an MCP/LLM (e.g. reading the Yahoo page via Chrome DevTools MCP).
