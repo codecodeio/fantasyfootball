@@ -1,132 +1,166 @@
 {
   "season": 2026,
   "week": 7,
-  "captured_at": "2026-10-22T00:00:00-04:00",
-  "complete": false,
-  "note": "Lineup capture Thursday 2026-10-22. Byes: Meyers. No players in TNF. Re-capture after MNF (DAL @ PHI) to finalise. Opponent labels are the Yahoo team id; ours is 7.",
+  "captured_at": "2026-10-28T00:00:00-04:00",
+  "complete": true,
+  "note": "Lineup capture Thursday 2026-10-22. Byes: Meyers. No players in TNF. Lamar and Hall both inactive, so the Shough and Fannin holds stood. Finalised 2026-10-28 from the Yahoo week-7 matchup page; proj values are the page's frozen pre-game projections. Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 12",
-    "my_score": 0.0,
-    "opp_score": 0.0,
-    "my_proj": 99.79,
-    "opp_proj": 84.95,
-    "win_prob": 0.65
+    "my_score": 85.02,
+    "opp_score": 119.52,
+    "my_proj": 103.51,
+    "opp_proj": 101.88,
+    "win_prob": 0.65,
+    "result": "L",
+    "proj_note": "Orig proj 103.51 vs 101.88. win_prob is Thursday's."
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 17.2,
-      "status": "pending",
-      "game": "Sun 9:30am vs PIT (London)"
+      "proj": 16.75,
+      "status": "final",
+      "game": "Final L 10-16 vs PIT",
+      "actual": 14.82,
+      "stat": "278 pass yds, 1 TD, 1 INT"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 17.92,
-      "status": "pending",
-      "game": "Sun 1:00 @ ATL"
+      "proj": 19.05,
+      "status": "final",
+      "game": "Final L 20-29 @ ATL",
+      "actual": 19.0,
+      "stat": "39 rush yds, 1 TD; 61 rec yds"
     },
     {
       "slot": "RB",
       "player": "Aaron Jones Sr.",
-      "proj": 10.71,
-      "status": "pending",
-      "game": "Sun 1:00 vs IND"
+      "proj": 10.63,
+      "status": "final",
+      "game": "Final W 16-10 vs IND",
+      "actual": 3.1,
+      "stat": "26 rush yds; 1 rec"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
-      "proj": 11.21,
-      "status": "pending",
-      "game": "Mon 8:15 @ PHI"
+      "proj": 11.45,
+      "status": "final",
+      "game": "Final W 38-21 @ PHI",
+      "actual": 13.7,
+      "stat": "4 rec, 57 yds, 1 TD"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 12.35,
-      "status": "pending",
-      "game": "Sun 1:00 vs TB"
+      "proj": 12.92,
+      "status": "final",
+      "game": "Final L 13-43 vs TB",
+      "actual": 6.0,
+      "stat": "4 rec, 40 yds"
     },
     {
       "slot": "TE",
       "player": "Dallas Goedert",
-      "proj": 9.25,
-      "status": "pending",
-      "game": "Mon 8:15 vs DAL"
+      "proj": 11.39,
+      "status": "final",
+      "game": "Final L 21-38 vs DAL",
+      "actual": 7.3,
+      "stat": "5 rec, 48 yds"
     },
     {
       "slot": "W/R/T",
       "player": "Harold Fannin Jr.",
-      "proj": 7.88,
-      "status": "pending",
-      "game": "Sun 1:00 @ TEN"
+      "proj": 8.01,
+      "status": "final",
+      "game": "Final W 27-24 @ TEN",
+      "actual": 10.1,
+      "stat": "6 rec, 91 yds; fumble lost"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
       "proj": 7.49,
-      "status": "pending",
-      "game": "Sun 8:20 @ SEA"
+      "status": "final",
+      "game": "Final L 3-20 @ SEA",
+      "actual": 5.0,
+      "stat": "1 FG (50+)"
     },
     {
       "slot": "DEF",
       "player": "Lions",
-      "proj": 5.78,
-      "status": "pending",
-      "game": "Sun 4:25 vs GB"
+      "proj": 5.82,
+      "status": "final",
+      "game": "Final W 20-17 vs GB",
+      "actual": 6.0,
+      "stat": "1 blocked kick, 1 INT, 1 sack"
     },
     {
       "slot": "BN",
       "player": "MarShawn Lloyd",
-      "proj": 4.0,
-      "status": "pending",
-      "game": "Sun 4:25 @ DET"
+      "proj": 4.08,
+      "status": "final",
+      "game": "Final L 17-20 @ DET",
+      "actual": 4.5,
+      "stat": "20 rush yds; 2 rec, 15 yds"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Bye"
+      "status": "final",
+      "game": "Bye",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
-      "proj": 7.83,
-      "status": "pending",
-      "game": "Sun 4:05 @ ARI"
+      "proj": 8.02,
+      "status": "final",
+      "game": "Final W 30-16 @ ARI",
+      "actual": 6.0,
+      "stat": "3 rec, 45 yds"
     },
     {
       "slot": "BN",
       "player": "Lamar Jackson",
-      "proj": 20.43,
-      "status": "pending",
-      "game": "Sun 1:00 vs CIN",
-      "flag": "Q"
+      "proj": 0.0,
+      "status": "final",
+      "game": "Final L 13-35 vs CIN",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "BN",
       "player": "Breece Hall",
-      "proj": 12.4,
-      "status": "pending",
-      "game": "Sun 1:00 vs MIA",
-      "flag": "Q"
+      "proj": 0.0,
+      "status": "final",
+      "game": "Final L 25-28 vs MIA",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "BN",
       "player": "Chiefs",
-      "proj": 5.62,
-      "status": "pending",
-      "game": "Sun 8:20 @ SEA"
+      "proj": 5.75,
+      "status": "final",
+      "game": "Final L 3-20 @ SEA",
+      "actual": 3.0,
+      "stat": "14-20 pts allowed, 1 INT"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ MIN",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final L 10-16 @ MIN",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [],
@@ -165,6 +199,7 @@
   "signals": [
     "Fri: Lamar's final designation decides QB (Shough locks 9:30 Sun).",
     "Sun ~11:30: Hall active -> Hall in for Fannin.",
-    "Week 8: McCaffrey + Shough bye; Lloyd likely unplayable with Jacobs back - consider him as a drop candidate."
+    "Week 8: McCaffrey + Shough bye; Lloyd likely unplayable with Jacobs back - consider him as a drop candidate.",
+    "Result: Lamar and Hall both inactive - holding Shough and Fannin was right (Fannin 10.10). Only miss: Lloyd 4.50 on bench over Jones 3.10 (-1.40)."
   ]
 }

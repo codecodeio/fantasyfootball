@@ -1,0 +1,183 @@
+{
+  "season": 2026,
+  "week": 8,
+  "captured_at": "2026-10-28T00:00:00-04:00",
+  "complete": false,
+  "note": "Lineup set Wednesday 2026-10-28. Byes: Shough, McCaffrey. Lloyd and McMillan play TNF (CAR @ GB) and lock Thursday. Re-capture after MNF (CHI @ SEA). Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 06",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 94.21,
+    "opp_proj": 89.26,
+    "win_prob": 0.55,
+    "proj_note": "Before the moves: 65.74 vs 89.26 (26%). Opponent (Error 404 Wins Not Found) has an empty RB slot and the Texans DEF on bye, so their projection will likely rise ~15 once filled."
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Lamar Jackson",
+      "proj": 19.69,
+      "status": "pending",
+      "game": "Sun 1:00 @ BUF",
+      "flag": "Q"
+    },
+    {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "proj": 12.19,
+      "status": "pending",
+      "game": "Sun 1:00 vs LV",
+      "flag": "Q"
+    },
+    {
+      "slot": "RB",
+      "player": "MarShawn Lloyd",
+      "proj": 5.08,
+      "status": "pending",
+      "game": "Thu 8:15 vs CAR"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 13.47,
+      "status": "pending",
+      "game": "Sun 1:00 vs ARI",
+      "flag": "Q"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 12.56,
+      "status": "pending",
+      "game": "Thu 8:15 @ GB"
+    },
+    {
+      "slot": "TE",
+      "player": "Dallas Goedert",
+      "proj": 8.59,
+      "status": "pending",
+      "game": "Sun 8:20 @ WAS"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "Harold Fannin Jr.",
+      "proj": 8.17,
+      "status": "pending",
+      "game": "Sun 1:00 @ PIT"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 7.8,
+      "status": "pending",
+      "game": "Sun 4:25 @ DEN"
+    },
+    {
+      "slot": "DEF",
+      "player": "Lions",
+      "proj": 6.66,
+      "status": "pending",
+      "game": "Sun 1:00 vs MIN"
+    },
+    {
+      "slot": "BN",
+      "player": "Aaron Jones Sr.",
+      "proj": 8.49,
+      "status": "pending",
+      "game": "Sun 1:00 @ DET",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Jakobi Meyers",
+      "proj": 8.03,
+      "status": "pending",
+      "game": "Sun 1:00 vs IND",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Courtland Sutton",
+      "proj": 7.97,
+      "status": "pending",
+      "game": "Sun 4:25 vs KC"
+    },
+    {
+      "slot": "BN",
+      "player": "Tyler Shough",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye"
+    },
+    {
+      "slot": "BN",
+      "player": "Christian McCaffrey",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Chiefs",
+      "proj": 5.86,
+      "status": "pending",
+      "game": "Sun 4:25 @ DEN"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 @ JAX",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [],
+  "lineup_changes": [
+    {
+      "in": "Lamar Jackson",
+      "out": "Tyler Shough",
+      "slot": "QB",
+      "proj_delta": 19.69,
+      "why": "Shough bye. Lamar logged a full practice Wednesday, his first since the week-4 high-ankle sprain."
+    },
+    {
+      "in": "Breece Hall",
+      "out": "Christian McCaffrey",
+      "slot": "RB",
+      "proj_delta": 12.19,
+      "why": "McCaffrey bye. Hall limited Wednesday (quad); highest-projected RB."
+    },
+    {
+      "in": "MarShawn Lloyd",
+      "out": "Aaron Jones Sr.",
+      "slot": "RB",
+      "proj_delta": -3.41,
+      "why": "Jones did not practice Wednesday (aggravated MCL, Jordan Mason likely to take work). Lloyd plays Thursday and is healthy, so he is a guaranteed floor; benching Jones keeps him as the Sunday 1:00 fallback for Hall. Starting both Hall and Jones risks a zero RB if both sit, since Lloyd will have locked."
+    }
+  ],
+  "held": [
+    {
+      "slot": "W/R/T",
+      "kept": "Harold Fannin Jr.",
+      "over": "Aaron Jones Sr. (Q)",
+      "proj_gap": -0.32,
+      "why": "Near-tied; usage breaks it (rule 4). Jones DNP Wednesday and may cede work to Mason; Fannin 6-91 on a strong target share in week 7."
+    },
+    {
+      "slot": "DEF",
+      "kept": "Lions",
+      "over": "Jaguars (FA, 7.38)",
+      "proj_gap": -0.72,
+      "why": "Under 1 point; not worth a drop."
+    }
+  ],
+  "signals": [
+    "Thu 8:15: Lloyd and McMillan lock.",
+    "Fri: final injury report for Lamar, Hall, Jones, Pickens.",
+    "If Lamar is ruled out: add a free-agent QB playing 4:25 or later (drop Chiefs DEF) - Shough is on bye, so there is no rostered backup.",
+    "Sun ~11:30 inactives: if Hall is out and Jones active -> Jones in for Hall. If Pickens is out -> Meyers (1:00) or Sutton (4:25) in."
+  ]
+}
