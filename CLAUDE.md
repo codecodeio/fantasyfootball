@@ -62,7 +62,7 @@ Capture and lineup changes are both **agent-driven** through the Chrome DevTools
 2. It writes `data/2026/weekly/wkNN.json` in the same shape as `wk01.json`.
 3. Set `"complete": true` only once every game has finished (after Monday night).
 
-✅ `wk01.json`–`wk07.json` are final (`complete: true`). `wk08.json` is a Wednesday lineup capture
+✅ `wk01.json`–`wk08.json` are final (`complete: true`). `wk09.json` is a Thursday lineup capture
 and is still **partial** — re-capture after Monday night.
 
 A launchd job nudges Matt every **Wednesday 18:00** (`com.fantasyfootball.weeklyreminder`).
@@ -105,6 +105,10 @@ Each of these cost points or produced a wrong answer once. Follow them before to
 8. **Bye-week DEF streams must happen by Thursday.** Week 6 (Lions bye) was covered by streaming the Chiefs; if the roster goes back to one DEF, every future bye needs the same.
 9. **Check the flex against every eligible bench player, TEs included.** In week 6 the Thursday review
    compared only WRs for W/R/T and missed that the benched TE (Fannin, 8.43) beat the flex (Meyers, 7.49).
+10. **A Sunday fallback is only as good as the odds someone makes the swap.** Week 8 relied on Matt
+    adding a free-agent QB if Lamar was ruled out and swapping Jones in for Hall at inactives. Neither
+    happened, and both slots scored 0. When a questionable starter needs a Sunday swap to be safe, say
+    so plainly in the review. Where projections are near-tied, prefer the lineup that is safe *without* a swap.
 
 ## Files
 

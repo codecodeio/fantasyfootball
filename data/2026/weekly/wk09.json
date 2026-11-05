@@ -1,0 +1,180 @@
+{
+  "season": 2026,
+  "week": 9,
+  "captured_at": "2026-11-05T00:00:00-05:00",
+  "complete": false,
+  "note": "Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL: Lamar out, Meyers benched). No byes. Re-capture after MNF (BUF @ MIN). Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 10",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 100.88,
+    "opp_proj": 115.09,
+    "win_prob": 0.38
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Tyler Shough",
+      "proj": 17.62,
+      "status": "pending",
+      "game": "Sun 1:00 vs CLE"
+    },
+    {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "proj": 9.11,
+      "status": "pending",
+      "game": "Sun 1:00 @ KC",
+      "flag": "Q"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 17.74,
+      "status": "pending",
+      "game": "Sun 4:25 vs LV",
+      "flag": "Q"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 11.82,
+      "status": "pending",
+      "game": "Sun 1:00 @ IND",
+      "flag": "Q"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 11.46,
+      "status": "pending",
+      "game": "Sun 1:00 vs DEN"
+    },
+    {
+      "slot": "TE",
+      "player": "Dallas Goedert",
+      "proj": 7.69,
+      "status": "pending",
+      "game": "Sun 1:00 vs NYG"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "Harold Fannin Jr.",
+      "proj": 9.11,
+      "status": "pending",
+      "game": "Sun 1:00 @ NO"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 8.65,
+      "status": "pending",
+      "game": "Sun 1:00 vs NYJ"
+    },
+    {
+      "slot": "DEF",
+      "player": "Chiefs",
+      "proj": 7.68,
+      "status": "pending",
+      "game": "Sun 1:00 vs NYJ"
+    },
+    {
+      "slot": "BN",
+      "player": "MarShawn Lloyd",
+      "proj": 3.21,
+      "status": "pending",
+      "game": "Sun 4:25 @ NE"
+    },
+    {
+      "slot": "BN",
+      "player": "Lamar Jackson",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Thu 8:15 vs JAX",
+      "flag": "O"
+    },
+    {
+      "slot": "BN",
+      "player": "Aaron Jones Sr.",
+      "proj": 8.3,
+      "status": "pending",
+      "game": "Mon 8:15 vs BUF"
+    },
+    {
+      "slot": "BN",
+      "player": "Jakobi Meyers",
+      "proj": 7.62,
+      "status": "pending",
+      "game": "Thu 8:15 @ BAL"
+    },
+    {
+      "slot": "BN",
+      "player": "Courtland Sutton",
+      "proj": 7.13,
+      "status": "pending",
+      "game": "Sun 1:00 @ CAR"
+    },
+    {
+      "slot": "BN",
+      "player": "Lions",
+      "proj": 7.33,
+      "status": "pending",
+      "game": "Sun 1:00 @ MIA"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 vs DAL",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [],
+  "lineup_changes": [
+    {
+      "in": "Tyler Shough",
+      "out": "Lamar Jackson",
+      "slot": "QB",
+      "proj_delta": 17.62,
+      "why": "Lamar ruled Out (ankle; reported likely done for the season, surgery). His Thursday game would have locked him in at 0."
+    },
+    {
+      "in": "Christian McCaffrey",
+      "out": "MarShawn Lloyd",
+      "slot": "RB",
+      "proj_delta": 14.53,
+      "why": "McCaffrey back from bye. Q after a Wednesday DNP but says he feels great and expects to play."
+    },
+    {
+      "in": "Chiefs",
+      "out": "Lions",
+      "slot": "DEF",
+      "proj_delta": 0.35,
+      "why": "Higher projection (7.68 vs NYJ against 7.33 @ MIA); both 1:00 Sunday."
+    }
+  ],
+  "held": [
+    {
+      "slot": "RB",
+      "kept": "Breece Hall (Q)",
+      "over": "Aaron Jones Sr.",
+      "proj_gap": 0.81,
+      "why": "Rapoport: Hall 'good to go' for his first game since week 3, though Braelon Allen will share work. Starting Hall keeps Jones (Monday night) on the bench as the one fallback that covers both Hall (1:00) and McCaffrey (4:25)."
+    },
+    {
+      "slot": "W/R/T",
+      "kept": "Harold Fannin Jr.",
+      "over": "Breece Hall / Jones / Meyers / Sutton",
+      "proj_gap": 0.0,
+      "why": "Fannin 9.11; 10-154 last week on a growing target share."
+    }
+  ],
+  "signals": [
+    "Sun ~11:30 inactives: Hall out -> Jones in for Hall. Pickens out -> Sutton (1:00) in.",
+    "Sun ~3:00 inactives: McCaffrey out -> Jones in (if not already used), else Lloyd (4:25).",
+    "Lamar: move to IR as soon as Yahoo tags him IR, then use the freed spot.",
+    "No FA beat the lineup: best W/R/T free agent was KC Concepcion Jr. at 8.75."
+  ]
+}

@@ -1,137 +1,170 @@
 {
   "season": 2026,
   "week": 8,
-  "captured_at": "2026-10-28T00:00:00-04:00",
-  "complete": false,
-  "note": "Lineup set Wednesday 2026-10-28. Byes: Shough, McCaffrey. Lloyd and McMillan play TNF (CAR @ GB) and lock Thursday. Re-capture after MNF (CHI @ SEA). Opponent labels are the Yahoo team id; ours is 7.",
+  "captured_at": "2026-11-05T00:00:00-05:00",
+  "complete": true,
+  "note": "Lineup set Wednesday 2026-10-28. Byes: Shough, McCaffrey. Lamar (O) and Hall both inactive and the planned Sunday fallbacks (FA QB; Jones for Hall) were not executed, so QB and one RB scored 0. Finalised 2026-11-05 from the Yahoo week-8 matchup page; proj values are the page's frozen pre-game projections. Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 06",
-    "my_score": 0.0,
-    "opp_score": 0.0,
-    "my_proj": 94.21,
-    "opp_proj": 89.26,
+    "my_score": 53.3,
+    "opp_score": 131.48,
+    "my_proj": 63.44,
+    "opp_proj": 106.3,
     "win_prob": 0.55,
-    "proj_note": "Before the moves: 65.74 vs 89.26 (26%). Opponent (Error 404 Wins Not Found) has an empty RB slot and the Texans DEF on bye, so their projection will likely rise ~15 once filled."
+    "proj_note": "Orig proj 63.44 vs 106.30 (Lamar and Hall projected 0 once ruled out). win_prob is Wednesday's.",
+    "result": "L"
   },
   "players": [
     {
       "slot": "QB",
       "player": "Lamar Jackson",
-      "proj": 19.69,
-      "status": "pending",
-      "game": "Sun 1:00 @ BUF",
-      "flag": "Q"
+      "proj": 0.0,
+      "status": "final",
+      "game": "Final L 10-36 @ BUF",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
-      "proj": 12.19,
-      "status": "pending",
-      "game": "Sun 1:00 vs LV",
-      "flag": "Q"
+      "proj": 0.0,
+      "status": "final",
+      "game": "Final L 33-38 vs LV",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "RB",
       "player": "MarShawn Lloyd",
-      "proj": 5.08,
-      "status": "pending",
-      "game": "Thu 8:15 vs CAR"
+      "proj": 5.19,
+      "status": "final",
+      "game": "Final W 27-19 vs CAR",
+      "actual": 2.1,
+      "stat": "7 rush yds; 1 rec, 9 yds"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
-      "proj": 13.47,
-      "status": "pending",
-      "game": "Sun 1:00 vs ARI",
-      "flag": "Q"
+      "proj": 13.6,
+      "status": "final",
+      "game": "Final L 30-33 vs ARI",
+      "flag": "Q",
+      "actual": 5.8,
+      "stat": "2 rec, 48 yds"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 12.56,
-      "status": "pending",
-      "game": "Thu 8:15 @ GB"
+      "proj": 12.8,
+      "status": "final",
+      "game": "Final L 19-27 @ GB",
+      "actual": 8.8,
+      "stat": "6 rec, 58 yds"
     },
     {
       "slot": "TE",
       "player": "Dallas Goedert",
-      "proj": 8.59,
-      "status": "pending",
-      "game": "Sun 8:20 @ WAS"
+      "proj": 9.26,
+      "status": "final",
+      "game": "Final L 10-27 @ WAS",
+      "actual": 5.2,
+      "stat": "4 rec, 30 yds; 2 rush yds"
     },
     {
       "slot": "W/R/T",
       "player": "Harold Fannin Jr.",
-      "proj": 8.17,
-      "status": "pending",
-      "game": "Sun 1:00 @ PIT"
+      "proj": 8.03,
+      "status": "final",
+      "game": "Final L 6-27 @ PIT",
+      "actual": 18.4,
+      "stat": "10 rec, 154 yds; fumble lost"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
-      "proj": 7.8,
-      "status": "pending",
-      "game": "Sun 4:25 @ DEN"
+      "proj": 7.9,
+      "status": "final",
+      "game": "Final L 24-28 @ DEN",
+      "actual": 7.0,
+      "stat": "1 FG (40-49), 3 PAT"
     },
     {
       "slot": "DEF",
       "player": "Lions",
       "proj": 6.66,
-      "status": "pending",
-      "game": "Sun 1:00 vs MIN"
+      "status": "final",
+      "game": "Final W 19-15 vs MIN",
+      "actual": 6.0,
+      "stat": "3 sacks, 1 INT, 14-20 allowed"
     },
     {
       "slot": "BN",
       "player": "Aaron Jones Sr.",
-      "proj": 8.49,
-      "status": "pending",
-      "game": "Sun 1:00 @ DET",
-      "flag": "Q"
+      "proj": 8.44,
+      "status": "final",
+      "game": "Final L 15-19 @ DET",
+      "flag": "Q",
+      "actual": 5.0,
+      "stat": "22 rush yds; 2 rec, 18 yds"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
-      "proj": 8.03,
-      "status": "pending",
-      "game": "Sun 1:00 vs IND",
-      "flag": "Q"
+      "proj": 7.52,
+      "status": "final",
+      "game": "Final W 42-7 vs IND",
+      "flag": "Q",
+      "actual": 3.4,
+      "stat": "2 rec, 24 yds"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
-      "proj": 7.97,
-      "status": "pending",
-      "game": "Sun 4:25 vs KC"
+      "proj": 7.72,
+      "status": "final",
+      "game": "Final W 28-24 vs KC",
+      "actual": 7.3,
+      "stat": "4 rec, 53 yds"
     },
     {
       "slot": "BN",
       "player": "Tyler Shough",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Bye"
+      "status": "final",
+      "game": "Bye",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Christian McCaffrey",
       "proj": 0.0,
-      "status": "pending",
+      "status": "final",
       "game": "Bye",
-      "flag": "Q"
+      "flag": "Q",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Chiefs",
-      "proj": 5.86,
-      "status": "pending",
-      "game": "Sun 4:25 @ DEN"
+      "proj": 5.58,
+      "status": "final",
+      "game": "Final L 24-28 @ DEN",
+      "actual": 0.0,
+      "stat": "1 sack, 28-34 allowed"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ JAX",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final L 7-42 @ JAX",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [],
@@ -178,6 +211,7 @@
     "Thu 8:15: Lloyd and McMillan lock.",
     "Fri: final injury report for Lamar, Hall, Jones, Pickens.",
     "If Lamar is ruled out: add a free-agent QB playing 4:25 or later (drop Chiefs DEF) - Shough is on bye, so there is no rostered backup.",
-    "Sun ~11:30 inactives: if Hall is out and Jones active -> Jones in for Hall. If Pickens is out -> Meyers (1:00) or Sutton (4:25) in."
+    "Sun ~11:30 inactives: if Hall is out and Jones active -> Jones in for Hall. If Pickens is out -> Meyers (1:00) or Sutton (4:25) in.",
+    "Result: Lamar ruled out, no FA QB added -> QB 0. Hall inactive, Jones not swapped in -> RB 0 with Jones 5.00 on the bench. Position-legal optimal 59.80 (Jones for Hall +5.00, Sutton for Pickens +1.50); a FA QB would have been the bigger miss."
   ]
 }

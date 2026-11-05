@@ -636,7 +636,39 @@ Held, with the reasons:
 | **Sun ~11:30 am** | **Inactives: if Hall is active, Hall in for Fannin** |
 | **Mon night** | Pickens and Goedert (DAL @ PHI). Re-capture afterwards |
 
-## Week 8 — projected 94.21 vs 89.26 (vs Team 06) · 55% favourite · pending
+## Week 8 — **L** 53.30 to 131.48 (vs Team 06)
+
+### Result (finalised 2026-11-05)
+
+| Slot | Player | Proj | Actual | Line |
+|---|---|---:|---:|---|
+| QB | Lamar Jackson | — | **0.00** | Out |
+| RB | Breece Hall | — | **0.00** | Out |
+| RB | MarShawn Lloyd | 5.19 | 2.10 | 7 rush yds; 1-9 |
+| WR | George Pickens | 13.60 | 5.80 | 2-48 |
+| WR | Tetairoa McMillan | 12.80 | 8.80 | 6-58 |
+| TE | Dallas Goedert | 9.26 | 5.20 | 4-30 |
+| W/R/T | Harold Fannin Jr. | 8.03 | **18.40** | 10-154; fumble lost |
+| K | Harrison Butker | 7.90 | 7.00 | 1 FG, 3 PAT |
+| DEF | Lions | 6.66 | 6.00 | 3 sacks, INT |
+| BN | Aaron Jones Sr. | 8.44 | 5.00 | 22 rush; 2-18 |
+| BN | Courtland Sutton | 7.72 | 7.30 | 4-53 |
+| BN | Jakobi Meyers | 7.52 | 3.40 | 2-24 |
+| BN | Chiefs | 5.58 | 0.00 | 28-34 allowed |
+
+**Optimal (rostered players) 59.80 · started 53.30 · 6.50 left on the bench.** (Jones for Hall +5.00, Sutton for
+Pickens +1.50.)
+
+❌ **The Sunday fallbacks didn't happen.** Lamar was ruled out, but no free-agent QB was added, so the QB slot
+scored 0. Hall was inactive and Jones wasn't swapped in. Together that cost roughly 20 points against a
+replacement-level QB. The opponent's 131.48 would have won anyway, but the process failure is real: both
+fallbacks needed someone at a keyboard on Sunday morning, and nobody was.
+
+The Wednesday call to bench Jones for Lloyd turned out neutral: Jones scored 5.00, but he was meant as Hall's
+fallback, not a starter. **Lesson → rule 10:** a fallback that depends on a Sunday swap is only worth what the
+odds are that the swap happens.
+
+### Pre-game · projected 94.21 vs 89.26 (vs Team 06) · 55% favourite
 *Byes: Shough (QB), McCaffrey (RB). Lineup set Wednesday 2026-10-28. Lloyd and McMillan play TNF (CAR @ GB).*
 
 As found: **65.74 vs 89.26 (26%)**, with Shough and McCaffrey starting on their byes.
@@ -668,8 +700,36 @@ probably rise by ~15 once they fill them. The 55% will likely drop below 50%.
 | **Sun ~11:30** | Inactives: Hall out and Jones active → Jones in. Pickens out → Meyers (1:00) or Sutton (4:25) in |
 | **Mon night** | Re-capture after CHI @ SEA |
 
-## Week 9 — 2026-11-08
-*Not yet played. Byes: none.*
+## Week 9 — projected 100.88 vs 115.09 (vs Team 10) · 38% underdog · pending
+*Byes: none. Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL, where Lamar is out and Meyers benched).*
+
+As found: Lamar (**Out**; [reported likely done for the season](https://www.nbcsports.com/fantasy/football/news/nfl-week-8-injury-report-jeremiyah-love-hits-ir-lamar-jackson-likely-done-for-season-and-more))
+was starting at QB in a Thursday game, and McCaffrey was still benched from his bye.
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **Shough in, Lamar benched** (QB) | +17.62 | Lamar Out. His Thursday game would have locked a 0 in tonight |
+| 2 | **McCaffrey in, Lloyd benched** (RB) | +14.53 | Back from bye. Q after a Wednesday DNP, but he says he feels great and expects to play |
+| 3 | **Chiefs in, Lions benched** (DEF) | +0.35 | Higher projection (vs NYJ 7.68, Lions @ MIA 7.33). Both 1:00 Sunday |
+
+Held:
+- **RB2: Hall (Q, 9.11) over Jones (8.30).** Rapoport reports Hall is "good to go" for his first game since week 3,
+  but Braelon Allen will share the work. The tiebreaker is structure: Jones plays **Monday night**, so on the bench
+  he's the one fallback that covers both Hall (1:00) and McCaffrey (4:25).
+- **Flex: Fannin (9.11).** He went 10-154 last week.
+- **No free-agent add.** The best flex free agent (KC Concepcion Jr., 8.75) doesn't beat any starter.
+
+Why the projection lags: the opponent (Mak and Jack) is 14.21 ahead, mostly on Jaxon Smith-Njigba (20.90) and Hubbard (15.27).
+Even a perfect lineup from this roster doesn't close that gap.
+
+### The plan for the rest of the week
+
+| When | What |
+|---|---|
+| **Sun ~11:30** | Inactives: Hall out → **Jones in**. Pickens out → **Sutton** in |
+| **Sun ~3:00** | McCaffrey out → Jones in (if still free), else Lloyd |
+| **When Yahoo tags Lamar IR** | Move him to IR and use the freed roster spot |
+| **Tue night** | Re-capture after BUF @ MIN |
 
 ## Week 10 — 2026-11-15
 *Not yet played. Byes: Goedert (TE) — Fannin covers.*
