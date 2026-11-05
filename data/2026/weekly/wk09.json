@@ -8,9 +8,9 @@
     "opponent": "Team 10",
     "my_score": 0.0,
     "opp_score": 0.0,
-    "my_proj": 100.88,
+    "my_proj": 100.07,
     "opp_proj": 115.09,
-    "win_prob": 0.38
+    "win_prob": 0.37
   },
   "players": [
     {
@@ -22,19 +22,18 @@
     },
     {
       "slot": "RB",
-      "player": "Breece Hall",
-      "proj": 9.11,
-      "status": "pending",
-      "game": "Sun 1:00 @ KC",
-      "flag": "Q"
-    },
-    {
-      "slot": "RB",
       "player": "Christian McCaffrey",
       "proj": 17.74,
       "status": "pending",
       "game": "Sun 4:25 vs LV",
       "flag": "Q"
+    },
+    {
+      "slot": "RB",
+      "player": "Aaron Jones Sr.",
+      "proj": 8.3,
+      "status": "pending",
+      "game": "Mon 8:15 vs BUF"
     },
     {
       "slot": "WR",
@@ -81,6 +80,14 @@
     },
     {
       "slot": "BN",
+      "player": "Breece Hall",
+      "proj": 9.11,
+      "status": "pending",
+      "game": "Sun 1:00 @ KC",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
       "player": "MarShawn Lloyd",
       "proj": 3.21,
       "status": "pending",
@@ -93,13 +100,6 @@
       "status": "pending",
       "game": "Thu 8:15 vs JAX",
       "flag": "O"
-    },
-    {
-      "slot": "BN",
-      "player": "Aaron Jones Sr.",
-      "proj": 8.3,
-      "status": "pending",
-      "game": "Mon 8:15 vs BUF"
     },
     {
       "slot": "BN",
@@ -153,16 +153,16 @@
       "slot": "DEF",
       "proj_delta": 0.35,
       "why": "Higher projection (7.68 vs NYJ against 7.33 @ MIA); both 1:00 Sunday."
+    },
+    {
+      "in": "Aaron Jones Sr.",
+      "out": "Breece Hall",
+      "slot": "RB",
+      "proj_delta": -0.81,
+      "why": "Option B, rule 10: make the lineup safe without a Sunday swap. Near-tied; Jones healthy (Monday night), Hall Q in his first game since week 3 with a split backfield. McCaffrey (Q, 4:25) kept: Lloyd at 3.21 is too steep a cost."
     }
   ],
   "held": [
-    {
-      "slot": "RB",
-      "kept": "Breece Hall (Q)",
-      "over": "Aaron Jones Sr.",
-      "proj_gap": 0.81,
-      "why": "Rapoport: Hall 'good to go' for his first game since week 3, though Braelon Allen will share work. Starting Hall keeps Jones (Monday night) on the bench as the one fallback that covers both Hall (1:00) and McCaffrey (4:25)."
-    },
     {
       "slot": "W/R/T",
       "kept": "Harold Fannin Jr.",
@@ -172,8 +172,8 @@
     }
   ],
   "signals": [
-    "Sun ~11:30 inactives: Hall out -> Jones in for Hall. Pickens out -> Sutton (1:00) in.",
-    "Sun ~3:00 inactives: McCaffrey out -> Jones in (if not already used), else Lloyd (4:25).",
+    "Fri: recheck injury report (McCaffrey, Pickens; Hall now benched).",
+    "Sun ~3:00: McCaffrey out -> Lloyd (4:25) in, if anyone is at a keyboard.",
     "Lamar: move to IR as soon as Yahoo tags him IR, then use the freed spot.",
     "No FA beat the lineup: best W/R/T free agent was KC Concepcion Jr. at 8.75."
   ]

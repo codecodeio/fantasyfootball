@@ -700,7 +700,7 @@ probably rise by ~15 once they fill them. The 55% will likely drop below 50%.
 | **Sun ~11:30** | Inactives: Hall out and Jones active → Jones in. Pickens out → Meyers (1:00) or Sutton (4:25) in |
 | **Mon night** | Re-capture after CHI @ SEA |
 
-## Week 9 — projected 100.88 vs 115.09 (vs Team 10) · 38% underdog · pending
+## Week 9 — projected 100.07 vs 115.09 (vs Team 10) · 37% underdog · pending
 *Byes: none. Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL, where Lamar is out and Meyers benched).*
 
 As found: Lamar (**Out**; [reported likely done for the season](https://www.nbcsports.com/fantasy/football/news/nfl-week-8-injury-report-jeremiyah-love-hits-ir-lamar-jackson-likely-done-for-season-and-more))
@@ -712,7 +712,9 @@ was starting at QB in a Thursday game, and McCaffrey was still benched from his 
 | 2 | **McCaffrey in, Lloyd benched** (RB) | +14.53 | Back from bye. Q after a Wednesday DNP, but he says he feels great and expects to play |
 | 3 | **Chiefs in, Lions benched** (DEF) | +0.35 | Higher projection (vs NYJ 7.68, Lions @ MIA 7.33). Both 1:00 Sunday |
 
-Held:
+| 4 | **Jones in, Hall benched** (RB) | −0.81 | Option B, applied Thursday after a follow-up review. Rule 10: make the lineup safe without a Sunday swap. Jones is healthy and plays Monday. Hall is Q in his first game since week 3, in a split backfield. McCaffrey (Q) stays, because Lloyd at 3.21 is too steep a drop |
+
+Held (as first reviewed; the RB2 call was reversed by move 4):
 - **RB2: Hall (Q, 9.11) over Jones (8.30).** Rapoport reports Hall is "good to go" for his first game since week 3,
   but Braelon Allen will share the work. The tiebreaker is structure: Jones plays **Monday night**, so on the bench
   he's the one fallback that covers both Hall (1:00) and McCaffrey (4:25).
@@ -726,8 +728,9 @@ Even a perfect lineup from this roster doesn't close that gap.
 
 | When | What |
 |---|---|
-| **Sun ~11:30** | Inactives: Hall out → **Jones in**. Pickens out → **Sutton** in |
-| **Sun ~3:00** | McCaffrey out → Jones in (if still free), else Lloyd |
+| **Fri** | Recheck the injury report: McCaffrey, Pickens |
+| **Sun ~11:30** | Pickens out → **Sutton** in |
+| **Sun ~3:00** | McCaffrey out → **Lloyd** (4:25) in |
 | **When Yahoo tags Lamar IR** | Move him to IR and use the freed roster spot |
 | **Tue night** | Re-capture after BUF @ MIN |
 
