@@ -1,44 +1,43 @@
 {
   "season": 2026,
   "week": 9,
-  "captured_at": "2026-11-05T00:00:00-05:00",
+  "captured_at": "2026-11-08T09:45:00-05:00",
   "complete": false,
-  "note": "Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL: Lamar out, Meyers benched). No byes. Re-capture after MNF (BUF @ MIN). Opponent labels are the Yahoo team id; ours is 7.",
+  "note": "Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL: Lamar out, Meyers benched). No byes. Re-capture after MNF (BUF @ MIN). Opponent labels are the Yahoo team id; ours is 7. Rechecked Sunday 2026-11-08 09:40: Hall and McCaffrey off the injury report; Hall back in for Jones; Lamar moved to IR (bench spot open). proj values are Sunday morning's.",
   "matchup": {
     "opponent": "Team 10",
     "my_score": 0.0,
     "opp_score": 0.0,
-    "my_proj": 100.07,
-    "opp_proj": 115.09,
-    "win_prob": 0.37
+    "my_proj": 103.35,
+    "opp_proj": 114.43,
+    "win_prob": 0.4
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 17.62,
+      "proj": 17.9,
       "status": "pending",
       "game": "Sun 1:00 vs CLE"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 17.74,
+      "proj": 20.03,
       "status": "pending",
-      "game": "Sun 4:25 vs LV",
-      "flag": "Q"
+      "game": "Sun 4:25 vs LV"
     },
     {
       "slot": "RB",
-      "player": "Aaron Jones Sr.",
-      "proj": 8.3,
+      "player": "Breece Hall",
+      "proj": 9.68,
       "status": "pending",
-      "game": "Mon 8:15 vs BUF"
+      "game": "Sun 1:00 @ KC"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
-      "proj": 11.82,
+      "proj": 11.3,
       "status": "pending",
       "game": "Sun 1:00 @ IND",
       "flag": "Q"
@@ -46,81 +45,85 @@
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 11.46,
+      "proj": 11.45,
       "status": "pending",
       "game": "Sun 1:00 vs DEN"
     },
     {
       "slot": "TE",
       "player": "Dallas Goedert",
-      "proj": 7.69,
+      "proj": 7.87,
       "status": "pending",
       "game": "Sun 1:00 vs NYG"
     },
     {
       "slot": "W/R/T",
       "player": "Harold Fannin Jr.",
-      "proj": 9.11,
+      "proj": 9.14,
       "status": "pending",
       "game": "Sun 1:00 @ NO"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
-      "proj": 8.65,
+      "proj": 8.63,
       "status": "pending",
       "game": "Sun 1:00 vs NYJ"
     },
     {
       "slot": "DEF",
       "player": "Chiefs",
-      "proj": 7.68,
+      "proj": 7.35,
       "status": "pending",
       "game": "Sun 1:00 vs NYJ"
     },
     {
       "slot": "BN",
-      "player": "Breece Hall",
-      "proj": 9.11,
+      "player": "Aaron Jones Sr.",
+      "proj": 8.43,
       "status": "pending",
-      "game": "Sun 1:00 @ KC",
-      "flag": "Q"
+      "game": "Mon 8:15 vs BUF"
     },
     {
       "slot": "BN",
       "player": "MarShawn Lloyd",
-      "proj": 3.21,
+      "proj": 3.25,
       "status": "pending",
-      "game": "Sun 4:25 @ NE"
-    },
-    {
-      "slot": "BN",
-      "player": "Lamar Jackson",
-      "proj": 0.0,
-      "status": "pending",
-      "game": "Thu 8:15 vs JAX",
-      "flag": "O"
+      "game": "Sun 4:25 @ NE",
+      "flag": "Q"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
-      "proj": 7.62,
-      "status": "pending",
-      "game": "Thu 8:15 @ BAL"
+      "proj": 7.58,
+      "status": "final",
+      "game": "Final W 33-10 @ BAL",
+      "actual": 8.5,
+      "stat": "4 rec, 65 yds"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
-      "proj": 7.13,
+      "proj": 7.14,
       "status": "pending",
       "game": "Sun 1:00 @ CAR"
     },
     {
       "slot": "BN",
       "player": "Lions",
-      "proj": 7.33,
+      "proj": 7.06,
       "status": "pending",
       "game": "Sun 1:00 @ MIA"
+    },
+    {
+      "slot": "IR",
+      "player": "Lamar Jackson",
+      "proj": 0.0,
+      "status": "final",
+      "game": "Final L 10-33 vs JAX",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "IR",
@@ -131,7 +134,14 @@
       "flag": "IR"
     }
   ],
-  "transactions": [],
+  "transactions": [
+    {
+      "type": "ir",
+      "player": "Lamar Jackson (BAL, QB)",
+      "date": "2026-11-08",
+      "why": "Yahoo tag changed to IR; moved to the empty IR slot, opening a bench spot."
+    }
+  ],
   "lineup_changes": [
     {
       "in": "Tyler Shough",
@@ -160,6 +170,13 @@
       "slot": "RB",
       "proj_delta": -0.81,
       "why": "Option B, rule 10: make the lineup safe without a Sunday swap. Near-tied; Jones healthy (Monday night), Hall Q in his first game since week 3 with a split backfield. McCaffrey (Q, 4:25) kept: Lloyd at 3.21 is too steep a cost."
+    },
+    {
+      "in": "Breece Hall",
+      "out": "Aaron Jones Sr.",
+      "slot": "RB",
+      "proj_delta": 1.25,
+      "why": "Sunday recheck: Hall off the injury report (active), so rule 10's swap risk is gone and he out-projects Jones 9.68 to 8.43. Jones (Monday) stays the late fallback for McCaffrey."
     }
   ],
   "held": [
@@ -172,9 +189,8 @@
     }
   ],
   "signals": [
-    "Fri: recheck injury report (McCaffrey, Pickens; Hall now benched).",
-    "Sun ~3:00: McCaffrey out -> Lloyd (4:25) in, if anyone is at a keyboard.",
-    "Lamar: move to IR as soon as Yahoo tags him IR, then use the freed spot.",
-    "No FA beat the lineup: best W/R/T free agent was KC Concepcion Jr. at 8.75."
+    "Sun ~11:30: Pickens (Q, hamstring) inactive -> Sutton in (both 1:00).",
+    "Sun ~3:00: McCaffrey surprise inactive -> Jones (Mon) in.",
+    "Open bench spot after Lamar to IR - fill on waivers (no QB backup behind Shough)."
   ]
 }

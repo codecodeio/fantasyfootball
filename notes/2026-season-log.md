@@ -700,7 +700,7 @@ probably rise by ~15 once they fill them. The 55% will likely drop below 50%.
 | **Sun ~11:30** | Inactives: Hall out and Jones active → Jones in. Pickens out → Meyers (1:00) or Sutton (4:25) in |
 | **Mon night** | Re-capture after CHI @ SEA |
 
-## Week 9 — projected 100.07 vs 115.09 (vs Team 10) · 37% underdog · pending
+## Week 9 — projected 103.35 vs 114.43 (vs Team 10) · 40% underdog · pending
 *Byes: none. Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL, where Lamar is out and Meyers benched).*
 
 As found: Lamar (**Out**; [reported likely done for the season](https://www.nbcsports.com/fantasy/football/news/nfl-week-8-injury-report-jeremiyah-love-hits-ir-lamar-jackson-likely-done-for-season-and-more))
@@ -714,7 +714,14 @@ was starting at QB in a Thursday game, and McCaffrey was still benched from his 
 
 | 4 | **Jones in, Hall benched** (RB) | −0.81 | Option B, applied Thursday after a follow-up review. Rule 10: make the lineup safe without a Sunday swap. Jones is healthy and plays Monday. Hall is Q in his first game since week 3, in a split backfield. McCaffrey (Q) stays, because Lloyd at 3.21 is too steep a drop |
 
-Held (as first reviewed; the RB2 call was reversed by move 4):
+| 5 | **Hall in, Jones benched** (RB) | +1.25 | Sunday 9:40 recheck. Hall is [off the injury report](https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50357331/fantasy-football-injuries-nfl-week-9-inactive-active), so the swap risk behind move 4 is gone, and he out-projects Jones 9.68 to 8.43. Jones (Monday) is still the late fallback for McCaffrey, who is [cleared to play](https://www.nbcsports.com/fantasy/football/player-news/2026-11-06/christian-mccaffrey-hamstring-will-face-raiders) |
+| 6 | **Lamar → IR** | — | Yahoo now tags him IR. That opens a bench spot |
+
+Pickens stays in. He's still **Q** (hamstring), limited all week, and played 57% of snaps last week, but the coach is "hopeful".
+His 11.30 against Sutton's 7.14 is too big a gap to bench him pre-emptively. Both play at 1:00, so the Sutton swap works at inactives.
+Meyers scored 8.50 Thursday on the bench (Fannin at flex projects 9.14).
+
+Held (as first reviewed; the RB2 call was reversed by move 4, then restored by move 5):
 - **RB2: Hall (Q, 9.11) over Jones (8.30).** Rapoport reports Hall is "good to go" for his first game since week 3,
   but Braelon Allen will share the work. The tiebreaker is structure: Jones plays **Monday night**, so on the bench
   he's the one fallback that covers both Hall (1:00) and McCaffrey (4:25).
@@ -728,10 +735,9 @@ Even a perfect lineup from this roster doesn't close that gap.
 
 | When | What |
 |---|---|
-| **Fri** | Recheck the injury report: McCaffrey, Pickens |
-| **Sun ~11:30** | Pickens out → **Sutton** in |
-| **Sun ~3:00** | McCaffrey out → **Lloyd** (4:25) in |
-| **When Yahoo tags Lamar IR** | Move him to IR and use the freed roster spot |
+| **Sun ~11:30** | Pickens inactive → **Sutton** in |
+| **Sun ~3:00** | McCaffrey surprise inactive → **Jones** (Mon) in |
+| **This week** | Fill the open bench spot. There's no QB behind Shough |
 | **Tue night** | Re-capture after BUF @ MIN |
 
 ## Week 10 — 2026-11-15
