@@ -8,9 +8,9 @@
     "opponent": "Team 10",
     "my_score": 0.0,
     "opp_score": 0.0,
-    "my_proj": 99.42,
+    "my_proj": 101.21,
     "opp_proj": 114.01,
-    "win_prob": 0.37
+    "win_prob": 0.39
   },
   "players": [
     {
@@ -43,10 +43,10 @@
     },
     {
       "slot": "WR",
-      "player": "Courtland Sutton",
-      "proj": 7.15,
+      "player": "KC Concepcion Jr.",
+      "proj": 8.94,
       "status": "pending",
-      "game": "Sun 1:00 @ CAR"
+      "game": "Sun 1:00 @ NO"
     },
     {
       "slot": "TE",
@@ -75,6 +75,13 @@
       "proj": 7.35,
       "status": "pending",
       "game": "Sun 1:00 vs NYJ"
+    },
+    {
+      "slot": "BN",
+      "player": "Courtland Sutton",
+      "proj": 7.15,
+      "status": "pending",
+      "game": "Sun 1:00 @ CAR"
     },
     {
       "slot": "BN",
@@ -140,6 +147,14 @@
       "player": "Lamar Jackson (BAL, QB)",
       "date": "2026-11-08",
       "why": "Yahoo tag changed to IR; moved to the empty IR slot, opening a bench spot."
+    },
+    {
+      "type": "add",
+      "player": "KC Concepcion Jr. (CLE, WR)",
+      "drop": null,
+      "date": "2026-11-08",
+      "source": "free agent",
+      "why": "Open bench spot after Lamar to IR. Top FA flex projection (8.94) over Sutton (7.15); every-down rookie role (~71% snaps, three 8+ target games). Same offence as Fannin (correlated), Shedeur Sanders starting."
     }
   ],
   "lineup_changes": [
@@ -184,6 +199,13 @@
       "slot": "WR",
       "proj_delta": 7.15,
       "why": "Pickens (hamstring) inactive, announced ~11:30 Sunday. Sutton the only rostered WR still to play (both 1:00)."
+    },
+    {
+      "in": "KC Concepcion Jr.",
+      "out": "Courtland Sutton",
+      "slot": "WR",
+      "proj_delta": 1.79,
+      "why": "Free-agent add started over Sutton."
     }
   ],
   "held": [

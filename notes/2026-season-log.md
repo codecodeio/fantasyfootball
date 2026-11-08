@@ -700,7 +700,7 @@ probably rise by ~15 once they fill them. The 55% will likely drop below 50%.
 | **Sun ~11:30** | Inactives: Hall out and Jones active → Jones in. Pickens out → Meyers (1:00) or Sutton (4:25) in |
 | **Mon night** | Re-capture after CHI @ SEA |
 
-## Week 9 — projected 99.42 vs 114.01 (vs Team 10) · 37% underdog · pending
+## Week 9 — projected 101.21 vs 114.01 (vs Team 10) · 39% underdog · pending
 *Byes: none. Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL, where Lamar is out and Meyers benched).*
 
 As found: Lamar (**Out**; [reported likely done for the season](https://www.nbcsports.com/fantasy/football/news/nfl-week-8-injury-report-jeremiyah-love-hits-ir-lamar-jackson-likely-done-for-season-and-more))
@@ -717,6 +717,7 @@ was starting at QB in a Thursday game, and McCaffrey was still benched from his 
 | 5 | **Hall in, Jones benched** (RB) | +1.25 | Sunday 9:40 recheck. Hall is [off the injury report](https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50357331/fantasy-football-injuries-nfl-week-9-inactive-active), so the swap risk behind move 4 is gone, and he out-projects Jones 9.68 to 8.43. Jones (Monday) is still the late fallback for McCaffrey, who is [cleared to play](https://www.nbcsports.com/fantasy/football/player-news/2026-11-06/christian-mccaffrey-hamstring-will-face-raiders) |
 | 6 | **Lamar → IR** | — | Yahoo now tags him IR. That opens a bench spot |
 | 7 | **Sutton in, Pickens benched** (WR) | +7.15 | [Pickens ruled inactive](https://www.nbcsports.com/fantasy/football/player-news/2026-11-08/george-pickens-inactive-for-week-9-against-colts) at 11:30 Sunday. The swap was made at 11:49, which is rule 10 working as planned |
+| 8 | **+ KC Concepcion Jr. (FA), started over Sutton** (WR) | +1.79 | Added to the open bench spot, so no drop was needed. He's an every-down rookie on about 71% of snaps, with three games of 8+ targets. The downside: he's in the same Cleveland offence as Fannin, and Shedeur Sanders starts at QB |
 
 Pickens stays in. He's still **Q** (hamstring), limited all week, and played 57% of snaps last week, but the coach is "hopeful".
 His 11.30 against Sutton's 7.14 is too big a gap to bench him pre-emptively. Both play at 1:00, so the Sutton swap works at inactives.
