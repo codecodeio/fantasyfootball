@@ -718,6 +718,7 @@ was starting at QB in a Thursday game, and McCaffrey was still benched from his 
 | 6 | **Lamar → IR** | — | Yahoo now tags him IR. That opens a bench spot |
 | 7 | **Sutton in, Pickens benched** (WR) | +7.15 | [Pickens ruled inactive](https://www.nbcsports.com/fantasy/football/player-news/2026-11-08/george-pickens-inactive-for-week-9-against-colts) at 11:30 Sunday. The swap was made at 11:49, which is rule 10 working as planned |
 | 8 | **+ KC Concepcion Jr. (FA), started over Sutton** (WR) | +1.79 | Added to the open bench spot, so no drop was needed. He's an every-down rookie on about 71% of snaps, with three games of 8+ targets. The downside: he's in the same Cleveland offence as Fannin, and Shedeur Sanders starts at QB |
+| 9 | **+ Kaelon Black / − Lloyd** (FA) | — | Made at 3:58, before both 4:25 kickoffs. Black is McCaffrey's backup again: McCaffrey just came off a hamstring, and Black is active and expected to get 8–10 touches. Lloyd was ruled Out and has averaged 2.5 over the last three weeks behind Jacobs. Handcuffs are exempt from the shared-bye rule |
 
 Pickens stays in. He's still **Q** (hamstring), limited all week, and played 57% of snaps last week, but the coach is "hopeful".
 His 11.30 against Sutton's 7.14 is too big a gap to bench him pre-emptively. Both play at 1:00, so the Sutton swap works at inactives.
@@ -738,7 +739,7 @@ Even a perfect lineup from this roster doesn't close that gap.
 | When | What |
 |---|---|
 | **Sun ~11:30** | ✅ Pickens inactive → Sutton in (done 11:49) |
-| **Sun ~3:00** | McCaffrey surprise inactive → **Jones** (Mon) in |
+| **Sun ~3:00** | ✅ McCaffrey active, with a full workload expected. No swap needed |
 | **This week** | Fill the open bench spot. There's no QB behind Shough |
 | **Tue night** | Re-capture after BUF @ MIN |
 

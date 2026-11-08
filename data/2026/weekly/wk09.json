@@ -100,14 +100,6 @@
     },
     {
       "slot": "BN",
-      "player": "MarShawn Lloyd",
-      "proj": 3.2,
-      "status": "pending",
-      "game": "Sun 4:25 @ NE",
-      "flag": "Q"
-    },
-    {
-      "slot": "BN",
       "player": "Jakobi Meyers",
       "proj": 7.58,
       "status": "final",
@@ -121,6 +113,13 @@
       "proj": 7.07,
       "status": "pending",
       "game": "Sun 1:00 @ MIA"
+    },
+    {
+      "slot": "BN",
+      "player": "Kaelon Black",
+      "proj": 7.16,
+      "status": "pending",
+      "game": "Sun 4:25 vs LV"
     },
     {
       "slot": "IR",
@@ -155,6 +154,14 @@
       "date": "2026-11-08",
       "source": "free agent",
       "why": "Open bench spot after Lamar to IR. Top FA flex projection (8.94) over Sutton (7.15); every-down rookie role (~71% snaps, three 8+ target games). Same offence as Fannin (correlated), Shedeur Sanders starting."
+    },
+    {
+      "type": "add_drop",
+      "player": "Kaelon Black (SF, RB)",
+      "drop": "MarShawn Lloyd (GB, RB)",
+      "date": "2026-11-08",
+      "source": "free agent",
+      "why": "McCaffrey handcuff back on the roster (hamstring just cleared; Black active, 8-10 touches expected). Lloyd ruled Out for week 9 and averaging 2.5 over the last 3 weeks behind Jacobs; bye 11 still ahead. Made at 15:58, before both 4:25 kickoffs."
     }
   ],
   "lineup_changes": [
@@ -218,7 +225,7 @@
     }
   ],
   "signals": [
-    "Sun ~3:00: McCaffrey surprise inactive -> Jones (Mon) in.",
-    "Open bench spot after Lamar to IR - fill on waivers (no QB backup behind Shough)."
+    "Open bench spot after Lamar to IR - fill on waivers (no QB backup behind Shough).",
+    "Live at 15:56: leading 71.80-28.00; Yahoo 35% (opponent's 4:25 players still to play). Concepcion 16.80 vs Sutton 13.00 on the bench."
   ]
 }
