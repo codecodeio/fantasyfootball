@@ -16,21 +16,21 @@
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 17.9,
+      "proj": 17.82,
       "status": "pending",
       "game": "Sun 1:00 vs CLE"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 20.03,
+      "proj": 20.22,
       "status": "pending",
       "game": "Sun 4:25 vs LV"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
-      "proj": 9.68,
+      "proj": 9.78,
       "status": "pending",
       "game": "Sun 1:00 @ KC"
     },
@@ -51,21 +51,21 @@
     {
       "slot": "TE",
       "player": "Dallas Goedert",
-      "proj": 7.87,
+      "proj": 7.81,
       "status": "pending",
       "game": "Sun 1:00 vs NYG"
     },
     {
       "slot": "W/R/T",
       "player": "Harold Fannin Jr.",
-      "proj": 9.14,
+      "proj": 9.22,
       "status": "pending",
       "game": "Sun 1:00 @ NO"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
-      "proj": 8.63,
+      "proj": 8.62,
       "status": "pending",
       "game": "Sun 1:00 vs NYJ"
     },
@@ -101,7 +101,7 @@
     {
       "slot": "BN",
       "player": "MarShawn Lloyd",
-      "proj": 3.25,
+      "proj": 3.2,
       "status": "pending",
       "game": "Sun 4:25 @ NE",
       "flag": "Q"
@@ -118,7 +118,7 @@
     {
       "slot": "BN",
       "player": "Lions",
-      "proj": 7.06,
+      "proj": 7.07,
       "status": "pending",
       "game": "Sun 1:00 @ MIA"
     },
