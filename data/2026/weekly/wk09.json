@@ -8,9 +8,9 @@
     "opponent": "Team 10",
     "my_score": 0.0,
     "opp_score": 0.0,
-    "my_proj": 103.35,
-    "opp_proj": 114.43,
-    "win_prob": 0.4
+    "my_proj": 99.42,
+    "opp_proj": 114.01,
+    "win_prob": 0.37
   },
   "players": [
     {
@@ -36,18 +36,17 @@
     },
     {
       "slot": "WR",
-      "player": "George Pickens",
-      "proj": 11.3,
-      "status": "pending",
-      "game": "Sun 1:00 @ IND",
-      "flag": "Q"
-    },
-    {
-      "slot": "WR",
       "player": "Tetairoa McMillan",
       "proj": 11.45,
       "status": "pending",
       "game": "Sun 1:00 vs DEN"
+    },
+    {
+      "slot": "WR",
+      "player": "Courtland Sutton",
+      "proj": 7.15,
+      "status": "pending",
+      "game": "Sun 1:00 @ CAR"
     },
     {
       "slot": "TE",
@@ -79,6 +78,14 @@
     },
     {
       "slot": "BN",
+      "player": "George Pickens",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 @ IND",
+      "flag": "O"
+    },
+    {
+      "slot": "BN",
       "player": "Aaron Jones Sr.",
       "proj": 8.43,
       "status": "pending",
@@ -100,13 +107,6 @@
       "game": "Final W 33-10 @ BAL",
       "actual": 8.5,
       "stat": "4 rec, 65 yds"
-    },
-    {
-      "slot": "BN",
-      "player": "Courtland Sutton",
-      "proj": 7.14,
-      "status": "pending",
-      "game": "Sun 1:00 @ CAR"
     },
     {
       "slot": "BN",
@@ -177,6 +177,13 @@
       "slot": "RB",
       "proj_delta": 1.25,
       "why": "Sunday recheck: Hall off the injury report (active), so rule 10's swap risk is gone and he out-projects Jones 9.68 to 8.43. Jones (Monday) stays the late fallback for McCaffrey."
+    },
+    {
+      "in": "Courtland Sutton",
+      "out": "George Pickens",
+      "slot": "WR",
+      "proj_delta": 7.15,
+      "why": "Pickens (hamstring) inactive, announced ~11:30 Sunday. Sutton the only rostered WR still to play (both 1:00)."
     }
   ],
   "held": [
@@ -189,7 +196,6 @@
     }
   ],
   "signals": [
-    "Sun ~11:30: Pickens (Q, hamstring) inactive -> Sutton in (both 1:00).",
     "Sun ~3:00: McCaffrey surprise inactive -> Jones (Mon) in.",
     "Open bench spot after Lamar to IR - fill on waivers (no QB backup behind Shough)."
   ]
