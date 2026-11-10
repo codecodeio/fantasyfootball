@@ -1,107 +1,133 @@
 {
   "season": 2026,
   "week": 9,
-  "captured_at": "2026-11-08T09:45:00-05:00",
-  "complete": false,
+  "captured_at": "2026-11-10T09:00:00-05:00",
+  "complete": true,
   "note": "Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL: Lamar out, Meyers benched). No byes. Re-capture after MNF (BUF @ MIN). Opponent labels are the Yahoo team id; ours is 7. Rechecked Sunday 2026-11-08 09:40: Hall and McCaffrey off the injury report; Hall back in for Jones; Lamar moved to IR (bench spot open). proj values are Sunday morning's.",
   "matchup": {
     "opponent": "Team 10",
-    "my_score": 0.0,
-    "opp_score": 0.0,
-    "my_proj": 101.21,
-    "opp_proj": 114.01,
-    "win_prob": 0.39
+    "my_score": 116.7,
+    "opp_score": 89.6,
+    "my_proj": 101.14,
+    "opp_proj": 114.23,
+    "win_prob": 0.39,
+    "result": "W",
+    "proj_note": "Final values from the matchup page (Orig Proj 101.14 vs 114.23). Record 4-5, still 12th; Mak and Jack 4-5, 6th."
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 17.82,
-      "status": "pending",
-      "game": "Sun 1:00 vs CLE"
+      "proj": 18.02,
+      "status": "final",
+      "game": "Final W 23-22 vs CLE",
+      "actual": 19.7,
+      "stat": "265 pass yds, 1 pass TD, 51 rush yds"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 20.22,
-      "status": "pending",
-      "game": "Sun 4:25 vs LV"
+      "proj": 20.13,
+      "status": "final",
+      "game": "Final W 38-17 vs LV",
+      "actual": 21.7,
+      "stat": "68 rush yds, 1 rush TD, 1 rec TD"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
-      "proj": 9.78,
-      "status": "pending",
-      "game": "Sun 1:00 @ KC"
+      "proj": 9.58,
+      "status": "final",
+      "game": "Final L 12-35 @ KC",
+      "actual": 10.2,
+      "stat": "79 rush yds, 4 rec, 17 rec yds"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 11.45,
-      "status": "pending",
-      "game": "Sun 1:00 vs DEN"
+      "proj": 11.49,
+      "status": "final",
+      "game": "Final L 21-26 vs DEN",
+      "actual": 13.6,
+      "stat": "4 rec, 56 yds, 1 TD"
     },
     {
       "slot": "WR",
       "player": "KC Concepcion Jr.",
-      "proj": 8.94,
-      "status": "pending",
-      "game": "Sun 1:00 @ NO"
+      "proj": 8.96,
+      "status": "final",
+      "game": "Final L 22-23 @ NO",
+      "actual": 16.8,
+      "stat": "4 rec, 85 yds, 1 TD"
     },
     {
       "slot": "TE",
       "player": "Dallas Goedert",
-      "proj": 7.81,
-      "status": "pending",
-      "game": "Sun 1:00 vs NYG"
+      "proj": 7.78,
+      "status": "final",
+      "game": "Final L 11-19 vs NYG",
+      "actual": 7.5,
+      "stat": "5 rec, 50 yds"
     },
     {
       "slot": "W/R/T",
       "player": "Harold Fannin Jr.",
-      "proj": 9.22,
-      "status": "pending",
-      "game": "Sun 1:00 @ NO"
+      "proj": 9.23,
+      "status": "final",
+      "game": "Final L 22-23 @ NO",
+      "actual": 11.2,
+      "stat": "2 rec, 42 yds, 1 TD"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
-      "proj": 8.62,
-      "status": "pending",
-      "game": "Sun 1:00 vs NYJ"
+      "proj": 8.61,
+      "status": "final",
+      "game": "Final W 35-12 vs NYJ",
+      "actual": 5.0,
+      "stat": "5 PAT"
     },
     {
       "slot": "DEF",
       "player": "Chiefs",
-      "proj": 7.35,
-      "status": "pending",
-      "game": "Sun 1:00 vs NYJ"
+      "proj": 7.34,
+      "status": "final",
+      "game": "Final W 35-12 vs NYJ",
+      "actual": 11.0,
+      "stat": "5 sacks, 7-13 allowed, 1 fum rec"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
-      "proj": 7.15,
-      "status": "pending",
-      "game": "Sun 1:00 @ CAR"
+      "proj": 7.16,
+      "status": "final",
+      "game": "Final W 26-21 @ CAR",
+      "actual": 13.0,
+      "stat": "5 rec, 45 yds, 1 TD"
     },
     {
       "slot": "BN",
       "player": "George Pickens",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ IND",
-      "flag": "O"
+      "status": "final",
+      "game": "Final W 27-23 @ IND",
+      "flag": "O",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "BN",
       "player": "Aaron Jones Sr.",
-      "proj": 8.43,
-      "status": "pending",
-      "game": "Mon 8:15 vs BUF"
+      "proj": 8.6,
+      "status": "final",
+      "game": "Final L 6-23 vs BUF",
+      "actual": 2.6,
+      "stat": "16 rush yds, 1 rec, 5 yds"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
-      "proj": 7.58,
+      "proj": 7.59,
       "status": "final",
       "game": "Final W 33-10 @ BAL",
       "actual": 8.5,
@@ -110,16 +136,20 @@
     {
       "slot": "BN",
       "player": "Lions",
-      "proj": 7.07,
-      "status": "pending",
-      "game": "Sun 1:00 @ MIA"
+      "proj": 7.08,
+      "status": "final",
+      "game": "Final W 19-9 @ MIA",
+      "actual": 9.0,
+      "stat": "3 sacks, 1 INT, 7-13 allowed"
     },
     {
       "slot": "BN",
       "player": "Kaelon Black",
-      "proj": 7.16,
-      "status": "pending",
-      "game": "Sun 4:25 vs LV"
+      "proj": 7.21,
+      "status": "final",
+      "game": "Final W 38-17 vs LV",
+      "actual": 7.0,
+      "stat": "70 rush yds"
     },
     {
       "slot": "IR",
@@ -135,9 +165,11 @@
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 vs DAL",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final L 23-27 vs DAL",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [
@@ -226,6 +258,7 @@
   ],
   "signals": [
     "Open bench spot after Lamar to IR - fill on waivers (no QB backup behind Shough).",
-    "Live at 15:56: leading 71.80-28.00; Yahoo 35% (opponent's 4:25 players still to play). Concepcion 16.80 vs Sutton 13.00 on the bench."
+    "Live at 15:56: leading 71.80-28.00; Yahoo 35% (opponent's 4:25 players still to play). Concepcion 16.80 vs Sutton 13.00 on the bench.",
+    "Final: W 116.70-89.60. Bench 40.10 (Sutton 13.00 best). Jones (Monday) 2.60 - Hall over Jones worth +7.60."
   ]
 }

@@ -27,7 +27,7 @@ The Chrome DevTools MCP drives a real logged-in Chrome profile, so it can read t
 - ❌ Requires a Claude Code session; cannot run headless or in the cloud.
 - ❌ Breaks if the Yahoo session expires (just log in again) or the page markup changes.
 
-✅ `wk01.json`–`wk08.json` are final (`complete: true`). `wk09.json` is a Thursday lineup capture
+✅ `wk01.json`–`wk09.json` are final (`complete: true`). `wk10.json` is a Tuesday lineup capture
 and is still **partial** — re-capture after Monday night.
 
 ## The weekly file shape — two traps

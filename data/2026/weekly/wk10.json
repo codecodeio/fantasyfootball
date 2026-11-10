@@ -1,0 +1,183 @@
+{
+  "season": 2026,
+  "week": 10,
+  "captured_at": "2026-11-10T10:00:00-05:00",
+  "complete": false,
+  "note": "Lineup set Tuesday 2026-11-10. Byes: Goedert (TE), Sutton (WR). No Thursday starters; Lions play Sun 9:30 (Germany). Waiver claim pending: + Packers / - Lions (processes Wed Nov 11). Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 03",
+    "opponent_name": "Allen The Family",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 100.18,
+    "opp_proj": 100.15,
+    "win_prob": null,
+    "proj_note": "Roster page after lineup edits, before the Packers claim. Before edits ours was 91.73 (Goedert on bye in TE)."
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Tyler Shough",
+      "proj": 19.09,
+      "status": "pending",
+      "game": "Sun 1:00 vs CAR"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 19.25,
+      "status": "pending",
+      "game": "Sun 4:25 @ DAL"
+    },
+    {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "proj": 10.3,
+      "status": "pending",
+      "game": "Sun 1:00 vs BUF"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 12.68,
+      "status": "pending",
+      "game": "Sun 1:00 @ NO"
+    },
+    {
+      "slot": "WR",
+      "player": "KC Concepcion Jr.",
+      "proj": 8.53,
+      "status": "pending",
+      "game": "Sun 1:00 vs HOU"
+    },
+    {
+      "slot": "TE",
+      "player": "Harold Fannin Jr.",
+      "proj": 8.48,
+      "status": "pending",
+      "game": "Sun 1:00 vs HOU"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "Aaron Jones Sr.",
+      "proj": 8.45,
+      "status": "pending",
+      "game": "Sun 1:00 @ GB"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 7.85,
+      "status": "pending",
+      "game": "Sun 1:00 @ ATL"
+    },
+    {
+      "slot": "DEF",
+      "player": "Chiefs",
+      "proj": 5.55,
+      "status": "pending",
+      "game": "Sun 1:00 @ ATL"
+    },
+    {
+      "slot": "BN",
+      "player": "Dallas Goedert",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye",
+      "flag": "BYE"
+    },
+    {
+      "slot": "BN",
+      "player": "Courtland Sutton",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Bye",
+      "flag": "BYE"
+    },
+    {
+      "slot": "BN",
+      "player": "George Pickens",
+      "proj": 10.28,
+      "status": "pending",
+      "game": "Sun 4:25 vs SF",
+      "flag": "Q"
+    },
+    {
+      "slot": "BN",
+      "player": "Jakobi Meyers",
+      "proj": 8.01,
+      "status": "pending",
+      "game": "Sun 1:00 @ TEN"
+    },
+    {
+      "slot": "BN",
+      "player": "Kaelon Black",
+      "proj": 6.06,
+      "status": "pending",
+      "game": "Sun 4:25 @ DAL"
+    },
+    {
+      "slot": "BN",
+      "player": "Lions",
+      "proj": 5.77,
+      "status": "pending",
+      "game": "Sun 9:30 vs ATL? (Germany)"
+    },
+    {
+      "slot": "IR",
+      "player": "Lamar Jackson",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Mon 8:15",
+      "flag": "IR"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 vs MIA",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [
+    {
+      "type": "waiver_claim",
+      "player": "Packers (GB, DEF)",
+      "drop": "Lions (DET, DEF)",
+      "date": "2026-11-10",
+      "source": "waivers (clears Nov 11)",
+      "status": "pending",
+      "why": "GB 7.77 vs MIN is the top available DEF, about 2 over Lions 5.77 / Chiefs 5.55. Lions dropped over Chiefs because the Chiefs project higher in week 11 (6.95 vs 6.31). GB bye 11, so it's a one-week stream."
+    }
+  ],
+  "lineup_changes": [
+    {
+      "in": "Harold Fannin Jr.",
+      "out": "Dallas Goedert",
+      "slot": "TE",
+      "proj_delta": 8.48,
+      "why": "Goedert bye."
+    },
+    {
+      "in": "Aaron Jones Sr.",
+      "out": "Harold Fannin Jr.",
+      "slot": "W/R/T",
+      "proj_delta": -0.03,
+      "why": "Flex vacated by Fannin. Jones (healthy, 1:00) over Pickens (Q hamstring, 10.28, 4:25): rule 10 - if Pickens is ruled out at 4:25 the only fallback is Black. Revisit Friday on the practice report."
+    }
+  ],
+  "held": [
+    {
+      "slot": "DEF",
+      "kept": "Chiefs",
+      "over": "Lions",
+      "proj_gap": -0.22,
+      "why": "Near-tied; the Lions are dropped when the Packers claim clears, and the Packers then start."
+    }
+  ],
+  "signals": [
+    "Wed after waivers: start Packers at DEF (claim may land on the bench).",
+    "Fri: if Pickens practises fully, start him over Jones (+1.83)."
+  ]
+}

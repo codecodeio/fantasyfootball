@@ -700,7 +700,7 @@ probably rise by ~15 once they fill them. The 55% will likely drop below 50%.
 | **Sun ~11:30** | Inactives: Hall out and Jones active → Jones in. Pickens out → Meyers (1:00) or Sutton (4:25) in |
 | **Mon night** | Re-capture after CHI @ SEA |
 
-## Week 9 — projected 101.21 vs 114.01 (vs Team 10) · 39% underdog · pending
+## Week 9 — **W** 116.70 to 89.60 (vs Team 10, Mak and Jack) · won as a 39% underdog
 *Byes: none. Lineup set Thursday 2026-11-05 before TNF (JAX @ BAL, where Lamar is out and Meyers benched).*
 
 As found: Lamar (**Out**; [reported likely done for the season](https://www.nbcsports.com/fantasy/football/news/nfl-week-8-injury-report-jeremiyah-love-hits-ir-lamar-jackson-likely-done-for-season-and-more))
@@ -743,8 +743,50 @@ Even a perfect lineup from this roster doesn't close that gap.
 | **This week** | Fill the open bench spot. There's no QB behind Shough |
 | **Tue night** | Re-capture after BUF @ MIN |
 
-## Week 10 — 2026-11-15
-*Not yet played. Byes: Goedert (TE) — Fannin covers.*
+### Result
+Won **116.70–89.60**, so the record is now **4-5**. The projection was 101.14 against 114.23, so we beat it by 15.56 and held the opponent 24.63 under theirs.
+
+| Player | Proj | Actual |
+|---|---:|---:|
+| Shough (QB) | 18.02 | 19.70 |
+| McCaffrey (RB) | 20.13 | 21.70 |
+| Hall (RB) | 9.58 | 10.20 |
+| McMillan (WR) | 11.49 | 13.60 |
+| Concepcion (WR, FA add) | 8.96 | **16.80** |
+| Goedert (TE) | 7.78 | 7.50 |
+| Fannin (W/R/T) | 9.23 | 11.20 |
+| Butker (K) | 8.61 | 5.00 |
+| Chiefs (DEF) | 7.34 | **11.00** |
+
+The bench scored 40.10. Sutton had 13.00, Lions 9.00, Meyers 8.50, Black 7.00 and Jones 2.60.
+The best legal lineup was 122.20: Fannin at TE and Sutton at flex, in place of Goedert. That left 5.50 on the bench.
+
+What the moves were worth:
+- **Hall back over Jones (move 5): +7.60.** Hall scored 10.20 and Jones 2.60.
+- **Concepcion over Sutton (move 8): +3.80.**
+- **Chiefs over Lions (move 3): +2.00.**
+
+Every Sunday move made this week paid off.
+
+## Week 10 — projected 100.18 vs 100.15 (vs Team 03, Allen The Family) · coin flip · pending
+*Byes: Goedert (TE) and Sutton (WR). No Thursday starters. The Lions play Sunday at 9:30 am.*
+
+The lineup was set Tuesday 2026-11-10. As found, Goedert was in the TE slot on bye, so the projection was 91.73 against 100.15.
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **Fannin to TE, Goedert benched** | +8.48 | Goedert is on bye |
+| 2 | **Jones to W/R/T** | −0.03 | Jones fills the flex Fannin left. Pickens (Q, hamstring) projects 10.28 but plays at 4:25, and if he's ruled out then, Black is the only fallback (rule 10). Decide on Friday's practice report |
+| 3 | **Waiver claim: + Packers / − Lions** (DEF) | +2.22 | The Packers (7.77 vs MIN) are the top available DEF; the Chiefs project 5.55 and the Lions 5.77. The Lions are the drop because the Chiefs project higher in week 11 (6.95 vs 6.31). The Packers are on bye in week 11, so this is a one-week stream. The claim clears Wed Nov 11 |
+
+### The plan for the rest of the week
+
+| When | What |
+|---|---|
+| **Wed** | Check the claim. Start the Packers at DEF |
+| **Fri** | Pickens' practice report. A full practice means he starts over Jones (+1.83) |
+| **Sun ~3:00** | McCaffrey and Pickens inactives (4:25) |
+| **Tue** | Re-capture after Monday night |
 
 ## Week 11 — 2026-11-22
 *Not yet played. Byes: Fannin (TE), Lloyd (RB) — Goedert covers.*
