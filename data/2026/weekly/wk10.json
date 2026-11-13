@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "week": 10,
-  "captured_at": "2026-11-12T12:00:00-05:00",
+  "captured_at": "2026-11-13T12:00:00-05:00",
   "complete": false,
   "note": "Lineup set Tuesday 2026-11-10. Byes: Goedert (TE), Sutton (WR). No Thursday starters; Lions play Sun 9:30 (Germany). Waiver claim pending: + Packers / - Lions (processes Wed Nov 11). Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
@@ -9,51 +9,51 @@
     "opponent_name": "Allen The Family",
     "my_score": 0.0,
     "opp_score": 0.0,
-    "my_proj": 105.38,
-    "opp_proj": 100.26,
+    "my_proj": 105.12,
+    "opp_proj": 98.97,
     "win_prob": null,
-    "proj_note": "Roster page Thu 2026-11-12 after Packers in."
+    "proj_note": "Roster page Fri 2026-11-13."
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 19.72,
+      "proj": 19.74,
       "status": "pending",
       "game": "Sun 1:00 vs CAR"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 19.02,
+      "proj": 18.99,
       "status": "pending",
       "game": "Sun 4:25 @ DAL"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
-      "proj": 11.66,
+      "proj": 11.83,
       "status": "pending",
       "game": "Sun 1:00 vs BUF"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 12.95,
+      "proj": 13.1,
       "status": "pending",
       "game": "Sun 1:00 @ NO"
     },
     {
       "slot": "WR",
       "player": "KC Concepcion Jr.",
-      "proj": 9.45,
+      "proj": 9.37,
       "status": "pending",
       "game": "Sun 1:00 vs HOU"
     },
     {
       "slot": "TE",
       "player": "Harold Fannin Jr.",
-      "proj": 9.08,
+      "proj": 8.67,
       "status": "pending",
       "game": "Sun 1:00 vs HOU",
       "flag": "Q"
@@ -61,7 +61,7 @@
     {
       "slot": "W/R/T",
       "player": "Aaron Jones Sr.",
-      "proj": 7.91,
+      "proj": 7.87,
       "status": "pending",
       "game": "Sun 1:00 @ GB"
     },
@@ -82,7 +82,7 @@
     {
       "slot": "DEF",
       "player": "Packers",
-      "proj": 7.57,
+      "proj": 7.53,
       "status": "pending",
       "game": "Sun 1:00 vs MIN"
     },
@@ -105,7 +105,7 @@
     {
       "slot": "BN",
       "player": "George Pickens",
-      "proj": 11.87,
+      "proj": 11.72,
       "status": "pending",
       "game": "Sun 4:25 vs SF",
       "flag": "Q"
@@ -113,15 +113,14 @@
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
-      "proj": 8.44,
+      "proj": 8.48,
       "status": "pending",
-      "game": "Sun 1:00 @ TEN",
-      "flag": "Q"
+      "game": "Sun 1:00 @ TEN"
     },
     {
       "slot": "BN",
       "player": "Kaelon Black",
-      "proj": 5.84,
+      "proj": 5.81,
       "status": "pending",
       "game": "Sun 4:25 @ DAL"
     },
@@ -183,12 +182,18 @@
       "over": "Lions",
       "proj_gap": -0.22,
       "why": "Near-tied; the Lions are dropped when the Packers claim clears, and the Packers then start."
+    },
+    {
+      "slot": "W/R/T",
+      "kept": "Aaron Jones Sr.",
+      "over": "George Pickens",
+      "proj_gap": -3.85,
+      "why": "Swap-safe. Starting Pickens beats Jones only if P(plays) > ~67% with no Sunday swap, or > ~35% if Black is swapped in at 4:25 inactives. Revisit Sunday ~11:30 once the Cowboys' inactive list is close."
     }
   ],
   "signals": [
-    "Fannin Q (groin): limited Wed Nov 11; reports expect him to play. No other TE active (Goedert bye) - if he is ruled out Friday, add a FA TE.",
-    "Pickens Q (hamstring): 11.87 vs Jones 7.91 (+3.96). No week 10 practice news yet; decide Friday. 4:25 kickoff, fallback only Black.",
-    "Meyers newly Q (bench, no impact).",
-    "CLE: Deshaun Watson to start at QB (affects Fannin, Concepcion)."
+    "Fri: Fannin cleared off the final injury report (NBC); Yahoo still shows Q.",
+    "Fri: Pickens limited Wed+Thu (hamstring); coach says he 'moved well'; game-time decision leaning play. 11.72 vs Jones 7.87. Jones kept (rule 10): Pickens plays 4:25, so an inactive cannot be swapped back to Jones (1:00); only Black (5.81) remains.",
+    "CLE: Deshaun Watson starting at QB."
   ]
 }

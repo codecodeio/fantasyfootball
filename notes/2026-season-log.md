@@ -768,7 +768,7 @@ What the moves were worth:
 
 Every Sunday move made this week paid off.
 
-## Week 10 — projected 105.38 vs 100.26 (vs Team 03, Allen The Family) · slight favourite · pending
+## Week 10 — projected 105.12 vs 98.97 (vs Team 03, Allen The Family) · slight favourite · pending
 *Byes: Goedert (TE) and Sutton (WR). No Thursday starters. The Lions play Sunday at 9:30 am.*
 
 The lineup was set Tuesday 2026-11-10. As found, Goedert was in the TE slot on bye, so the projection was 91.73 against 100.15.
@@ -784,7 +784,8 @@ The lineup was set Tuesday 2026-11-10. As found, Goedert was in the TE slot on b
 | When | What |
 |---|---|
 | **Thu** | ✅ Claim cleared; Packers in at DEF for Chiefs (+1.97). Fannin Q (groin, limited Wed, expected to play) — no other TE active, so if he's ruled out Friday, add a FA TE |
-| **Fri** | Pickens (Q) practice report — now 11.87 vs Jones 7.91. Fannin's final status |
+| **Fri** | ✅ Fannin cleared off the injury report. Pickens limited Wed+Thu, a game-time decision leaning toward playing. Jones kept at flex (11.72 vs 7.87, but rule 10: Pickens' 4:25 kickoff leaves only Black as a fallback). Starting Pickens beats Jones if he plays with >67% odds and no swap, or >35% if the Black swap is made |
+| **Sun ~11:30** | If Pickens is reported active / no designation → start him over Jones before 1:00 |
 | **Sun ~3:00** | McCaffrey and Pickens inactives (4:25) |
 | **Tue** | Re-capture after Monday night |
 
