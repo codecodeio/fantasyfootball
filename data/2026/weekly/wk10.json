@@ -1,143 +1,178 @@
 {
   "season": 2026,
   "week": 10,
-  "captured_at": "2026-11-13T12:00:00-05:00",
-  "complete": false,
+  "captured_at": "2026-11-19T15:10:00-05:00",
+  "complete": true,
   "note": "Lineup set Tuesday 2026-11-10. Byes: Goedert (TE), Sutton (WR). No Thursday starters; Lions play Sun 9:30 (Germany). Waiver claim pending: + Packers / - Lions (processes Wed Nov 11). Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 03",
     "opponent_name": "Allen The Family",
-    "my_score": 0.0,
-    "opp_score": 0.0,
-    "my_proj": 105.12,
-    "opp_proj": 98.97,
-    "win_prob": null,
-    "proj_note": "Roster page Fri 2026-11-13."
+    "my_score": 116.88,
+    "opp_score": 107.84,
+    "my_proj": 105.19,
+    "opp_proj": 105.24,
+    "win_prob": 0.48,
+    "proj_note": "Final, matchup page. Orig Proj 105.19 vs 105.24; 48% at 13:12 Sunday. Record 5-5, 8th; Allen The Family 4-6.",
+    "result": "W"
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 19.74,
-      "status": "pending",
-      "game": "Sun 1:00 vs CAR"
+      "proj": 19.44,
+      "status": "final",
+      "game": "Final L 17-20 vs CAR",
+      "actual": 10.98,
+      "stat": "187 pass yds, 1 pass TD, 25 rush yds"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 18.99,
-      "status": "pending",
-      "game": "Sun 4:25 @ DAL"
+      "proj": 18.92,
+      "status": "final",
+      "game": "Final W 46-40 @ DAL",
+      "actual": 44.3,
+      "stat": "62 rush yds, 161 rec yds, 2 rec TD"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
-      "proj": 11.83,
-      "status": "pending",
-      "game": "Sun 1:00 vs BUF"
+      "proj": 11.93,
+      "status": "final",
+      "game": "Final L 12-31 vs BUF",
+      "actual": 12.8,
+      "stat": "41 rush yds, 4 rec, 67 yds"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 13.1,
-      "status": "pending",
-      "game": "Sun 1:00 @ NO"
+      "proj": 12.97,
+      "status": "final",
+      "game": "Final W 20-17 @ NO",
+      "actual": 5.0,
+      "stat": "3 rec, 35 yds"
     },
     {
       "slot": "WR",
       "player": "KC Concepcion Jr.",
-      "proj": 9.37,
-      "status": "pending",
-      "game": "Sun 1:00 vs HOU"
+      "proj": 9.38,
+      "status": "final",
+      "game": "Final W 27-24 vs HOU",
+      "actual": 10.2,
+      "stat": "3 rec, 21 yds, 1 rush TD"
     },
     {
       "slot": "TE",
       "player": "Harold Fannin Jr.",
-      "proj": 8.67,
-      "status": "pending",
-      "game": "Sun 1:00 vs HOU",
-      "flag": "Q"
+      "proj": 8.82,
+      "status": "final",
+      "game": "Final W 27-24 vs HOU",
+      "flag": "Q",
+      "actual": 12.6,
+      "stat": "7 rec, 91 yds"
     },
     {
       "slot": "W/R/T",
       "player": "Aaron Jones Sr.",
-      "proj": 7.87,
-      "status": "pending",
-      "game": "Sun 1:00 @ GB"
+      "proj": 8.47,
+      "status": "final",
+      "game": "Final W 30-10 @ GB",
+      "actual": 12.0,
+      "stat": "47 rush yds, 1 rush TD, 8 rec yds"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
-      "proj": 8.02,
-      "status": "pending",
-      "game": "Sun 1:00 @ ATL"
+      "proj": 7.8,
+      "status": "final",
+      "game": "Final W 35-13 @ ATL",
+      "actual": 5.0,
+      "stat": "5 PAT"
     },
     {
       "slot": "BN",
       "player": "Chiefs",
-      "proj": 5.6,
-      "status": "pending",
-      "game": "Sun 1:00 @ ATL"
+      "proj": 5.57,
+      "status": "final",
+      "game": "Final W 35-13 @ ATL",
+      "actual": 11.0,
+      "stat": "3 sacks, 1 INT, 7-13 allowed"
     },
     {
       "slot": "DEF",
       "player": "Packers",
-      "proj": 7.53,
-      "status": "pending",
-      "game": "Sun 1:00 vs MIN"
+      "proj": 7.46,
+      "status": "final",
+      "game": "Final L 10-30 vs MIN",
+      "actual": 4.0,
+      "stat": "3 sacks, 1 INT, 28-34 allowed"
     },
     {
       "slot": "BN",
       "player": "Dallas Goedert",
       "proj": 0.0,
-      "status": "pending",
+      "status": "final",
       "game": "Bye",
-      "flag": "BYE"
+      "flag": "BYE",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
       "proj": 0.0,
-      "status": "pending",
+      "status": "final",
       "game": "Bye",
-      "flag": "BYE"
+      "flag": "BYE",
+      "actual": 0.0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "George Pickens",
-      "proj": 12.05,
-      "status": "pending",
-      "game": "Sun 4:25 vs SF"
+      "proj": 12.14,
+      "status": "final",
+      "game": "Final L 40-46 vs SF",
+      "actual": 38.0,
+      "stat": "11 rec, 145 yds, 3 TD"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
-      "proj": 8.48,
-      "status": "pending",
-      "game": "Sun 1:00 @ TEN"
+      "proj": 8.53,
+      "status": "final",
+      "game": "Final W 40-23 @ TEN",
+      "actual": 4.9,
+      "stat": "3 rec, 34 yds"
     },
     {
       "slot": "BN",
       "player": "Kaelon Black",
-      "proj": 5.81,
-      "status": "pending",
-      "game": "Sun 4:25 @ DAL"
+      "proj": 5.92,
+      "status": "final",
+      "game": "Final W 46-40 @ DAL",
+      "actual": 13.6,
+      "stat": "53 rush yds, 1 rush TD, 13 rec yds"
     },
     {
       "slot": "IR",
       "player": "Lamar Jackson",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Mon 8:15",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final L 20-23 vs LAC",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "Out"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
       "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 vs MIA",
-      "flag": "IR"
+      "status": "final",
+      "game": "Final W 24-22 vs MIA",
+      "flag": "IR",
+      "actual": 0.0,
+      "stat": "IR"
     }
   ],
   "transactions": [
@@ -194,6 +229,7 @@
     "Fri: Fannin cleared off the final injury report (NBC); Yahoo still shows Q.",
     "Fri: Pickens limited Wed+Thu (hamstring); coach says he 'moved well'; game-time decision leaning play. 11.72 vs Jones 7.87. Jones kept (rule 10): Pickens plays 4:25, so an inactive cannot be swapped back to Jones (1:00); only Black (5.81) remains.",
     "CLE: Deshaun Watson starting at QB.",
-    "Sun 13:10 check: Pickens upgraded to FULL practice Friday and removed from the final injury report (no designation). The Friday recheck searched before that update and missed it. 1:00 games already started, so Jones is locked at flex; Pickens (WR) can't replace the only open 4:25 starter (McCaffrey, RB). Expected cost about 4.2 proj points."
+    "Sun 13:10 check: Pickens upgraded to FULL practice Friday and removed from the final injury report (no designation). The Friday recheck searched before that update and missed it. 1:00 games already started, so Jones is locked at flex; Pickens (WR) can't replace the only open 4:25 starter (McCaffrey, RB). Expected cost about 4.2 proj points.",
+    "Final: W 116.88-107.84. Bench 67.50, led by Pickens 38.00 (11-145-3) vs Jones 12.00 at flex: the missed Friday upgrade cost 26.00. McCaffrey 44.30."
   ]
 }

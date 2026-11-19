@@ -768,7 +768,7 @@ What the moves were worth:
 
 Every Sunday move made this week paid off.
 
-## Week 10 — projected 105.12 vs 98.97 (vs Team 03, Allen The Family) · slight favourite · pending
+## Week 10 — **W** 116.88 to 107.84 (vs Team 03, Allen The Family) · won from 48%
 *Byes: Goedert (TE) and Sutton (WR). No Thursday starters. The Lions play Sunday at 9:30 am.*
 
 The lineup was set Tuesday 2026-11-10. As found, Goedert was in the TE slot on bye, so the projection was 91.73 against 100.15.
@@ -789,8 +789,49 @@ The lineup was set Tuesday 2026-11-10. As found, Goedert was in the TE slot on b
 | **Sun ~3:00** | McCaffrey and Pickens inactives (4:25) |
 | **Tue** | Re-capture after Monday night |
 
-## Week 11 — 2026-11-22
-*Not yet played. Byes: Fannin (TE), Lloyd (RB) — Goedert covers.*
+### Result
+Won **116.88–107.84**, so the record is now **5-5, 8th**. McCaffrey scored **44.30** (161 receiving yards, 2 TDs), which carried the week.
+
+| Player | Proj | Actual |
+|---|---:|---:|
+| Shough (QB) | 19.44 | 10.98 |
+| McCaffrey (RB) | 18.92 | **44.30** |
+| Hall (RB) | 11.93 | 12.80 |
+| McMillan (WR) | 12.97 | 5.00 |
+| Concepcion (WR) | 9.38 | 10.20 |
+| Fannin (TE) | 8.82 | 12.60 |
+| Jones (W/R/T) | 8.47 | 12.00 |
+| Butker (K) | 7.80 | 5.00 |
+| Packers (DEF, stream) | 7.46 | 4.00 |
+
+The bench scored 67.50. ❌ **Pickens scored 38.00 (11 catches, 145 yards, 3 TDs) on the bench, against Jones's 12.00 at flex, a cost of 26.00.**
+That's the Friday miss above: he practised fully and came off the report, but the recheck didn't see it.
+The Packers stream (4.00) also lost to the benched Chiefs (11.00). Projected 7.46 against 5.57, so it was the right call that didn't come off.
+
+Lessons:
+- Re-verify a Q player's designation after the Friday afternoon report.
+- When the decision hinges on a Q player, do the Sunday check before 1:00.
+
+## Week 11 — projected 106.93 vs 43.31 (vs Team 11, Touchback Kelly) · 97% favourite · pending
+*Byes: Fannin (TE), Concepcion (WR) and Packers (DEF). TNF is IND @ HOU, where only Pierce plays, and he's on IR.*
+
+The lineup was set Thursday 2026-11-19. As found, it projected 75.26 with three bye players starting.
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **Pickens in, Concepcion benched** (WR) | +14.14 | Concepcion bye. Pickens is healthy, playing TEN, who give up the most points to WRs |
+| 2 | **Goedert in, Fannin benched** (TE) | +7.97 | Fannin bye |
+| 3 | **Chiefs in, Packers benched** (DEF) | +9.56 | Packers bye. The Chiefs host ARI |
+
+Held: **flex Jones (7.74)** over Meyers (Q, 7.62) and Sutton (7.55). The three are near-tied.
+Jones plays Sunday night, so Sutton (4:25) can still be swapped in if news breaks.
+
+The opponent (4-6, 12th) is starting three bye-week players and one Out, which is why they project only 43.31.
+
+| When | What |
+|---|---|
+| **Sun ~11:30** | Quick inactives check. Nothing in the lineup is Q |
+| **Tue** | Re-capture after MNF |
 
 ## Week 12 — 2026-11-29
 *Not yet played. Byes: none.* **Trade deadline passed 2026-11-28.**
