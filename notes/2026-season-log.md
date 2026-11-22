@@ -812,7 +812,7 @@ Lessons:
 - Re-verify a Q player's designation after the Friday afternoon report.
 - When the decision hinges on a Q player, do the Sunday check before 1:00.
 
-## Week 11 — projected 106.93 vs 43.31 (vs Team 11, Touchback Kelly) · 97% favourite · pending
+## Week 11 — projected 107.59 vs 95.15 (vs Team 11, Touchback Kelly) · 63% favourite · pending
 *Byes: Fannin (TE), Concepcion (WR) and Packers (DEF). TNF is IND @ HOU, where only Pierce plays, and he's on IR.*
 
 The lineup was set Thursday 2026-11-19. As found, it projected 75.26 with three bye players starting.
@@ -830,7 +830,7 @@ The opponent (4-6, 12th) is starting three bye-week players and one Out, which i
 
 | When | What |
 |---|---|
-| **Sun ~11:30** | Quick inactives check. Nothing in the lineup is Q |
+| **Sun 12:16** | ✅ Checked: no Q/O starters, no change. The opponent filled their byes (Nix, Jeanty, Burden, Douglas), so 97% fell to 63%. Their flex Woody Marks is Out and already locked at 0 |
 | **Tue** | Re-capture after MNF |
 
 ## Week 12 — 2026-11-29
