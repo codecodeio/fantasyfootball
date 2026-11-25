@@ -859,6 +859,14 @@ It has to happen before the Packers kick off at 8:00 pm Wednesday.
 - So the Cowboys' 7.63 projection is driven by the matchup, not by the quality of the unit.
 - Rule 2 still says trust the projection, but the edge is thinner than the 2.3 points suggest.
 
+**Decision: no swap. The Chiefs stay at DEF** (Matt, 2026-11-25). Don't stream a DEF for one game when the projection is matchup-only.
+
+**Season start/sit audit** (`scripts/startsit.py`):
+- The projection beat the season average: 75% against 62% of pairs, and 62% against 38% on close calls.
+- Following the season average would have broken 5 calls (−44.7 pts) and fixed none.
+- Overrides of the projection netted −4.7. Week 10, Jones over Pickens, was the −26.0 miss.
+- This led to rules 11 (players clause) and 12 in CLAUDE.md.
+
 
 ## Week 13 — 2026-12-06
 *Not yet played. Byes: Lamar (QB), Hall (RB), Pierce (WR) — Shough covers QB.*

@@ -11,6 +11,7 @@ ff() {
       cat <<'EOF'
 ff <command>:
   analyze [season]  score projections vs actuals (default 2026)
+  startsit [season] start/sit audit: projection vs season average
   draft [season]    show the draft record
   log [season]      open the decision log
   week <NN> [season]  show a captured week (default season 2026)
@@ -22,6 +23,7 @@ ff <command>:
 EOF
       ;;
     analyze) python3 "$FANTASYFOOTBALL_DIR/scripts/analyze.py" "${1:-2026}" ;;
+    startsit) python3 "$FANTASYFOOTBALL_DIR/scripts/startsit.py" "${1:-2026}" ;;
     draft)   python3 -m json.tool "$FANTASYFOOTBALL_DIR/data/${1:-2026}/draft.json" ;;
     log)     "${EDITOR:-open}" "$FANTASYFOOTBALL_DIR/notes/${1:-2026}-draft-log.md" ;;
     week)

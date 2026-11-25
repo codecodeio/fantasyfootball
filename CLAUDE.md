@@ -46,6 +46,7 @@ sibling under `repos/`; cross-project preferences live in `~/.claude/CLAUDE.md`.
 
 ```bash
 python3 scripts/analyze.py 2026     # score projections + lineup decisions
+python3 scripts/startsit.py 2026    # start/sit audit: projection vs season average vs actual
 ff analyze                          # same, via the dispatcher
 ```
 
@@ -114,6 +115,18 @@ Each of these cost points or produced a wrong answer once. Follow them before to
     31st of 32, while ours were at 7.2 a game. The projection was all matchup and no unit. Projections stay the
     primary signal (rule 2), but when a stream's season rate is far below the DEF it replaces, call the edge
     thin, and say so in the review before adding it.
+    **This is DEF-only, so don't discount player projections by season average.** In the week-12 audit
+    (`scripts/startsit.py`, wks 1–11, 24 start/sit pairs), the projection picked the higher scorer 75% of the time
+    and the season average 62%. On close calls (within 2 pts) it was 62% against 38%. In the 5 disagreements the
+    projection was right 4 times; the only win for the average was Sutton scoring 0. Following season average
+    would have fixed 0 calls and broken 5, a cost of 44.7 pts. Matt also declined one-week DEF streams on this
+    evidence (2026-11-25), so the default is to keep the rostered DEF unless the gap is large *and* the unit is good.
+12. **Bench a higher-projected player only for a reason that is still true.** Every season the points
+    were lost on overrides of the projection, not on following it. 4 overrides gained 24.2 and lost 28.9: wk 8
+    Lloyd over Jones cost 2.9, and wk 10 Jones over Pickens cost **26.0**. In week 10 the override's reason
+    (Pickens Q, hamstring) was gone: he practised fully Friday and came off the report, but the review had run
+    before the final report. Before holding a lower projection on injury risk, re-check the designation after the
+    Friday afternoon report (Saturday for Monday games). If he's cleared, start the projection.
 
 ## Files
 
@@ -127,5 +140,6 @@ Each of these cost points or produced a wrong answer once. Follow them before to
 | `notes/draft-strategy.md` | The repeatable draft method — constraints, ADP sequencing, favorite-team rule |
 | `notes/capture.md` | How to keep the weekly data flowing; automation options |
 | `scripts/analyze.py` | Projection accuracy, bias by position, lineup efficiency |
+| `scripts/startsit.py` | Start/sit audit: did projection or season average pick the higher scorer; overrides of projection |
 | `scripts/remind.sh` | Wednesday 18:00 macOS nudge (canonical copy; deployed outside the repo) |
 | `scripts/install-reminder.sh` | Deploys the nudge + (re)loads the launchd job |
