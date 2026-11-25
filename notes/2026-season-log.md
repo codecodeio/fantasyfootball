@@ -853,6 +853,12 @@ Pending: the FA **Cowboys DEF projects 7.63** (Thu 4:30 vs PHI), about 2.3 above
 The plan was to add the Cowboys and drop the Packers, but the permission check blocked the drop, so it needs Matt's OK.
 It has to happen before the Packers kick off at 8:00 pm Wednesday.
 
+**Caveat:** the season numbers point the other way.
+- The Cowboys DEF has scored **37 points in 11 games (3.4 a game, 31st of 32)** and allows 28.4 points a game.
+- The Packers and the Chiefs have both scored 72 in 10 games (7.2 a game).
+- So the Cowboys' 7.63 projection is driven by the matchup, not by the quality of the unit.
+- Rule 2 still says trust the projection, but the edge is thinner than the 2.3 points suggest.
+
 
 ## Week 13 — 2026-12-06
 *Not yet played. Byes: Lamar (QB), Hall (RB), Pierce (WR) — Shough covers QB.*
