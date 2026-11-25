@@ -1,143 +1,178 @@
 {
   "season": 2026,
   "week": 11,
-  "captured_at": "2026-11-22T12:16:00-05:00",
-  "complete": false,
+  "captured_at": "2026-11-25T06:30:00-05:00",
+  "complete": true,
   "note": "Lineup set Thursday 2026-11-19 before TNF (IND @ HOU: only Pierce, on IR). Byes: Fannin (TE), Concepcion (WR), Packers (DEF). Opponent labels are the Yahoo team id; ours is 7.",
   "matchup": {
     "opponent": "Team 11",
     "opponent_name": "Touchback Kelly",
-    "my_score": 0.0,
-    "opp_score": 15.0,
-    "my_proj": 107.59,
-    "opp_proj": 95.15,
+    "my_score": 116.48,
+    "opp_score": 81.2,
+    "my_proj": 107.26,
+    "opp_proj": 88.47,
     "win_prob": 0.63,
-    "proj_note": "Sun 12:16: opponent filled their byes (Nix, Jeanty, Burden, Douglas); flex Woody Marks Out (TNF, 0). Opp Orig Proj 88.30, Texans DEF 15.00 on TNF."
+    "proj_note": "Final, matchup page. Record 6-5, 4th; Touchback Kelly 4-7.",
+    "result": "W"
   },
   "players": [
     {
       "slot": "QB",
       "player": "Tyler Shough",
-      "proj": 17.82,
-      "status": "pending",
-      "game": "Sun 1:00 @ CHI"
+      "proj": 17.47,
+      "status": "final",
+      "game": "Final L 13-21 @ CHI",
+      "actual": 15.28,
+      "stat": "222 pass yds, 1 pass TD, 34 rush yds"
     },
     {
       "slot": "RB",
       "player": "Christian McCaffrey",
-      "proj": 16.52,
-      "status": "pending",
-      "game": "Sun 8:20 vs MIN"
+      "proj": 16.62,
+      "status": "final",
+      "game": "Final W 35-10 vs MIN",
+      "actual": 13.2,
+      "stat": "49 rush yds, 1 rush TD, 13 rec yds"
     },
     {
       "slot": "RB",
       "player": "Breece Hall",
-      "proj": 12.91,
-      "status": "pending",
-      "game": "Sun 4:05 @ LAC"
+      "proj": 12.84,
+      "status": "final",
+      "game": "Final W 27-24 @ LAC",
+      "actual": 17.5,
+      "stat": "86 rush yds, 3 rec, 1 rec TD"
     },
     {
       "slot": "WR",
       "player": "Tetairoa McMillan",
-      "proj": 12.5,
-      "status": "pending",
-      "game": "Sun 1:00 vs BAL"
+      "proj": 12.44,
+      "status": "final",
+      "game": "Final W 35-33 vs BAL",
+      "actual": 16.1,
+      "stat": "6 rec, 71 yds, 1 TD"
     },
     {
       "slot": "WR",
       "player": "George Pickens",
-      "proj": 14.19,
-      "status": "pending",
-      "game": "Sun 1:00 vs TEN"
+      "proj": 14.23,
+      "status": "final",
+      "game": "Final W 51-30 vs TEN",
+      "actual": 20.3,
+      "stat": "7 rec, 102 yds, 1 TD"
     },
     {
       "slot": "TE",
       "player": "Dallas Goedert",
-      "proj": 8.22,
-      "status": "pending",
-      "game": "Sun 1:00 vs PIT"
+      "proj": 8.32,
+      "status": "final",
+      "game": "Final W 19-16 vs PIT",
+      "actual": 4.3,
+      "stat": "1 rec, 38 yds"
     },
     {
       "slot": "W/R/T",
       "player": "Aaron Jones Sr.",
-      "proj": 7.66,
-      "status": "pending",
-      "game": "Sun 8:20 @ SF"
+      "proj": 7.57,
+      "status": "final",
+      "game": "Final L 10-35 @ SF",
+      "actual": 10.8,
+      "stat": "30 rush yds, 1 rush TD, 13 rec yds"
     },
     {
       "slot": "K",
       "player": "Harrison Butker",
       "proj": 8.45,
-      "status": "pending",
-      "game": "Sun 1:00 vs ARI"
+      "status": "final",
+      "game": "Final W 34-7 vs ARI",
+      "actual": 12.0,
+      "stat": "2 FG 40-49, 4 PAT"
     },
     {
       "slot": "DEF",
       "player": "Chiefs",
       "proj": 9.32,
-      "status": "pending",
-      "game": "Sun 1:00 vs ARI"
+      "status": "final",
+      "game": "Final W 34-7 vs ARI",
+      "actual": 7.0,
+      "stat": "3 sacks, 7-13 allowed"
     },
     {
       "slot": "BN",
       "player": "Harold Fannin Jr.",
-      "proj": 0.0,
-      "status": "pending",
+      "proj": 0,
+      "status": "final",
       "game": "Bye",
-      "flag": "BYE"
+      "flag": "BYE",
+      "actual": 0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "KC Concepcion Jr.",
-      "proj": 0.0,
-      "status": "pending",
+      "proj": 0,
+      "status": "final",
       "game": "Bye",
-      "flag": "BYE"
+      "flag": "BYE",
+      "actual": 0,
+      "stat": "Bye"
     },
     {
       "slot": "BN",
       "player": "Courtland Sutton",
-      "proj": 7.57,
-      "status": "pending",
-      "game": "Sun 4:25 vs LV"
+      "proj": 7.63,
+      "status": "final",
+      "game": "Final W 38-24 vs LV",
+      "actual": 0.0,
+      "stat": "no stats"
     },
     {
       "slot": "BN",
       "player": "Jakobi Meyers",
       "proj": 7.58,
-      "status": "pending",
-      "game": "Sun 4:25 @ NYG"
+      "status": "final",
+      "game": "Final L 18-23 @ NYG",
+      "actual": 10.5,
+      "stat": "4 rec, 85 yds"
     },
     {
       "slot": "BN",
       "player": "Kaelon Black",
-      "proj": 4.96,
-      "status": "pending",
-      "game": "Sun 8:20 vs MIN"
+      "proj": 5.07,
+      "status": "final",
+      "game": "Final W 35-10 vs MIN",
+      "actual": 2.0,
+      "stat": "8 rush yds, 1 rec, 7 yds"
     },
     {
       "slot": "BN",
       "player": "Packers",
-      "proj": 0.0,
-      "status": "pending",
+      "proj": 0,
+      "status": "final",
       "game": "Bye",
-      "flag": "BYE"
+      "flag": "BYE",
+      "actual": 0,
+      "stat": "Bye"
     },
     {
       "slot": "IR",
       "player": "Lamar Jackson",
-      "proj": 0.0,
-      "status": "pending",
-      "game": "Sun 1:00 @ CAR",
-      "flag": "IR"
+      "proj": 0,
+      "status": "final",
+      "game": "Final L 33-35 @ CAR",
+      "flag": "IR",
+      "actual": 0,
+      "stat": "Out"
     },
     {
       "slot": "IR",
       "player": "Alec Pierce",
-      "proj": 0.0,
-      "status": "pending",
-      "game": "Thu 8:15 @ HOU",
-      "flag": "IR"
+      "proj": 0,
+      "status": "final",
+      "game": "Final L 3-26 @ HOU",
+      "flag": "IR",
+      "actual": 0,
+      "stat": "IR"
     }
   ],
   "transactions": [],
@@ -174,6 +209,7 @@
     }
   ],
   "signals": [
-    "Sun 12:16 check: no Q/O on our roster. Flex held: Jones 7.66 vs Meyers 7.58 (Q cleared) vs Sutton 7.57."
+    "Sun 12:16 check: no Q/O on our roster. Flex held: Jones 7.66 vs Meyers 7.58 (Q cleared) vs Sutton 7.57.",
+    "Final: W 116.48-81.20. Bench 12.50 (Meyers 10.50 best; Sutton 0.00). Flex optimal: Jones 10.80 beat every eligible bench player."
   ]
 }

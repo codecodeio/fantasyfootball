@@ -812,7 +812,7 @@ Lessons:
 - Re-verify a Q player's designation after the Friday afternoon report.
 - When the decision hinges on a Q player, do the Sunday check before 1:00.
 
-## Week 11 — projected 107.59 vs 95.15 (vs Team 11, Touchback Kelly) · 63% favourite · pending
+## Week 11 — **W** 116.48 to 81.20 (vs Team 11, Touchback Kelly)
 *Byes: Fannin (TE), Concepcion (WR) and Packers (DEF). TNF is IND @ HOU, where only Pierce plays, and he's on IR.*
 
 The lineup was set Thursday 2026-11-19. As found, it projected 75.26 with three bye players starting.
@@ -831,10 +831,28 @@ The opponent (4-6, 12th) is starting three bye-week players and one Out, which i
 | When | What |
 |---|---|
 | **Sun 12:16** | ✅ Checked: no Q/O starters, no change. The opponent filled their byes (Nix, Jeanty, Burden, Douglas), so 97% fell to 63%. Their flex Woody Marks is Out and already locked at 0 |
-| **Tue** | Re-capture after MNF |
+| **Tue** | ✅ Re-captured |
 
-## Week 12 — 2026-11-29
-*Not yet played. Byes: none.* **Trade deadline passed 2026-11-28.**
+### Result
+Won **116.48–81.20**, so the record is now **6-5, 4th**: four wins in a row, and back in a playoff spot. Pickens scored 20.30, Hall 17.50 and McMillan 16.10. Goedert had 4.30 at TE.
+The flex held: Jones 10.80, against Meyers 10.50 and Sutton 0.00.
+
+## Week 12 — projected 102.60 vs 98.16 (vs Team 02, Philly Special Mhegan) · pending
+*Thanksgiving week, no byes. Early locks:*
+- *Wed 8:00 pm: Packers.*
+- *Thu 4:30: PHI @ DAL, with Pickens and Goedert.*
+- *Thu 8:20: KC @ BUF, with Butker and the Chiefs.*
+- *Fri 3:00: Sutton.*
+
+| # | Move | Δ proj | Why |
+|---|---|---:|---|
+| 1 | **Fannin to TE, Goedert benched** | +1.10 | 9.77 vs 8.67 |
+| 2 | **Concepcion to W/R/T, Jones benched** | +0.74 | Rule 9: Concepcion 9.61 is the best eligible bench player, ahead of Meyers 9.10, Jones 8.87 and Goedert 8.67 |
+
+Pending: the FA **Cowboys DEF projects 7.63** (Thu 4:30 vs PHI), about 2.3 above the Chiefs (5.31) and the Packers (5.23).
+The plan was to add the Cowboys and drop the Packers, but the permission check blocked the drop, so it needs Matt's OK.
+It has to happen before the Packers kick off at 8:00 pm Wednesday.
+
 
 ## Week 13 — 2026-12-06
 *Not yet played. Byes: Lamar (QB), Hall (RB), Pierce (WR) — Shough covers QB.*

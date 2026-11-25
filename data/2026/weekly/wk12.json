@@ -1,0 +1,169 @@
+{
+  "season": 2026,
+  "week": 12,
+  "captured_at": "2026-11-25T06:45:00-05:00",
+  "complete": false,
+  "note": "Thanksgiving week. Lineup set Wed 2026-11-25 06:45. Early locks: Packers Wed 8:00 pm; Pickens + Goedert Thu 4:30 (PHI @ DAL); Butker + Chiefs Thu 8:20 (KC @ BUF); Sutton Fri 3:00. No byes. Opponent labels are the Yahoo team id; ours is 7.",
+  "matchup": {
+    "opponent": "Team 02",
+    "opponent_name": "Philly Special Mhegan",
+    "my_score": 0.0,
+    "opp_score": 0.0,
+    "my_proj": 102.6,
+    "opp_proj": 98.16,
+    "win_prob": null,
+    "proj_note": "Roster page after edits; before edits 100.76."
+  },
+  "players": [
+    {
+      "slot": "QB",
+      "player": "Tyler Shough",
+      "proj": 17.98,
+      "status": "pending",
+      "game": "Sun 1:00 @ CIN"
+    },
+    {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "proj": 15.15,
+      "status": "pending",
+      "game": "Sun 4:25 vs SEA"
+    },
+    {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "proj": 12.35,
+      "status": "pending",
+      "game": "Sun 1:00 @ MIA"
+    },
+    {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "proj": 11.41,
+      "status": "pending",
+      "game": "Mon 8:15"
+    },
+    {
+      "slot": "WR",
+      "player": "George Pickens",
+      "proj": 13.75,
+      "status": "pending",
+      "game": "Thu 4:30 vs PHI"
+    },
+    {
+      "slot": "TE",
+      "player": "Harold Fannin Jr.",
+      "proj": 9.77,
+      "status": "pending",
+      "game": "Sun 8:20"
+    },
+    {
+      "slot": "W/R/T",
+      "player": "KC Concepcion Jr.",
+      "proj": 9.61,
+      "status": "pending",
+      "game": "Sun 8:20"
+    },
+    {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "proj": 7.27,
+      "status": "pending",
+      "game": "Thu 8:20 @ BUF"
+    },
+    {
+      "slot": "DEF",
+      "player": "Chiefs",
+      "proj": 5.31,
+      "status": "pending",
+      "game": "Thu 8:20 @ BUF"
+    },
+    {
+      "slot": "BN",
+      "player": "Dallas Goedert",
+      "proj": 8.67,
+      "status": "pending",
+      "game": "Thu 4:30 @ DAL"
+    },
+    {
+      "slot": "BN",
+      "player": "Aaron Jones Sr.",
+      "proj": 8.87,
+      "status": "pending",
+      "game": "Sun 1:00 vs ATL"
+    },
+    {
+      "slot": "BN",
+      "player": "Courtland Sutton",
+      "proj": 6.34,
+      "status": "pending",
+      "game": "Fri 3:00 @ PIT"
+    },
+    {
+      "slot": "BN",
+      "player": "Jakobi Meyers",
+      "proj": 9.1,
+      "status": "pending",
+      "game": "Sun 1:00 vs TEN"
+    },
+    {
+      "slot": "BN",
+      "player": "Kaelon Black",
+      "proj": 4.33,
+      "status": "pending",
+      "game": "Sun 4:25 vs SEA"
+    },
+    {
+      "slot": "BN",
+      "player": "Packers",
+      "proj": 5.23,
+      "status": "pending",
+      "game": "Wed 8:00 pm"
+    },
+    {
+      "slot": "IR",
+      "player": "Lamar Jackson",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00 @ HOU",
+      "flag": "IR"
+    },
+    {
+      "slot": "IR",
+      "player": "Alec Pierce",
+      "proj": 0.0,
+      "status": "pending",
+      "game": "Sun 1:00",
+      "flag": "IR"
+    }
+  ],
+  "transactions": [],
+  "lineup_changes": [
+    {
+      "in": "Harold Fannin Jr.",
+      "out": "Dallas Goedert",
+      "slot": "TE",
+      "proj_delta": 1.1,
+      "why": "Higher projection (9.77 vs 8.67) and the bigger target share."
+    },
+    {
+      "in": "KC Concepcion Jr.",
+      "out": "Aaron Jones Sr.",
+      "slot": "W/R/T",
+      "proj_delta": 0.74,
+      "why": "Best eligible bench (rule 9): Concepcion 9.61 > Meyers 9.10 > Jones 8.87 > Goedert 8.67."
+    }
+  ],
+  "held": [
+    {
+      "slot": "DEF",
+      "kept": "Chiefs",
+      "over": "Packers",
+      "proj_gap": 0.08,
+      "why": "Near-tied. Pending: FA Cowboys (7.63, Thu 4:30 vs PHI) for Packers - add/drop blocked by the permission check; needs Matt's OK, must happen before the Packers kick off Wed 8:00 pm."
+    }
+  ],
+  "signals": [
+    "Fannin + Concepcion both CLE SNF - correlated, but both are the top projections."
+  ]
+}
