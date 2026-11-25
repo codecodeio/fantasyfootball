@@ -109,6 +109,11 @@ Each of these cost points or produced a wrong answer once. Follow them before to
     adding a free-agent QB if Lamar was ruled out and swapping Jones in for Hall at inactives. Neither
     happened, and both slots scored 0. When a questionable starter needs a Sunday swap to be safe, say
     so plainly in the review. Where projections are near-tied, prefer the lineup that is safe *without* a swap.
+11. **Before streaming a DEF, check its season points per game next to the weekly projection.** In week 12
+    the free-agent Cowboys projected 7.63 against our 5.31 and 5.23, a gap of about 2.3. But they had scored 3.4 a game,
+    31st of 32, while ours were at 7.2 a game. The projection was all matchup and no unit. Projections stay the
+    primary signal (rule 2), but when a stream's season rate is far below the DEF it replaces, call the edge
+    thin, and say so in the review before adding it.
 
 ## Files
 
