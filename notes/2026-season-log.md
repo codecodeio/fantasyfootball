@@ -834,7 +834,7 @@ The opponent (4-6, 12th) is starting three bye-week players and one Out, which i
 | **Tue** | ✅ Re-captured |
 
 ### Result
-Won **116.48–81.20**, so the record is now **6-5, 4th**: four wins in a row, and back in a playoff spot. Pickens scored 20.30, Hall 17.50 and McMillan 16.10. Goedert had 4.30 at TE.
+Won **116.48–81.20**, so the record is now **6-5, 4th**: three wins in a row (since 3-5), and back in a playoff spot. Pickens scored 20.30, Hall 17.50 and McMillan 16.10. Goedert had 4.30 at TE.
 The flex held: Jones 10.80, against Meyers 10.50 and Sutton 0.00.
 
 ## Week 12 — projected 102.60 vs 98.16 (vs Team 02, Philly Special Mhegan) · pending
